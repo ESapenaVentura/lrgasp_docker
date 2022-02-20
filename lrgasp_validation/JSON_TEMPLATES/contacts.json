@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Contact information",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "name",
+        "email"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Name of the contact"
+        },
+        "email": {
+            "type": "array",
+            "description": "e-mail of the contact. Can be a list of emails.",
+            "items": {
+                "type": "string",
+                "pattern": "$.*?@.*?\\..*?"
+            }
+        }
+
+    }
+}
