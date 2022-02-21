@@ -66,8 +66,8 @@ def load_schemas_store(schemas_path: str) -> dict:
 
 def validate_schemas(schema_store, schemas_path, entry):
     # Build the reference resolver and the validators
-    resolver = RefResolver(referrer=schema_store, base_uri= f"file://{schemas_path}/")
-    validator_entry = Draft7Validator(schema_store.get('entry_schema.json'), resolver=resolver)
+    resolver = RefResolver(referrer=schema_store, base_uri=f"file://{schemas_path}/")
+    validator_entry = Draft7Validator(schema_store.get('entry.json'), resolver=resolver)
 
     # Iterate the errors and append them to our error log
     for error in validator_entry.iter_errors(entry):
