@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "extra_libraries.json",
+  "title": "Extra libraries information",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "repository",
+    "acc"
+  ],
+  "properties": {
+    "repository": {
+      "type": "string",
+      "description": "Public repository identifier. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#public-repository-identifiers",
+      "enum": [
+        "SRA",
+        "ENA",
+        "INSDC",
+        "ENC"
+      ]
+    },
+    "acc": {
+      "type": "string",
+      "description": "Accession from the public repository for the input data file"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any note the submitter wants to input about the file. Should not exceed 280 characters.",
+      "maxLength": 280
+    }
+  }
+}
