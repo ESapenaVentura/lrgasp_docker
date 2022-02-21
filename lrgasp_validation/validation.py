@@ -1,7 +1,23 @@
+"""
+Validation that is performed:
+
+- All files exist in the path provided
+- Schemas path is absolute
+- There are json files in the schemas_path
+- Entry metadata is validated against schema
+
+#TODO
+- Schemas are valid JSON SCHEMAS
+- Experiment metadata is validated against schema
+- Bed file has proper formatting (Check with pybedtools)
+
+"""
+
 import os
-from jsonschema import *
 import json
 import argparse
+from jsonschema import RefResolver, Draft7Validator
+from pybedtools import BedTool
 
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__)).replace("\\", "/")
 ERRORS = []
@@ -35,10 +51,61 @@ def schemas_are_in_path(path):
     return True
 
 
+def load_schemas_store(schemas_path: str) -> dict:
+    files = [f for f in os.listdir(schemas_path) if os.path.isfile(os.path.join(schemas_path, f))]
+    schemas = []
+    for f in files:
+        try:
+            schemas.append(json.load(open(f"{schemas_path}/{f}", 'r')))
+        except:
+            ERRORS.append(f"Could not load {f}, not a recognised JSON entity")
+    # Transform schemas loaded into store
+    store = {schema['$id']: schema for schema in schemas}
+    return store
+
+
+def validate_schemas(schema_store, schemas_path, entry):
+    # Build the reference resolver and the validators
+    resolver = RefResolver(referrer=schema_store, base_uri= f"file://{schemas_path}/")
+    validator_entry = Draft7Validator(schema_store.get('entry_schema.json'), resolver=resolver)
+
+    # Iterate the errors and append them to our error log
+    for error in validator_entry.iter_errors(entry):
+        ERRORS.append(f"Value {error.message}")
+
+
+def validate_bed_file(bed_path):
+    with open(bed_path, "r") as f:
+        bd = f.read()
+    bed = BedTool(bd, from_string=True)
+    try:
+        ft = bed.file_type
+        if ft == 'empty':
+            ERRORS.append("Bed file is empty")
+    except IndexError:
+        print("miau")
+        ERRORS.append('Bed file is corrupted/Does not have proper formatting')
+
+
 def main(cage_peak_path, poly_a_path, entry_path: str, schemas_path: str):
-    # Validation step 1: Ensure all schemas are stored in the path provided
+
+    # Validation step 1: Schemas
+    # Validation step 1.1: Ensure all schemas are stored in the path provided
     if not schemas_are_in_path(schemas_path):
-        ERRORS.append("Couldn't find schemas in the directory provided")
+        ERRORS.append(f"Couldn't find schemas in the directory provided: {schemas_path}")
+
+    # Validation step 1.2: Load schema files as an store
+    store = load_schemas_store(schemas_path)
+
+    # Validation step 1.3: Load user entry and experiment instances
+    entry = json.load(open(entry_path, "r"))
+
+    # Validation step 1.4: Validate metadata schema against instances provided
+    validate_schemas(store, schemas_path, entry)
+    #TODO ADD EXPERIMENT INSTANCE
+
+    # Validation step 2: Ensure static files are ok
+    validate_bed_file(cage_peak_path)
 
     print(ERRORS)
 
