@@ -1,5 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "contacts.json",
     "title": "Contact information",
     "type": "object",
     "additionalProperties": false,
@@ -13,13 +14,20 @@
             "description": "Name of the contact"
         },
         "email": {
-            "type": "array",
             "description": "e-mail of the contact. Can be a list of emails.",
-            "items": {
-                "type": "string",
-                "pattern": "$.*?@.*?\\..*?"
-            }
+            "oneOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                    }
+                },
+                {
+                    "type": "string",
+                    "pattern": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                }
+            ]
         }
-
     }
 }
