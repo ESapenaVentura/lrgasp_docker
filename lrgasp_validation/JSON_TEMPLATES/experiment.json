@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "experiment.json",
+  "title": "LRGASP's Minimal Experiment Information",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "experiment_id",
+    "challenge_id",
+    "description",
+    "species",
+    "data_category",
+    "samples",
+    "library_preps",
+    "libraries",
+    "software",
+    "notes"
+  ],
+  "properties": {
+    "experimentid": {
+      "type": "string",
+      "description": "Submitter-assigned symbolic identifier for this experiment"
+    },
+    "challenge_id": {
+      "type": "string",
+      "enum":
+      [
+        "iso_detect_ref",
+        "iso_quant",
+        "iso_detect_de_novo"
+      ],
+      "description": "Challenge to which this entry is being submitted. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#challenge-identifiers"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the experiment"
+    },
+    "data_category": {
+      "type": "string",
+      "description": "Type of read data used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#data-categories",
+      "enum": [
+        "long_only",
+        "short_only",
+        "long_short",
+        "long_genome",
+        "freestyle"
+      ]
+    },
+    "samples": {
+      "type": "array",
+      "description": "Identifier of the type of samples used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#sample-identifiers",
+      "items": {
+        "type": "string",
+        "enum": [
+          "WTC11",
+          "H1_mix",
+          "ES",
+          "blood",
+          "mouse_simulation",
+          "human_simulation"
+        ]
+      }
+    },
+    "species": {
+      "type": "string",
+      "description": "Species on which the experiment was run. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#species-identifiers",
+      "enum": [
+        "human",
+        "mouse",
+        "manatee",
+        "simulated"
+      ]
+    },
+    "library_preps": {
+      "type": "array",
+      "description": "Identifier of the type of library preparation(s) used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#library-prep",
+      "items": {
+        "type": "string",
+        "enum": [
+          "CapTrap",
+          "dRNA",
+          "R2C2",
+          "cDNA"
+        ]
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "description": "Identifier of the sequencing platform used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#sequencing-platform",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Illumina",
+          "PacBio",
+          "ONT"
+        ]
+      }
+    },
+    "libraries": {
+      "type": "array",
+      "description": "List of LRGASP RNA-Seq file accessions used in the experiment, as found in https://lrgasp.github.io/lrgasp-submissions/docs/rnaseq-data-matrix.html",
+      "items": {
+        "type": "string",
+        "pattern": "$(ENCSR[0-9]{3}[A-Z]{3}|syn256833[87][810])^"
+      }
+    },
+    "extra_libraries": {
+      "type": "array",
+      "description": "List of non-LRGASP libraries accessions that were used.",
+      "items": {
+        "type": "object",
+        "$ref": "extra_libraries.json"
+      }
+    },
+    "software": {
+      "type": "array",
+      "description": "List of software used by the pipeline",
+      "items": {
+        "type": "object",
+        "$ref": "software.json"
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any note the submitter wants to input about the experiment. Should not exceed 280 characters.",
+      "maxLength": 280
+    }
+  }
+}
