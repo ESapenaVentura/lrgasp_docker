@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "",
+    "$id": "entry_schema.json",
     "title": "LRGASP's Minimal Entry Information",
     "type": "object",
     "additionalProperties": false,
@@ -89,12 +89,20 @@
             "type": "array",
             "description": "Contact information of the users involved with this entry. First entry is considered the primary contact.",
             "items": {
+                "type": "object",
                 "$ref": "contacts.json"
+            }
+        },
+        "experiment_ids": {
+            "type": "array",
+            "description": "The ID of the experiment(s). Must be the same name as the folder in which the experiment is contained.",
+            "items": {
+                "type": "string"
             }
         },
         "notes": {
             "type": "string",
-            "description": "Any note the submitter wants to input about the entry. Should not exceed 280 characters",
+            "description": "Any note the submitter wants to input about the entry. Should not exceed 280 characters.",
             "maxLength": 280
         }
     }
