@@ -134,3 +134,8 @@ dmypy.json
 **/__pycache__
 **/.p*
 **/.env*
+
+# Test specific gitignore
+
+Example
+Example/*
