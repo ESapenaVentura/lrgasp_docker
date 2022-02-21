@@ -1,2 +1,2 @@
-jsonschema
-pybedtools
+jsonschema==4.4.0
+pybedtools==0.9.0
