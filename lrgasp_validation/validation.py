@@ -18,6 +18,7 @@ import json
 import argparse
 from jsonschema import RefResolver, Draft7Validator
 from pybedtools import BedTool
+from pprint import pprint
 
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__)).replace("\\", "/")
 ERRORS = []
@@ -38,6 +39,7 @@ def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
     parser.add_argument("-c", "--cage-peak", help="CAGE-PEAK file path", required=True, type=is_file)
     parser.add_argument("-p", "--polya-list", help="Poly-A motif list", required=True, type=is_file)
     parser.add_argument("-e", "--entry", help="Entry JSON document", required=True, type=is_file)
+    parser.add_argument("-x", "--experiment", help="Experiment JSON document", required=True, type=is_file)
     parser.add_argument("-s", "--schemas-path", help="Path to the JSON schemas", required=False,
                         default=f"{SCRIPT_PATH}/JSON_TEMPLATES", type=full_path_dir)
     args = parser.parse_args()
@@ -46,7 +48,7 @@ def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
 
 def schemas_are_in_path(path):
     files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
-    if "contacts.json" not in files or "entry_schema.json" not in files:
+    if "experiment.json" not in files or "entry.json" not in files:
         return False
     return True
 
@@ -64,13 +66,16 @@ def load_schemas_store(schemas_path: str) -> dict:
     return store
 
 
-def validate_schemas(schema_store, schemas_path, entry):
+def validate_schemas(schema_store, schemas_path, entry, experiment):
     # Build the reference resolver and the validators
     resolver = RefResolver(referrer=schema_store, base_uri=f"file://{schemas_path}/")
     validator_entry = Draft7Validator(schema_store.get('entry.json'), resolver=resolver)
+    experiment_entry = Draft7Validator(schema_store.get('experiment.json'), resolver=resolver)
 
     # Iterate the errors and append them to our error log
     for error in validator_entry.iter_errors(entry):
+        ERRORS.append(f"Value {error.message}")
+    for error in experiment_entry.iter_errors(experiment):
         ERRORS.append(f"Value {error.message}")
 
 
@@ -87,7 +92,7 @@ def validate_bed_file(bed_path):
         ERRORS.append('Bed file is corrupted/Does not have proper formatting')
 
 
-def main(cage_peak_path, poly_a_path, entry_path: str, schemas_path: str):
+def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str):
 
     # Validation step 1: Schemas
     # Validation step 1.1: Ensure all schemas are stored in the path provided
@@ -99,22 +104,22 @@ def main(cage_peak_path, poly_a_path, entry_path: str, schemas_path: str):
 
     # Validation step 1.3: Load user entry and experiment instances
     entry = json.load(open(entry_path, "r"))
+    experiment = json.load(open(experiment_path, "r"))
 
     # Validation step 1.4: Validate metadata schema against instances provided
-    validate_schemas(store, schemas_path, entry)
-    #TODO ADD EXPERIMENT INSTANCE
+    validate_schemas(store, schemas_path, entry, experiment)
 
     # Validation step 2: Ensure static files are ok
     validate_bed_file(cage_peak_path)
 
-    print(ERRORS)
+    pprint(ERRORS)
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     args = parse_arguments(parser)
-    main(args.cage_peak, args.polya_list, args.entry, args.schemas_path)
+    main(args.cage_peak, args.polya_list, args.entry, args.experiment, args.schemas_path)
 
 """
 with open("../Example/entry.json", "r") as f:

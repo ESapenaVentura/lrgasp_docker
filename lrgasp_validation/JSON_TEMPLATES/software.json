@@ -16,13 +16,13 @@
       "description": "Name of the software package"
     },
     "description": {
-      "type": "string"
+      "type": "string",
       "description": "Description of the software"
     },
     "version": {
       "type": "string",
       "description": "Version of the software package",
-      "pattern": "^[0-9](\\.[0-9]){0,2}$"
+      "pattern": "^[0-9]+(\\.[0-9]+){0,2}$"
     },
     "url": {
       "type": "string",
@@ -36,5 +36,6 @@
       "type": "string",
       "description": "Any note the submitter wants to input about the software or how it was used. Should not exceed 280 characters.",
       "maxLength": 280
+    }
   }
 }
