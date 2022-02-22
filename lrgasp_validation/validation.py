@@ -17,7 +17,6 @@ import os
 import json
 import argparse
 from jsonschema import RefResolver, Draft7Validator
-from pybedtools import BedTool
 from pprint import pprint
 
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__)).replace("\\", "/")
