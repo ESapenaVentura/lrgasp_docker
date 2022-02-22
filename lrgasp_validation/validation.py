@@ -79,16 +79,24 @@ def validate_schemas(schema_store, schemas_path, entry, experiment):
 
 
 def validate_bed_file(bed_path):
+    """
+    Read the bed file and check for:
+        - BED file contains at least 3 columns separated by tabs
+        - All rows have the same number of columns (size)
+    :param bed_path: Path to the CAGE-peaks BED file
+    :return:
+    """
     with open(bed_path, "r") as f:
-        bd = f.read()
-    bed = BedTool(bd, from_string=True)
-    try:
-        ft = bed.file_type
-        if ft == 'empty':
-            ERRORS.append("Bed file is empty")
-    except IndexError:
-        print("miau")
-        ERRORS.append('Bed file is corrupted/Does not have proper formatting')
+        bed = f.readline().split('\t')
+        row_one_length = len(bed)
+        i = 1
+        if len(bed) == 1:
+            ERRORS.append(f"CAGE-peaks file columns should be separated by tabs. File used: {bed_path}")
+        elif len(bed) < 3:
+            ERRORS.append(f"CAGE-peaks file should contain at least 3 columns. File used: {bed_path}")
+        else:
+            if not all(len(line.split('\t')) == row_one_length for line in f):
+                ERRORS.append(f"CAGE-peaks file should have the same amount of columns per row. File used: {bed_path}")
 
 
 def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str):
