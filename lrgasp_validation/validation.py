@@ -14,10 +14,14 @@ Validation that is performed:
 """
 
 import os
+import sys
 import json
 import argparse
+import hashlib
 from jsonschema import RefResolver, Draft7Validator
 from pprint import pprint
+
+import JSON_templates
 
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__)).replace("\\", "/")
 ERRORS = []
@@ -31,7 +35,6 @@ def is_file(path: str) -> str:
     if not os.path.isfile(path):
         raise ValueError("Provided path is not pointing to any file")
     return path
-
 
 
 def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
@@ -99,6 +102,33 @@ def validate_bed_file(bed_path):
                 ERRORS.append(f"CAGE-peaks file should have the same amount of columns per row. File used: {bed_path}")
 
 
+def get_md5(fname):
+    hash_md5 = hashlib.md5()
+    with open(fname, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            hash_md5.update(chunk)
+    return hash_md5.hexdigest()
+
+
+def read_md5_files(md5_list_path:str = "static_md5_list.txt"):
+    static_md5_map = {}
+    with open(md5_list_path, 'r') as f:
+        content = f.read().splitlines()
+        static_md5_map = {line.split("(")[1].split(") = ")[0]: line.split("(")[1].split(") = ")[1] for line in content}
+    return static_md5_map
+
+def check_static_checksums(static_folder):
+    files = [f for f in os.listdir(static_folder) if os.path.isfile(os.path.join(static_folder, f))]
+    md5_map = {f: get_md5(os.path.join(static_folder, f)) for f in files}
+    checked_md5 = read_md5_files()
+    for file in md5_map.keys():
+        if checked_md5[file] != md5_map[file]:
+            ERRORS.append(f"MD5 checksum failed for file {file}.")
+
+
+
+
+
 def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str):
 
     # Validation step 1: Schemas
@@ -118,7 +148,33 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
 
     # Validation step 2: Ensure static files are ok
     validate_bed_file(cage_peak_path)
+    check_static_checksums("../input_files/static")
+    # TODO: Add option to programmatically download reference genome and transcriptome
+    # Files are big and therefore they should be either: provided or downloaded (Can allow both)
 
+
+    # Validation step 3: Ensure contents are ok
+    # TODO: Check with Fran what validation was performed on the files
+
+
+    # Validation step 4: Generate participant dataset
+    # To generate the participant datasets, we will be using the example code from https://github.com/inab/TCGA_benchmarking_dockers
+    #  TODO: Check if we want to use other parameters for metadata in participant dataset
+
+    data_id = f"LRGASP_{experiment['experiment_id']}_{entry['team_name']}"
+    validated = False if ERRORS else True
+    output_json = JSON_templates.write_participant_dataset(data_id, "LRGASP", entry['challenge_id'], entry['team_name'],
+                                                           validated)
+    with open("participant.json" , 'w') as f:
+        json.dump(output_json, f, sort_keys=True, indent=4, separators=(',', ': '))
+
+
+
+    if not ERRORS:
+        sys.exit(0)
+    else:
+        formatted_errors = "\n\t- ".join(ERRORS)
+        sys.exit(f"ERROR: Submitted data does not validate! The following errors were found: \n\t- {formatted_errors}")
     pprint(ERRORS)
 
 
@@ -127,20 +183,3 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     args = parse_arguments(parser)
     main(args.cage_peak, args.polya_list, args.entry, args.experiment, args.schemas_path)
-
-"""
-with open("../Example/entry.json", "r") as f:
-    entry = json.load(f)
-
-with open("JSON_TEMPLATES/entry_schema.json", "r") as f:
-    schema = json.load(f)
-
-
-resolver = RefResolver(SCRIPT_PATH + "\\JSON_TEMPLATES\\", schema)
-validator = Draft7Validator(schema, resolver)
-
-try:
-    errors = sorted(validator.iter_errors(entry), key=lambda e: e.path)
-except RefResolutionError as e:
-    print(e)
-"""
