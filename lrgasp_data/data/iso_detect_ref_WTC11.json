@@ -1,0 +1,208 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "iso_detect_ref_WTC11"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 98.65, 
+                    "participant_id": "participant_pipeline1"
+                }, 
+                {
+                    "metric_y": 79.44, 
+                    "participant_id": "participant_pipeline10"
+                }, 
+                {
+                    "metric_y": 83.23, 
+                    "participant_id": "participant_pipeline11"
+                }, 
+                {
+                    "metric_y": 75.68, 
+                    "participant_id": "participant_pipeline12"
+                }, 
+                {
+                    "metric_y": 45.57, 
+                    "participant_id": "participant_pipeline13"
+                }, 
+                {
+                    "metric_y": 52.44, 
+                    "participant_id": "participant_pipeline14"
+                }, 
+                {
+                    "metric_y": 53.28, 
+                    "participant_id": "participant_pipeline15"
+                }, 
+                {
+                    "metric_y": 56.69, 
+                    "participant_id": "participant_pipeline16"
+                }, 
+                {
+                    "metric_y": 54.55, 
+                    "participant_id": "participant_pipeline17"
+                }, 
+                {
+                    "metric_y": 51.11, 
+                    "participant_id": "participant_pipeline18"
+                }, 
+                {
+                    "metric_y": 40.03, 
+                    "participant_id": "participant_pipeline19"
+                }, 
+                {
+                    "metric_y": 98.41, 
+                    "participant_id": "participant_pipeline2"
+                }, 
+                {
+                    "metric_y": 40.66, 
+                    "participant_id": "participant_pipeline20"
+                }, 
+                {
+                    "metric_y": 39.48, 
+                    "participant_id": "participant_pipeline21"
+                }, 
+                {
+                    "metric_y": 39.93, 
+                    "participant_id": "participant_pipeline22"
+                }, 
+                {
+                    "metric_y": 18.54, 
+                    "participant_id": "participant_pipeline23"
+                }, 
+                {
+                    "metric_y": 76.68, 
+                    "participant_id": "participant_pipeline24"
+                }, 
+                {
+                    "metric_y": 55.82, 
+                    "participant_id": "participant_pipeline25"
+                }, 
+                {
+                    "metric_y": 64.16, 
+                    "participant_id": "participant_pipeline26"
+                }, 
+                {
+                    "metric_y": 64.99, 
+                    "participant_id": "participant_pipeline27"
+                }, 
+                {
+                    "metric_y": 98.01, 
+                    "participant_id": "participant_pipeline28"
+                }, 
+                {
+                    "metric_y": 98.08, 
+                    "participant_id": "participant_pipeline29"
+                }, 
+                {
+                    "metric_y": 98.79, 
+                    "participant_id": "participant_pipeline3"
+                }, 
+                {
+                    "metric_y": 98.34, 
+                    "participant_id": "participant_pipeline30"
+                }, 
+                {
+                    "metric_y": 98.39, 
+                    "participant_id": "participant_pipeline31"
+                }, 
+                {
+                    "metric_y": 98.68, 
+                    "participant_id": "participant_pipeline32"
+                }, 
+                {
+                    "metric_y": 98.59, 
+                    "participant_id": "participant_pipeline33"
+                }, 
+                {
+                    "metric_y": 30.64, 
+                    "participant_id": "participant_pipeline34"
+                }, 
+                {
+                    "metric_y": 30.18, 
+                    "participant_id": "participant_pipeline35"
+                }, 
+                {
+                    "metric_y": 30.49, 
+                    "participant_id": "participant_pipeline36"
+                }, 
+                {
+                    "metric_y": 30.57, 
+                    "participant_id": "participant_pipeline37"
+                }, 
+                {
+                    "metric_y": 30.51, 
+                    "participant_id": "participant_pipeline38"
+                }, 
+                {
+                    "metric_y": 26.81, 
+                    "participant_id": "participant_pipeline39"
+                }, 
+                {
+                    "metric_y": 98.76, 
+                    "participant_id": "participant_pipeline4"
+                }, 
+                {
+                    "metric_y": 26.48, 
+                    "participant_id": "participant_pipeline40"
+                }, 
+                {
+                    "metric_y": 30.33, 
+                    "participant_id": "participant_pipeline41"
+                }, 
+                {
+                    "metric_y": 30.3, 
+                    "participant_id": "participant_pipeline42"
+                }, 
+                {
+                    "metric_y": 31.04, 
+                    "participant_id": "participant_pipeline43"
+                }, 
+                {
+                    "metric_y": 31.03, 
+                    "participant_id": "participant_pipeline44"
+                }, 
+                {
+                    "metric_y": 30.32, 
+                    "participant_id": "participant_pipeline45"
+                }, 
+                {
+                    "metric_y": 30.45, 
+                    "participant_id": "participant_pipeline46"
+                }, 
+                {
+                    "metric_y": 71.35, 
+                    "participant_id": "participant_pipeline47"
+                }, 
+                {
+                    "metric_y": 98.74, 
+                    "participant_id": "participant_pipeline5"
+                }, 
+                {
+                    "metric_y": 98.72, 
+                    "participant_id": "participant_pipeline6"
+                }, 
+                {
+                    "metric_y": 74.55, 
+                    "participant_id": "participant_pipeline7"
+                }, 
+                {
+                    "metric_y": 74.86, 
+                    "participant_id": "participant_pipeline8"
+                }, 
+                {
+                    "metric_y": 79.06, 
+                    "participant_id": "participant_pipeline9"
+                }
+            ], 
+            "metrics": {
+                "metric_y_id": "Reference Match"
+            }, 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "Reference Match"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

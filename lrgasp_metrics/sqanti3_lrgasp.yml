@@ -45,3 +45,4 @@ dependencies:
   - numpy
   - pandas
   - libcurl
+  - pyreadr
