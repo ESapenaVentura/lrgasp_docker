@@ -1,0 +1,14 @@
+[
+    {
+    "_id": "ES_cdna_pacbio_ls", 
+    "community_id": "LRGASP", 
+    "challenge_id": "iso_detect_ref", 
+    "type": "assessment", 
+    "metrics": {
+        "metric_id": "Reference Match", 
+        "value": 81.26, 
+        "stderr": 0
+    }, 
+    "participant_id": "Brooks Lab"
+    }
+]

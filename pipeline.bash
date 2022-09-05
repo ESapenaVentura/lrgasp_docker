@@ -13,7 +13,7 @@ case "$BASEDIR" in
 		;;
 esac
 
-LRGASP_DIR="${BASEDIR}"/LRGASP_data
+LRGASP_DIR="${BASEDIR}"/lrgasp_data
 TAG=0.0.1
 
 if [ $# -gt 1 ] ; then

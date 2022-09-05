@@ -25,16 +25,16 @@ ref3TP_gene_function=function(X){
 }
 
 fiveTP_function=function(X){
-  if(X["within_cage_peak"]=="True"){TRUE}else{FALSE}
+  if(isTRUE(as.logical(X["within_cage_peak"]))){TRUE}else{FALSE}
 }
 
 threeTP_function=function(X){
-  !is.na(X["polyA_motif"])
+  if(isTRUE(as.logical(X["within_polya_site"])) || !is.na(X["polyA_motif"]) ){TRUE}else{FALSE}
 }
 
 allTP_function=function(X){
-  as.logical(as.logical(abs(as.integer(X["diff_to_gene_TSS"]))<=50) | X["within_cage_peak"]=="True") & 
-    (as.logical(abs(as.integer(X["diff_to_gene_TTS"]))<=50) | as.logical(!is.na(X["polyA_motif"])))
+  (abs(as.integer(X["diff_to_gene_TSS"]))<=50 || isTRUE(as.logical(X["within_cage_peak"]))) && 
+  (abs(as.integer(X["diff_to_gene_TTS"]))<=50 || !is.na(X["polyA_motif"]))
 }
 
 allTP_norm=function(X){
@@ -56,13 +56,14 @@ mean_cov_all=function(X, sqanti_data_junc){
   mean(all_SJ$total_coverage)
 }
 
+
 SJ_wo_cov=function(X, sqanti_data_junc ){
   all_SJ=sqanti_data_junc[which(sqanti_data_junc$isoform==X["isoform"]),]
   length(which(all_SJ$total_coverage==0))
 }
 
 SJ_w_cov_perc=function(X){
-  if (as.integer(X["exons"])!=0){
+  if (as.integer(X["exons"])!=1){
   (1-(as.integer(X["SJ_wo_cov"])/(as.integer(X["exons"])-1)))*100
   }else{0}
 }
@@ -83,7 +84,7 @@ non_canonical_SJ=function(X, sqanti_data_junc ){
 }
 
 allTP_function_novel=function(X){
-  return(as.logical((abs(as.integer(X["diff_to_gene_TSS"]))<=50) | X["within_cage_peak"]=="True") &
+  return(as.logical((abs(as.integer(X["diff_to_gene_TSS"]))<=50) | isTRUE(as.logical(X["within_cage_peak"]))) &
            (as.logical(abs(as.integer(X["diff_to_gene_TTS"]))<=50) | !is.na(X["polyA_motif"])) &
            (as.logical(as.integer(X["min_cov"])>0)))
 }
@@ -136,6 +137,16 @@ distancias <- function (CLASS, category, dist) {
 
 missing_exons_function=function(X){
   as.integer(X["ref_exons"]) - as.integer(X["exons"])
+}
+
+### intrapriming if > 60% in next 20bp after TTS
+
+is_intrapriming=function(X){
+  if (as.integer(X["perc_A_downstream_TTS"])>=60){
+    return(TRUE)
+  }else{
+    return(FALSE)
+  }
 }
 
 #### LRGASP_id

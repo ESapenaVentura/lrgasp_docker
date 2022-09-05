@@ -1,9 +1,6 @@
 #!/usr/bin/env python
-
-import argparse
-import os
-import sys
-from collections import namedtuple, Counter
+import os, re, sys, time, subprocess, argparse, pdb
+from collections import namedtuple, Counter, defaultdict
 from csv import DictReader, DictWriter
 
 from Bio import SeqIO
@@ -14,7 +11,7 @@ from Bio import SeqIO
 PATSEQLEN = 10    # max size of sequence area to search for match (does not include wiggle)
 
 
-# Function to check splice junctions for possible RT switching
+#### Function to check splice junctions for possible RT switching
 
 #
 # Load splice junctions
@@ -26,22 +23,20 @@ PATSEQLEN = 10    # max size of sequence area to search for match (does not incl
 # (namedtuple is less efficient but it makes the code easier to read - can change to plain array for performance)
 # it also returns SJCounts
 #
-SpliceJunctions = namedtuple("SpliceJunctions", "trans, sjn, chromo, strand, strpos, endpos, transpos, category, "
-                                                "startCat, endCat, type")
-SJCounts = namedtuple("SJCounts", "trans, sjTotal, sj, knownCanonical, knownNonCanonical, novelCanonical, "
-                                  "novelNonCanonical")
+SpliceJunctions = namedtuple("SpliceJunctions", "trans, sjn, chromo, strand, strpos, endpos, transpos, category, startCat, endCat, type")
+SJCounts = namedtuple("SJCounts", "trans, sjTotal, sj, knownCanonical, knownNonCanonical, novelCanonical, novelNonCanonical")
 
-FIELDS_RTS = ['isoform', 'junction_number', 'chrom', 'strand', 'genomic_start_coord', 'genomic_end_coord', 'category',
-              'type', 'exonSeq', 'intronSeq', 'matchLen', 'matchPat', 'mismatch']
+FIELDS_RTS = ['isoform', 'junction_number', 'chrom', 'strand', 'genomic_start_coord', 'genomic_end_coord', 'category', 'type', 'exonSeq', 'intronSeq', 'matchLen', 'matchPat', 'mismatch']
 
 
-def load_splice_junction(filepath):
+def loadSpliceJunctions(filepath):
     """
     Process a splice junction file by SQANTI (see FIELDS_JUNC in sqanti_qc.py)
     :param filepath: the junctions.txt file
     :return: sj_dict (isoform --> junction info), sj_seen_counts ((chr,strand,start,end) --> count of this junction)
     """
     sj_dict = {}
+    #sj_type_counts = {'known_canonical':0, 'known_non_canonical':0, 'novel_canonical':0, 'novel_non_canonical':0}
     sj_seen_counts = Counter()
 
     for rec in DictReader(open(filepath), delimiter='\t'):
@@ -66,13 +61,14 @@ def load_splice_junction(filepath):
                                                 startCat=rec['start_site_category'],
                                                 endCat=rec['end_site_category'],
                                                 type=rec['canonical']))
+            #sj_type_counts[rec['junction_category']+'_'+rec['canonical']] += 1
         else:
             sj_seen_counts[sj_pair] += 1
 
     return sj_dict, dict(sj_seen_counts)
 
 
-def check_sj_for_rts(sj_dict, genome_dict, wiggle_count, include_category, include_type, min_match, allow_mismatch, output_filename):
+def checkSJforRTS(sj_dict, genome_dict, wiggle_count, include_category, include_type, min_match, allow_mismatch, output_filename):
     """
     :param sj_dict: dict of (isoform --> junction info)
     :param genome_dict: dict of (chr --> SeqRecord)
@@ -238,11 +234,11 @@ def rts(args, genome_dict):
     rtsResultsFilepath = os.path.join(rts_dir, "sj.rts.results.tsv")
 
     # load required data
-    sjIdx, sjCounts = load_splice_junction(args.sjFilepath)
+    sjIdx, sjCounts = loadSpliceJunctions(args.sjFilepath)
 
     # perform RTS analysis
-    RTSinfo = check_sj_for_rts(sjIdx, genome_dict, args.wiggle_count, args.include_category, args.include_type,
-                               args.min_match, args.allow_mismatch, rtsResultsFilepath)
+    RTSinfo = checkSJforRTS(sjIdx, genome_dict, args.wiggle_count, args.include_category, args.include_type,
+                            args.min_match, args.allow_mismatch, rtsResultsFilepath)
 
     return RTSinfo
 

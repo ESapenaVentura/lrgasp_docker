@@ -22,6 +22,8 @@ from collections.abc import Iterable
 from csv import DictWriter, DictReader
 from multiprocessing import Process
 
+import JSON_templates.write_dataset
+
 utilitiesPath = os.path.join(os.path.dirname(os.path.realpath(__file__)), "utilities")
 sys.path.insert(0, utilitiesPath)
 from rt_switching import rts
@@ -319,30 +321,16 @@ class myQueryTranscripts:
             return("NA")
 
     def __str__(self):
-        return "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (self.chrom, self.strand,
-                                                                                                                                                           str(self.length), str(self.num_exons),
-                                                                                                                                                           str(self.str_class), "_".join(set(self.genes)),
-                                                                                                                                                           self.id, str(self.refLen), str(self.refExons),
-                                                                                                                                                           str(self.tss_diff), str(self.tts_diff),
-                                                                                                                                                           self.subtype, self.RT_switching,
-                                                                                                                                                           self.canonical, str(self.min_samp_cov),
-                                                                                                                                                           str(self.min_cov), str(self.min_cov_pos),
-                                                                                                                                                           str(self.sd), str(self.FL), str(self.nIndels),
-                                                                                                                                                           str(self.nIndelsJunc), self.bite, str(self.isoExp),
-                                                                                                                                                           str(self.geneExp), str(self.ratioExp()),
-                                                                                                                                                           self.FSM_class, self.coding, str(self.ORFlen),
-                                                                                                                                                           str(self.CDSlen()), str(self.CDS_start), str(self.CDS_end),
-                                                                                                                                                           str(self.CDS_genomic_start), str(self.CDS_genomic_end), str(self.is_NMD),
-                                                                                                                                                           str(self.percAdownTTS),
-                                                                                                                                                           str(self.seqAdownTTS),
-                                                                                                                                                           str(self.dist_cage),
-                                                                                                                                                           str(self.within_cage),str(self.pos_cage_peak),
-                                                                                                                                                           str(self.dist_polya_site),
-                                                                                                                                                           str(self.within_polya_site),
-                                                                                                                                                           str(self.polyA_motif),
-                                                                                                                                                           str(self.polyA_dist), str(self.TSS_genomic_coord), str(self.TTS_genomic_coord),
-                                  
-                                  str(self.experiment_id), str(self.entry_id))
+        return (f"{self.chrom}\t{self.strand}\t{self.length}\t{self.num_exons}\t{self.str_class}\t"
+        f"{'_'.join(set(self.genes))}\t{self.id}\t{self.refLen}\t{self.refExons}\t{self.tss_diff}\t{self.tts_diff}\t"
+        f"{self.subtype}\t{self.RT_switching}\t{self.canonical}\t{self.min_samp_cov}\t{self.min_cov}\t"
+        f"{self.min_cov_pos}\t{self.sd}\t{self.FL}\t{self.nIndels}\t{self.nIndelsJunc}\t{self.bite}\t{self.isoExp}\t"
+        f"{self.geneExp}\t{self.ratioExp()}\t{self.FSM_class}\t{self.coding}\t{self.ORFlen}\t{self.CDSlen()}\t"
+        f"{self.CDS_start}\t{self.CDS_end}\t{self.CDS_genomic_start}\t{self.CDS_genomic_end}\t{self.is_NMD}\t"
+        f"{self.percAdownTTS}\t{self.seqAdownTTS}\t{self.dist_cage}\t{self.within_cage}\t{self.pos_cage_peak}\t"
+        f"{self.dist_polya_site}\t{self.within_polya_site}\t{self.polyA_motif}\t{self.polyA_dist}\t"
+        f"{self.TSS_genomic_coord}\t{self.TTS_genomic_coord}\t{self.experiment_id}\t{self.entry_id}")
+
 
 
 
@@ -664,7 +652,6 @@ def reference_parser(args, genome_chroms):
     # dict of gene name --> list of known begins and ends (begin always < end, regardless of strand)
     known_5_3_by_gene = defaultdict(lambda: {'begin':set(), 'end': set()})
 
-    print(os.listdir('/app/input/test/'))
     for r in genePredReader(referenceFiles):
         if r.length < args.min_ref_len and not args.is_fusion: continue # ignore miRNAs
         if r.exonCount == 1:
@@ -1513,7 +1500,7 @@ def isoformClassification(args, isoforms_by_chr, refs_1exon_by_chr, refs_exons_b
     else:
         polyA_motif_list = None
 
-    print("we got here 1")
+
     if args.phyloP_bed is not None:
         print("**** Reading PhyloP BED file.", file=sys.stdout)
         phyloP_reader = LazyBEDPointReader(args.phyloP_bed)
@@ -1529,7 +1516,7 @@ def isoformClassification(args, isoforms_by_chr, refs_1exon_by_chr, refs_exons_b
     handle_class = open(outputClassPath+"_tmp", "w")
     fout_class = DictWriter(handle_class, fieldnames=FIELDS_CLASS, delimiter='\t')
     fout_class.writeheader()
-    print("we got here 2")
+
     #outputJuncPath = outputPathPrefix+"_junctions.txt"
     handle_junc = open(outputJuncPath+"_tmp", "w")
     fout_junc = DictWriter(handle_junc, fieldnames=fields_junc_cur, delimiter='\t')
@@ -1538,7 +1525,6 @@ def isoformClassification(args, isoforms_by_chr, refs_1exon_by_chr, refs_exons_b
     isoforms_info = {}
     novel_gene_index = 1
     r_experiment_id, r_entry_id, r_platform = json_parser(args.experiment_json, args.entry_json)
-    print("we got here 3")
     for chrom,records in isoforms_by_chr.items():
         for rec in records:
             # Find best reference hit
@@ -2256,6 +2242,7 @@ def main():
     parser.add_argument('-x','--gmap_index', help='\t\tPath and prefix of the reference index created by gmap_build. Mandatory if using GMAP unless -g option is specified.')
     parser.add_argument('-t', '--cpus', default=10, type=int, help='\t\tNumber of threads used during alignment by aligners. (default: 10)')
     parser.add_argument('-n', '--chunks', default=1, type=int, help='\t\tNumber of chunks to split SQANTI3 analysis in for speed up (default: 1).')
+    #parser.add_argument('-z', '--sense', help='\t\tOption that helps aligners know that the exons in you cDNA sequences are in the correct sense. Applicable just when you have a high quality set of cDNA sequences', required=False, action='store_true')
     parser.add_argument('-o','--output', help='\t\tPrefix for output files.', required=False)
     parser.add_argument('-d','--dir', help='\t\tDirectory for output files. Default: Directory where the script was run.', required=False)
     parser.add_argument('-c','--coverage', help='\t\tJunction coverage files (provide a single file, comma-delmited filenames, or a file pattern, ex: "mydir/*.junctions").', required=False)
@@ -2270,6 +2257,7 @@ def main():
     parser.add_argument('--experiment_json' , help='\t\tExperiment JSON file that is requiered for uploading the submission. More info here: https://lrgasp.github.io/lrgasp-submissions/docs/metadata.html . In case it is not provided, a fake one will be used, but that will not affect to the results of the evaluation.', required=False)
     parser.add_argument('--entry_json' , help='\t\tEntry JSON file that is requiered for uploading the submission. More info here: https://lrgasp.github.io/lrgasp-submissions/docs/metadata.html . In case it is not provided, a fake one will be used, but that will not affect to the results of the evaluation.', required=False)
     parser.add_argument('--simulation' , help='\t\t File Prefix for simulation ground truth. There should be a *.counts.txt and a *.novel_isoforms.txt files',required=False)
+
 
     args = parser.parse_args()
 
@@ -2317,9 +2305,8 @@ def main():
             print("WARNING: output directory {0} already exists. Overwriting!".format(args.dir), file=sys.stderr)
         else:
             os.makedirs(args.dir)
-    print(args.genome)
+
     args.genome = os.path.abspath(args.genome)
-    print(os.path.isfile(args.genome))
     if not os.path.isfile(args.genome):
         print("ERROR: genome fasta {0} doesn't exist. Abort!".format(args.genome), file=sys.stderr)
         sys.exit()
@@ -2399,6 +2386,8 @@ def main():
             corrGTF, corrSAM, corrFASTA, corrORF = get_corr_filenames(args)
             outputClassPath, outputJuncPath = get_class_junc_filenames(args)
             run_isoAnnotLite(corrGTF, outputClassPath, outputJuncPath, args.dir, args.output, args.gff3)
+
+    JSON_templates.write_dataset.main()
 
 
 if __name__ == "__main__":

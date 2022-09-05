@@ -1,16 +1,17 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import json
 
-
-def json_parser(experiment: str, entry: str) -> (str, str, str):
-    with open(experiment, "r") as e:
-        experiment_json = json.load(e)
-    with open(entry, "r") as f:
-        entry_json = json.load(f)
-
-    exp_id = experiment_json.get('experiment_id', "")
-    platforms = "+".join(experiment_json.get('platforms', ""))
+def json_parser( experiment, entry ):
+    e = open(experiment , "r")
+    f = open(entry, "r")
+    experiment_json = json.load(e)
+    entry_json = json.load(f)
+    exp_id = experiment_json["experiment_id"]
+    p = experiment_json["platforms"]
+    if len(p)>1:
+        platforms = '+'.join(p)
+    else:
+        platforms = p[0]
     ent_id = entry_json["entry_id"]
-
     return exp_id, ent_id, platforms
