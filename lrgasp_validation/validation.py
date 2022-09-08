@@ -122,7 +122,7 @@ def check_static_checksums(static_folder):
     md5_map = {f: get_md5(os.path.join(static_folder, f)) for f in files}
     checked_md5 = read_md5_files()
     for file in md5_map.keys():
-        if checked_md5[file] != md5_map[file]:
+        if checked_md5.get(file, '') != md5_map.get(file,''):
             ERRORS.append(f"MD5 checksum failed for file {file}.")
 
 
@@ -131,6 +131,7 @@ def check_static_checksums(static_folder):
 
 def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str):
 
+    base_path_static = os.path.dirname(cage_peak_path)
     # Validation step 1: Schemas
     # Validation step 1.1: Ensure all schemas are stored in the path provided
     if not schemas_are_in_path(schemas_path):
@@ -148,7 +149,9 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
 
     # Validation step 2: Ensure static files are ok
     validate_bed_file(cage_peak_path)
-    check_static_checksums("../input_files/static")
+    # TODO: add static checksum back
+    #check_static_checksums(base_path_static)
+
     # TODO: Add option to programmatically download reference genome and transcriptome
     # Files are big and therefore they should be either: provided or downloaded (Can allow both)
 
@@ -163,9 +166,9 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
 
     data_id = f"LRGASP_{experiment['experiment_id']}_{entry['team_name']}"
     validated = False if ERRORS else True
-    output_json = JSON_templates.write_participant_dataset(data_id, "LRGASP", entry['challenge_id'], entry['team_name'],
+    output_json = JSON_templates.write_participant_dataset(data_id, "LRGASP", [entry['challenge_id']], entry['team_name'],
                                                            validated)
-    with open("participant.json" , 'w') as f:
+    with open("/app/output/participant.json", 'w') as f:
         json.dump(output_json, f, sort_keys=True, indent=4, separators=(',', ': '))
 
 

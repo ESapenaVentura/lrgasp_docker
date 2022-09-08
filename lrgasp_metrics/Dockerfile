@@ -1,25 +1,21 @@
-FROM continuumio/miniconda3
+FROM condaforge/mambaforge-pypy3
 
 WORKDIR /app
 
 # Create the environment:
 COPY sqanti3_lrgasp.yml .
-RUN conda install -c conda-forge mamba
-RUN mamba env create -n sqanti_env -f sqanti3_lrgasp.yml
+RUN mamba env create -n sqanti_env -f sqanti3_lrgasp.yml -v
 
 # Make RUN commands use the new environment:
 SHELL ["conda", "run", "-n", "sqanti_env", "/bin/bash", "-c"]
 
-# Download and set-up cDNA_Cupcake
-RUN apt-get update && apt-get install git && git clone https://github.com/Magdoll/cDNA_Cupcake.git
-RUN apt-get install -y libcurl4
+# Download and set-up cDNA_Cupcake, v.27.0.0 commit d5432f37ab4869a3012e20d28f227ce9dda35014
+RUN apt-get update && wget https://github.com/Magdoll/cDNA_Cupcake/archive/refs/tags/v24.0.0.tar.gz && tar -xvf v24.0.0.tar.gz
 COPY . /app
-WORKDIR /app/cDNA_Cupcake/
-RUN python setup.py build
-RUN python setup.py install
+WORKDIR /app/cDNA_Cupcake-24.0.0/
 WORKDIR /app
-ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake/sequence/"
-ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake/"
+ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake-24.0.0/sequence/"
+ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake-24.0.0/"
 
 # The code to run when container is started:
 COPY . /app
