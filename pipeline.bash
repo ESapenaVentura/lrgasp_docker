@@ -1,6 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 
 #Run the SQANTI3 pipeline
+realpath() {
+    [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
 
 REALPATH="$(realpath "$0")"
 BASEDIR="$(dirname "$REALPATH")"
@@ -14,43 +18,40 @@ case "$BASEDIR" in
 esac
 
 LRGASP_DIR="${BASEDIR}"/lrgasp_data
-TAG=0.0.1
+TAG=1.0.0
 
 if [ $# -gt 1 ] ; then
-	input="$1"
-	RESDIR="$2"
-	shift 2
+  input_dir="$1"
+	input_gtf="$2"
+  input_cage_peak="$3"
+  input_polyA="$4"
+  entry_json="$5"
+  experiment_json="$6"
+  genome_reference="$7"
+  transcriptome_reference="$8"
+  coverage_file="$9"
+	RESDIR="$10"
 
-	if [ $# -gt 0 ] ; then
-		PARTICIPANT="$1"
-		shift
-	else
-		PARTICIPANT=NEW_PARTICIPANT
-	fi
 
-	if [ $# -gt 0 ] ; then
-		CANCER_TYPES="$@"
-	else
-		CANCER_TYPES="ACC BRCA"
-	fi
 
 	cat <<EOF
 * Using version $TAG
 * Running parameters
-  Input: $input
+  Input dir: $input_dir
+  GTF file: $input_gtf
+  CAGE peak file: $input_cage_peak
+  polyA file: $input_polyA
+  Json files: $entry_json / $experiment_json
+  Coverage file: $coverage_file
   Results: $RESDIR
-  Participant: $PARTICIPANT
-  Cancer types: $CANCER_TYPES
 EOF
 
-	if [ ! -f "$input" ] ; then
-		echo "ERROR: input file does not exist" 1>&2
-		exit 1
-	fi
 	echo "* Deriving input directory"
-	inputRealPath="$(realpath "$input")"
-	inputBasename="$(basename "$input")"
+	inputRealPath="$(realpath "$input_dir")"
+	echo $inputRealPath
+	inputBasename="$(basename "$input_dir")"
 	INPUTDIR="$(dirname "$inputRealPath")"
+	echo $INPUTDIR
 	case "$INPUTDIR" in
 		/*)
 			true
@@ -74,27 +75,25 @@ EOF
 			;;
 	esac
 
-	ASSESSDIR="${TCGA_DIR}"/data
-	METRICS_DIR="${TCGA_DIR}"/metrics_ref_datasets
-	PUBLIC_REF_DIR="${TCGA_DIR}"/public_ref
+	ASSESSDIR="${LRGASP_DIR}"/data
+	METRICS_DIR="${LRGASP_DIR}"/metrics_ref_datasets
+	PUBLIC_REF_DIR="${LRGASP_DIR}"/public_ref
 
+  echo $INPUTDIR
 	echo "=> Validating input" && \
-	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:ro -v "${PUBLIC_REF_DIR}":/app/ref:ro tcga_validation:"$TAG" \
-		-i /app/input/"${inputBasename}" -r /app/ref/ && \
+	docker run --rm -u $UID -v "${inputRealPath}":/app/input:ro -v "${RESDIRreal}":/app/output lrgasp_validation:"$TAG" \
+		-c /app/input/$input_cage_peak -p /app/input/$input_polyA -e /app/input/$entry_json -x /app/input/$experiment_json && \
 	echo "=> Computing metrics" && \
-	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:ro -v "${METRICS_DIR}":/app/metrics:ro -v "${RESDIRreal}":/app/results:rw tcga_metrics:"$TAG" \
-		-i /app/input/"${inputBasename}" -c $CANCER_TYPES -m /app/metrics/ -p "${PARTICIPANT}" -o /app/results/ && \
+	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:ro -v "${METRICS_DIR}":/app/metrics:ro -v "${RESDIRreal}":/app/results:rw lrgasp_metrics:"$TAG" \
+	   /app/input/$input_gtf /app/input/$input_cage_peak /app/input/$input_cage_peak --experiment_json /app/input/$experiment_json \
+	   --entry_json /app/input/$entry_json --cage_peak /app/input/$input_cage_peak --polyA_motif_list /app/input/$input_polyA \
+	   -c /app/input/$coverage_file -d /app/results/results -o test && \
 	echo "=> Assessing metrics" && \
 	docker run --rm -u $UID -v "${ASSESSDIR}":/app/assess:ro -v "${RESDIRreal}":/app/results:rw tcga_assessment:"$TAG" \
 		-b /app/assess/ -p /app/results/ -o /app/results/ && \
 	echo "* Pipeline has finished properly"
 
-
-	#Build de imagenes:
-
-	#docker build -t tcga_validation .
-	#docker build -t tcga_metrics .
-	#docker build -t manage_assessment_data .
 else
-	echo "Usage: $0 input_file results_dir [participant_id [cancer_type]*]"
+	echo "Usage: $0 input_dir gtf_filename input_cage_peak input_polyA entry_json experiment_json coverage_filename results_dir"
+	echo "When running, please ensure all the needed files are in the input_dir, and give filenames for the rest of the files. The output dir must also be a full path"
 fi

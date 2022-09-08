@@ -37,19 +37,19 @@ try:
     from Bio.SeqRecord import SeqRecord
 except ImportError:
     print("Unable to import Biopython! Please make sure Biopython is installed.", file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 try:
     from bx.intervals import Interval, IntervalTree
 except ImportError:
     print("Unable to import bx-python! Please make sure bx-python is installed.", file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 try:
     from BCBio import GFF as BCBio_GFF
 except ImportError:
     print("Unable to import BCBio! Please make sure bcbiogff is installed.", file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 try:
     from err_correct_w_genome import err_correct
@@ -59,7 +59,7 @@ try:
     import coordinate_mapper as cordmap
 except ImportError:
     print("Unable to import err_correct_w_genome or sam_to_gff3.py! Please make sure cDNA_Cupcake/sequence/ is in $PYTHONPATH.", file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 try:
     from cupcake.tofu.compare_junctions import compare_junctions
@@ -68,14 +68,14 @@ try:
     from cupcake.io.GFF import collapseGFFReader, write_collapseGFF_format
 except ImportError:
     print("Unable to import cupcake.tofu! Please make sure you install cupcake.", file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 # check cupcake version
 import cupcake
 v1, v2 = [int(x) for x in cupcake.__version__.split('.')]
 if v1 < 8 or v2 < 6:
     print("Cupcake version must be 8.6 or higher! Got {0} instead.".format(cupcake.__version__), file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 
 GMAP_CMD = "gmap --cross-species -n 1 --max-intronlength-middle=2000000 --max-intronlength-ends=2000000 -L 3000000 -f samse -t {cpus} -D {dir} -d {name} -z {sense} {i} | samtools view  -F2048 -h > {o}"
@@ -91,10 +91,10 @@ GFFREAD_PROG = "gffread"
 
 if distutils.spawn.find_executable(GTF2GENEPRED_PROG) is None:
     print("Cannot find executable {0}. Abort!".format(GTF2GENEPRED_PROG), file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 if distutils.spawn.find_executable(GFFREAD_PROG) is None:
     print("Cannot find executable {0}. Abort!".format(GFFREAD_PROG), file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 
 seqid_rex1 = re.compile('PB\.(\d+)\.(\d+)$')
@@ -128,7 +128,7 @@ RSCRIPT_REPORT = 'SQANTI3_Evaluation_run.R'
 
 if os.system( RSCRIPTPATH + " --version")!=0:
     print("Rscript executable not found! Abort!", file=sys.stderr)
-    sys.exit(-1)
+    sys.exit(1)
 
 SPLIT_ROOT_DIR = 'splits/'
 
@@ -495,7 +495,7 @@ def correctionPlusORFpred(args, genome_dict):
                                             o=corrSAM)
                 if subprocess.check_call(cmd, shell=True)!=0:
                     print("ERROR running alignment cmd: {0}".format(cmd), file=sys.stderr)
-                    sys.exit(-1)
+                    sys.exit(1)
 
             # error correct the genome (input: corrSAM, output: corrFASTA)
             err_correct(args.genome, corrSAM, corrFASTA, genome_dict=genome_dict)
@@ -504,7 +504,7 @@ def correctionPlusORFpred(args, genome_dict):
             cmd = "{p} {o}.tmp -T -o {o}".format(o=corrGTF, p=GFFREAD_PROG)
             if subprocess.check_call(cmd, shell=True)!=0:
                 print("ERROR running cmd: {0}".format(cmd), file=sys.stderr)
-                sys.exit(-1)
+                sys.exit(1)
         else:
             print("Skipping aligning of sequences because GTF file was provided.", file=sys.stdout)
 
@@ -569,7 +569,7 @@ def correctionPlusORFpred(args, genome_dict):
             m = gmst_rex.match(r.description)
             if m is None:
                 print("Expected GMST output IDs to be of format '<pbid> gene_4|GeneMark.hmm|<orf>_aa|<strand>|<cds_start>|<cds_end>' but instead saw: {0}! Abort!".format(r.description), file=sys.stderr)
-                sys.exit(-1)
+                sys.exit(1)
             orf_length = int(m.group(2))
             cds_start = int(m.group(4))
             cds_end = int(m.group(5))
@@ -584,7 +584,7 @@ def correctionPlusORFpred(args, genome_dict):
             cmd = GMST_CMD.format(i=corrFASTA, o=gmst_pre)
         if subprocess.check_call(cmd, shell=True, cwd=gmst_dir)!=0:
             print("ERROR running GMST cmd: {0}".format(cmd), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
         os.chdir(cur_dir)
         # Modifying ORF sequences by removing sequence before ATG
         with open(corrORF, "w") as f:
@@ -592,7 +592,7 @@ def correctionPlusORFpred(args, genome_dict):
                 m = gmst_rex.match(r.description)
                 if m is None:
                     print("Expected GMST output IDs to be of format '<pbid> gene_4|GeneMark.hmm|<orf>_aa|<strand>|<cds_start>|<cds_end>' but instead saw: {0}! Abort!".format(r.description), file=sys.stderr)
-                    sys.exit(-1)
+                    sys.exit(1)
                 id_pre = m.group(1)
                 orf_length = int(m.group(2))
                 orf_strand = m.group(3)
@@ -701,7 +701,7 @@ def isoforms_parser(args):
         corrGTF, queryFile)
     if subprocess.check_call(cmd, shell=True)!=0:
         print("ERROR running cmd: {0}".format(cmd), file=sys.stderr)
-        sys.exit(-1)
+        sys.exit(1)
 
 
     isoforms_list = defaultdict(lambda: []) # chr --> list to be sorted later
@@ -1495,7 +1495,7 @@ def isoformClassification(args, isoforms_by_chr, refs_1exon_by_chr, refs_exons_b
             x = line.strip().upper().replace('U', 'A')
             if any(s not in ('A','T','C','G') for s in x):
                 print("PolyA motif must be A/T/C/G only! Saw: {0}. Abort!".format(x), file=sys.stderr)
-                sys.exit(-1)
+                sys.exit(1)
             polyA_motif_list.append(x)
     else:
         polyA_motif_list = None
@@ -1721,7 +1721,7 @@ def FLcount_parser(fl_count_filename):
     if type=='SINGLE_SAMPLE':
         if 'count_fl' not in count_header:
             print("Expected `count_fl` field in count file {0}. Abort!".format(fl_count_filename), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
         d = dict((r['transcript_id'], r) for r in reader)
     elif type=='MULTI_CHAIN':
         d = dict((r['superPBID'], r) for r in reader)
@@ -1731,7 +1731,7 @@ def FLcount_parser(fl_count_filename):
         flag_single_sample = False
     else:
         print("Expected pbid or superPBID as a column in count file {0}. Abort!".format(fl_count_filename), file=sys.stderr)
-        sys.exit(-1)
+        sys.exit(1)
     f.close()
 
 
@@ -1817,7 +1817,7 @@ def run(args):
     if args.fl_count:
         if not os.path.exists(args.fl_count):
             print("FL count file {0} does not exist!".format(args.fl_count), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
         print("**** Reading Full-length read abundance files...", file=sys.stderr)
         if args.fl_count.endswith(".gz"):
             subprocess.call(['gunzip', args.fl_count])
@@ -1977,7 +1977,7 @@ def run(args):
             cmd = cmd + " {s}".format(s=args.simulation)
         if subprocess.check_call(cmd, shell=True)!=0:
             print("ERROR running command: {0}".format(cmd), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
     stop3 = timeit.default_timer()
 
     print("Removing temporary files....", file=sys.stderr)
@@ -1997,7 +1997,7 @@ def run_isoAnnotLite(correctedGTF, outClassFile, outJuncFile, outDir, outName, g
         ISOANNOT_CMD = "python "+ ISOANNOT_PROG + " {g} {c} {j} -d {d} -o {o}".format(g=correctedGTF , c=outClassFile, j=outJuncFile, d=outDir, o=outName)
     if subprocess.check_call(ISOANNOT_CMD, shell=True)!=0:
         print("ERROR running command: {0}".format(ISOANNOT_CMD), file=sys.stderr)
-        sys.exit(-1)
+        sys.exit(1)
 
 
 
@@ -2022,7 +2022,7 @@ def rename_isoform_seqids(input_fasta, force_id_ignore=False):
         m3 = seqid_fusion.match(r.id)
         if not force_id_ignore and (m1 is None and m2 is None and m3 is None):
             print("Invalid input IDs! Expected PB.X.Y or PB.X.Y|xxxxx or PBfusion.X format but saw {0} instead. Abort!".format(r.id), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
         if r.id.startswith('PB.') or r.id.startswith('PBfusion.'):  # PacBio fasta header
             newid = r.id.split('|')[0]
         else:
@@ -2117,7 +2117,7 @@ class PolyAPeak:
 def split_input_run(args):
     if os.path.exists(SPLIT_ROOT_DIR):
         print("WARNING: {0} directory already exists! Abort!".format(SPLIT_ROOT_DIR), file=sys.stderr)
-        sys.exit(-1)
+        sys.exit(1)
     else:
         os.makedirs(SPLIT_ROOT_DIR)
 
@@ -2217,7 +2217,7 @@ def combine_split_runs(args, split_dirs):
         cmd = RSCRIPTPATH + " {d}/{f} {c} {j} {p} {d}".format(d=utilitiesPath, f=RSCRIPT_REPORT, c=outputClassPath, j=outputJuncPath, p=args.doc)
         if subprocess.check_call(cmd, shell=True)!=0:
             print("ERROR running command: {0}".format(cmd), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
 
 def main():
     global utilitiesPath
@@ -2275,13 +2275,13 @@ def main():
             args.skipORF = True
         if not args.gtf:
             print("ERROR: if --is_fusion is on, must supply GTF as input and use --gtf!", file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
 
     if args.gff3 is not None:
         args.gff3 = os.path.abspath(args.gff3)
         if not os.path.isfile(args.gff3):
             print("ERROR: Precomputed tappAS GFF3 annoation file {0} doesn't exist. Abort!".format(args.genome), file=sys.stderr)
-            sys.exit(-1)
+            sys.exit(1)
 
     if args.expression is not None:
         if os.path.isdir(args.expression)==True:
@@ -2290,7 +2290,7 @@ def main():
             for f in args.expression.split(','):
                 if not os.path.exists(f):
                         print("Expression file {0} not found. Abort!".format(f), file=sys.stderr)
-                        sys.exit(-1)
+                        sys.exit(1)
 
 
     # path and prefix for output files

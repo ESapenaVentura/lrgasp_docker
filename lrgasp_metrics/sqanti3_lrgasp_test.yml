@@ -1,15 +1,15 @@
-name: sqanti_env
+name: sqanti3_lrgasp
+channel_priority: strict
 channels:
-  - conda-forge
-  - bioconda
-  - anaconda
-  - r
   - defaults
+  - bioconda
+  - r
   - jmltf7
 dependencies:
+  - python=3.9
+  - pysam=0.16.0.1
   - busco
   - cython
-  - python=3.7
   - perl
   - minimap2
   - pysam
@@ -39,11 +39,11 @@ dependencies:
   - r-splitstackshape
   - bioconductor-rsamtools
   - bioconductor-complexheatmap
-  - samtools
+  - openssl
+  - samtools=1.9
   - scipy
   - bx-python
   - numpy
   - pandas
   - libcurl
-  - pyreadr
-  - jsonschema
+

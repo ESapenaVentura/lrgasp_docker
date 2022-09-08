@@ -1,4 +1,0 @@
-MD5 (cage_peak_human.bed) = 97698466d2eb161b28dbcba4cfb7b6b5
-MD5 (cage_peak_mouse.bed) = 7befdfbf97e8a00382344cd647a14dbb
-MD5 (polyA_list.txt) = 4b2b7853ddd8865d790f1f981e15877f
-MD5 (sj.rts.results_ES.tsv) = cef4bbd57dc53cc9da9ccec493214697
