@@ -51,7 +51,7 @@ def create_assessment_dataset(ID, community, challenge, participant_name, metric
                 ve) + "\n")
 
 
-def main(experiment_path="/Users/enrique/HumanCellAtlas/lrgasp_docker/Example/experiment.json", entry_path="/Users/enrique/HumanCellAtlas/lrgasp_docker/Example/input/entry.json"):
+def main(experiment_path, entry_path, rdata_path, output_path):
     # Set the values to pass to write_assessment_dataset contained in experiment metadata
     experiment = json.load(open(experiment_path, 'r'))
     # TODO must be unique
@@ -65,14 +65,14 @@ def main(experiment_path="/Users/enrique/HumanCellAtlas/lrgasp_docker/Example/ex
 
     # Set the metric values obtained from sqanti
     # TODO: check how many metrics per assessment dataset
-    fsm_results = read_rdata()
+    fsm_results = read_rdata(rdata_path)
     metric_id = "Reference Match"
-    metric_value = fsm_results['FSM'].loc['Reference Match']['Relative value (%)']
+    metric_value = fsm_results['FSM_only'].loc['Reference Match']['Relative value (%)']
     error = 0  # TODO: check if stderr is 0 or we can give a value
 
     # Write and validate results
     assessment_dataset = create_assessment_dataset(experiment_id, community, challenge_id, participant_name, metric_id, metric_value, error)
-    with open('assessment_dataset.json', 'w') as f:
+    with open(f'{output_path}/assessment_dataset.json', 'w') as f:
         json.dump(assessment_dataset, f, indent=4, separators=(', ', ": "))
 
 

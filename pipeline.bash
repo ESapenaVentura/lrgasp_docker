@@ -30,7 +30,7 @@ if [ $# -gt 1 ] ; then
   genome_reference="$7"
   transcriptome_reference="$8"
   coverage_file="$9"
-	RESDIR="$10"
+	RESDIR="${10}"
 
 
 
@@ -45,6 +45,7 @@ if [ $# -gt 1 ] ; then
   Coverage file: $coverage_file
   Results: $RESDIR
 EOF
+
 
 	echo "* Deriving input directory"
 	inputRealPath="$(realpath "$input_dir")"
@@ -84,13 +85,13 @@ EOF
 	docker run --rm -u $UID -v "${inputRealPath}":/app/input:ro -v "${RESDIRreal}":/app/output lrgasp_validation:"$TAG" \
 		-c /app/input/$input_cage_peak -p /app/input/$input_polyA -e /app/input/$entry_json -x /app/input/$experiment_json && \
 	echo "=> Computing metrics" && \
-	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:ro -v "${METRICS_DIR}":/app/metrics:ro -v "${RESDIRreal}":/app/results:rw lrgasp_metrics:"$TAG" \
-	   /app/input/$input_gtf /app/input/$input_cage_peak /app/input/$input_cage_peak --experiment_json /app/input/$experiment_json \
+	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${inputRealPath}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/results:rw lrgasp_metrics:"$TAG" \
+	   /app/input/$input_gtf /app/input/$transcriptome_reference /app/input/$genome_reference --gtf --experiment_json /app/input/$experiment_json \
 	   --entry_json /app/input/$entry_json --cage_peak /app/input/$input_cage_peak --polyA_motif_list /app/input/$input_polyA \
-	   -c /app/input/$coverage_file -d /app/results/results -o test && \
+	   -c /app/input/$coverage_file -d /app/results/results/ -o test && \
 	echo "=> Assessing metrics" && \
-	docker run --rm -u $UID -v "${ASSESSDIR}":/app/assess:ro -v "${RESDIRreal}":/app/results:rw tcga_assessment:"$TAG" \
-		-b /app/assess/ -p /app/results/ -o /app/results/ && \
+	docker run --rm -u $UID -v "${ASSESSDIR}":/app/assess:rw -v "${RESDIRreal}":/app/results:rw lrgasp_consolidation:"$TAG" \
+		-b /app/assess/ -p /app/results/assessment_dataset.json -o /app/results/ --offline OFFLINE && \
 	echo "* Pipeline has finished properly"
 
 else
