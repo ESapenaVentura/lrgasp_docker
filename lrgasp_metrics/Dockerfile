@@ -12,10 +12,11 @@ SHELL ["conda", "run", "-n", "sqanti_env", "/bin/bash", "-c"]
 # Download and set-up cDNA_Cupcake, v.27.0.0 commit d5432f37ab4869a3012e20d28f227ce9dda35014
 RUN apt-get update && wget https://github.com/Magdoll/cDNA_Cupcake/archive/refs/tags/v24.0.0.tar.gz && tar -xvf v24.0.0.tar.gz
 COPY . /app
-WORKDIR /app/cDNA_Cupcake-24.0.0/
-WORKDIR /app
 ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake-24.0.0/sequence/"
 ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake-24.0.0/"
+
+RUN apt-get install libcurl4 libcurl4-openssl-dev -y
+
 
 # The code to run when container is started:
 COPY . /app

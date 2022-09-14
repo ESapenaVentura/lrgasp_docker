@@ -410,6 +410,7 @@ def write_collapsed_GFF_with_CDS(isoforms_info, input_gff, output_gff):
     :param input_gff:  input GFF filename
     :param output_gff: output GFF filename
     """
+    print(f"Building collapsed GFF in {output_gff}")
     with open(output_gff, 'w') as f:
         reader = collapseGFFReader(input_gff)
         for r in reader:
@@ -634,6 +635,7 @@ def reference_parser(args, genome_chroms):
         print("{0} already exists. Using it.".format(referenceFiles), file=sys.stdout)
     else:
         ## gtf to genePred
+        print([GTF2GENEPRED_PROG, args.annotation, referenceFiles, '-genePredExt', '-allErrors', '-ignoreGroupsWithoutExons'])
         if not args.genename:
             subprocess.call([GTF2GENEPRED_PROG, args.annotation, referenceFiles, '-genePredExt', '-allErrors', '-ignoreGroupsWithoutExons'])
         else:
@@ -2387,7 +2389,9 @@ def main():
             outputClassPath, outputJuncPath = get_class_junc_filenames(args)
             run_isoAnnotLite(corrGTF, outputClassPath, outputJuncPath, args.dir, args.output, args.gff3)
 
-    JSON_templates.write_dataset.main()
+    JSON_templates.write_dataset.main(experiment_path=args.experiment_json ,entry_path=args.entry_json,
+                                      rdata_path=f"{args.dir}/{args.output}_Rdata/ES_cdna_pacbio_ls_FSM_only.RData",
+                                      output_path=args.dir)
 
 
 if __name__ == "__main__":

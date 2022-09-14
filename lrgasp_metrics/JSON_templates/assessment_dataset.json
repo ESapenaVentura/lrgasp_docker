@@ -2,7 +2,7 @@
     {
     "_id": "ES_cdna_pacbio_ls", 
     "community_id": "LRGASP", 
-    "challenge_id": "iso_detect_ref", 
+    "challenge_id": "iso_detect_ref_WTC11",
     "type": "assessment", 
     "metrics": {
         "metric_id": "Reference Match", 

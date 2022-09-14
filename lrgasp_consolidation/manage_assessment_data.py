@@ -119,8 +119,11 @@ def read_participant_data(participant_path):
 
     with open(participant_path, mode='r', encoding="utf-8") as f:
         result = json.load(f)
-        for item in result:
-            participant_data.setdefault(item['challenge_id'], []).append (item)
+        if isinstance(result, list):
+            for item in result:
+                participant_data.setdefault(item['challenge_id'], []).append(item)
+        else:
+            participant_data.setdefault(result['challenge_id'], []).append(result)
 
     return participant_data
 
