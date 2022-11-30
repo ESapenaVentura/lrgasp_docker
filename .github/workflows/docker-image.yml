@@ -38,8 +38,8 @@ jobs:
         with:
           context: lrgasp_validation/
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: ${{ steps.meta_validation.outputs.tags }}
+          labels: ${{ steps.meta_validation.outputs.labels }}
 
       - name: Extract metadata for Docker (Metrics)
         id: meta_metrics
@@ -52,8 +52,8 @@ jobs:
         with:
           context: lrgasp_metrics/
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: ${{ steps.meta_metrics.outputs.tags }}
+          labels: ${{ steps.meta_metrics.outputs.labels }}
           
           
       - name: Extract metadata for Docker (Consolidation)
@@ -67,5 +67,5 @@ jobs:
         with:
           context: lrgasp_consolidation/
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: ${{ steps.meta_consolidation.outputs.tags }}
+          labels: ${{ steps.meta_consolidation.outputs.labels }}
