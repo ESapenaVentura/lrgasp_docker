@@ -44,6 +44,7 @@ def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
     parser.add_argument("-x", "--experiment", help="Experiment JSON document", required=True, type=is_file)
     parser.add_argument("-s", "--schemas-path", help="Path to the JSON schemas", required=False,
                         default=f"{SCRIPT_PATH}/JSON_TEMPLATES", type=full_path_dir)
+    parser.add_argument("-o", "--output-path", help="Path to the JSON schemas", required=True, type=full_path_dir)
     args = parser.parse_args()
     return args
 
@@ -129,7 +130,7 @@ def check_static_checksums(static_folder):
 
 
 
-def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str):
+def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str, output: str):
 
     base_path_static = os.path.dirname(cage_peak_path)
     # Validation step 1: Schemas
@@ -157,7 +158,7 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
 
 
     # Validation step 3: Ensure contents are ok
-    # TODO: Check with Fran what validation was performed on the files
+    # TODO: apply https://github.com/LRGASP/lrgasp-submissions/tree/master/tests
 
 
     # Validation step 4: Generate participant dataset
@@ -168,7 +169,7 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
     validated = False if ERRORS else True
     output_json = JSON_templates.write_participant_dataset(data_id, "LRGASP", [entry['challenge_id']], entry['team_name'],
                                                            validated)
-    with open("/app/output/participant.json", 'w') as f:
+    with open(output, 'w') as f:
         json.dump(output_json, f, sort_keys=True, indent=4, separators=(',', ': '))
 
 
@@ -178,11 +179,10 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
     else:
         formatted_errors = "\n\t- ".join(ERRORS)
         sys.exit(f"ERROR: Submitted data does not validate! The following errors were found: \n\t- {formatted_errors}")
-    pprint(ERRORS)
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     args = parse_arguments(parser)
-    main(args.cage_peak, args.polya_list, args.entry, args.experiment, args.schemas_path)
+    main(args.cage_peak, args.polya_list, args.entry, args.experiment, args.schemas_path, args.output_path)
