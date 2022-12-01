@@ -38,7 +38,7 @@ library(data.table)
 library(tidyverse)
 #********************* Run Calculation scripts
 
-knitr::opts_knit$set(utilities.path)
+setwd(utilities.path)
 
 if (exists("sim_prefix")){
   source("LRGASP_calculations.simulation.R")
@@ -62,6 +62,7 @@ if (exists("sim_prefix")){
 rmarkdown::render(RMD, params = list(
   output.directory = rdata,
   Name = name,
-  Platform = platform  ), output_file = report.file
+  Platform = platform  ), output_file = report.file,
+  knit_root_dir = "/app/results"
 )
 
