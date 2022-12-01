@@ -38,7 +38,7 @@ library(data.table)
 library(tidyverse)
 #********************* Run Calculation scripts
 
-setwd(utilities.path)
+knitr::opts_knit$set(utilities.path)
 
 if (exists("sim_prefix")){
   source("LRGASP_calculations.simulation.R")
