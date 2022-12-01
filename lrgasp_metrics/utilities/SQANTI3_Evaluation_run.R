@@ -58,11 +58,3 @@ if (exists("sim_prefix")){
   RMD = paste(utilities.path, "Evaluation_metrics.Rmd", sep = "/")
 }
 
-
-rmarkdown::render(RMD, params = list(
-  output.directory = rdata,
-  Name = name,
-  Platform = platform  ), output_file = report.file,
-  knit_root_dir = "../results/"
-)
-
