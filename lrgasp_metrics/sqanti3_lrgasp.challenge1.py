@@ -2389,9 +2389,10 @@ def main():
             outputClassPath, outputJuncPath = get_class_junc_filenames(args)
             run_isoAnnotLite(corrGTF, outputClassPath, outputJuncPath, args.dir, args.output, args.gff3)
 
-    JSON_templates.write_dataset.main(experiment_path=args.experiment_json ,entry_path=args.entry_json,
+    JSON_templates.write_dataset.main(experiment_path=args.experiment_json, entry_path=args.entry_json,
                                       rdata_path=f"{args.dir}/{args.output}_Rdata/ES_cdna_pacbio_ls_FSM_only.RData",
-                                      output_path=args.dir)
+                                      output_path=".")
+    sys.exit(0)
 
 
 if __name__ == "__main__":

@@ -247,6 +247,8 @@ def generate_manifest(data_dir,output_dir, participant_data):
 
     with open(os.path.join(output_dir, "Manifest.json"), mode='w', encoding="utf-8") as f:
         json.dump(info, f, sort_keys=True, indent=4, separators=(',', ': '))
+    sys.exit(0)
+
 if __name__ == '__main__':
 
     parser = ArgumentParser()

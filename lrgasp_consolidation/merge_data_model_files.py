@@ -4,6 +4,7 @@ import io
 import json
 import os
 import fnmatch
+import sys
 from argparse import ArgumentParser
 
 
@@ -32,6 +33,8 @@ def main(args):
     # write the merged data model file to json output
     with open(out_path, mode='w', encoding="utf-8") as f:
         json.dump(data_model_file, f, sort_keys=True, indent=4, separators=(',', ': '))
+
+    sys.exit(0)
 
 def join_json_files(data_directory, data_model_file, file_extension):
 
