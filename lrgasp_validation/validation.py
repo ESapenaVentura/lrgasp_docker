@@ -19,7 +19,6 @@ import json
 import argparse
 import hashlib
 from jsonschema import RefResolver, Draft7Validator
-from pprint import pprint
 
 import JSON_templates
 
@@ -44,7 +43,7 @@ def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
     parser.add_argument("-x", "--experiment", help="Experiment JSON document", required=True, type=is_file)
     parser.add_argument("-s", "--schemas-path", help="Path to the JSON schemas", required=False,
                         default=f"{SCRIPT_PATH}/JSON_TEMPLATES", type=full_path_dir)
-    parser.add_argument("-o", "--output-path", help="Path to the JSON schemas", required=True, type=str)
+    parser.add_argument("-o", "--output-path", help="Output directory", required=True, type=str)
     args = parser.parse_args()
     return args
 
