@@ -72,7 +72,7 @@ def main(experiment_path, entry_path, rdata_path, output_path):
 
     # Write and validate results
     assessment_dataset = create_assessment_dataset(experiment_id, community, challenge_id, participant_name, metric_id, metric_value, error)
-    with open(f'{output_path}/assessment_dataset.json', 'w') as f:
+    with open(f'{output_path}', 'w') as f:
         json.dump(assessment_dataset, f, indent=4, separators=(', ', ": "))
 
 
