@@ -2391,7 +2391,7 @@ def main():
 
     JSON_templates.write_dataset.main(experiment_path=args.experiment_json, entry_path=args.entry_json,
                                       rdata_path=f"{args.dir}/{args.output}_Rdata/ES_cdna_pacbio_ls_FSM_only.RData",
-                                      output_path=".")
+                                      output_path="assessment.json")
     sys.exit(0)
 
 
