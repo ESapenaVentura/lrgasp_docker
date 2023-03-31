@@ -952,8 +952,22 @@ LRGASP_calculations <- function (NAME, class.file, junc.file, out.dir, functions
                           "ISM_5fragment", "ISM_3fragment", "ISM_internal", "ISM_IR", "ISM_mono") 
   
   save(all.results , file = paste(NAME, "_results.RData", sep = ''))
+
+  # OPENEBENCH
   FSM_only=all.results$FSM
+  ISM_only=all.results$ISM
+  NIC_only=all.results$NIC
+  NNC_only=all.results$NNC
+  SIRV_only=all.results$SIRV
+
   save(FSM_only, file = paste(NAME, "_FSM_only.RData", sep=''))
+  save(ISM_only, file = paste(NAME, "_ISM_only.RData", sep=''))
+  save(NIC_only, file = paste(NAME, "_NIC_only.RData", sep=''))
+  save(NNC_only, file = paste(NAME, "_NNC_only.RData", sep=''))
+  save(SIRV_only, file = paste(NAME, "_SIRV_only.RData", sep=''))
+
+
+
   save(sqanti_data, file=paste(NAME, "_classification.RData", sep = ''))
   save(sqanti_data.junc, file=paste(NAME, "_junctions.RData", sep = ''))
   

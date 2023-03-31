@@ -50,30 +50,52 @@ def create_assessment_dataset(ID, community, challenge, participant_name, metric
             "ERROR: JSON schema validation failed. Output json file does not have the correct format:\n" + str(
                 ve) + "\n")
 
+def metric_to_filename(metric):
+    metric = metric.replace("'","").replace(' ', "_").lower()
+    return metric
 
-def main(experiment_path, entry_path, rdata_path, output_path):
+def main(experiment_path, entry_path, rdata_path, output_path, match):
     # Set the values to pass to write_assessment_dataset contained in experiment metadata
     experiment = json.load(open(experiment_path, 'r'))
-    # TODO must be unique
     experiment_id = experiment['experiment_id']
-    community = "LRGASP"
-    challenge_id = f"{experiment['challenge_id']}_{experiment['experiment_id']}"
+    community = "OEBC010"
+    challenge_id = f"iso_detect_ref_{experiment['experiment_id']}"
 
-    # Set the value for the participant id (from entry.json)
-    entry = json.load(open(entry_path, "r"))
-    participant_name = entry['team_name']
+    # Set the value for the participant id (from experiment.json). Each participant ID is the name of the tool they used to analyse the data
+    participant_name = experiment['software'][0]['name'].lower()
 
     # Set the metric values obtained from sqanti
-    # TODO: check how many metrics per assessment dataset
     fsm_results = read_rdata(rdata_path)
-    metric_id = "Reference Match"
-    metric_value = fsm_results['FSM_only'].loc['Reference Match']['Relative value (%)']
-    error = 0  # TODO: check if stderr is 0 or we can give a value
+    metric_ids = ["Reference Match", "5' reference supported (transcript)",
+                  "3' reference supported (transcript)", "5' reference supported (gene)",
+                  "3' reference supported (gene)", "5' CAGE supported",
+                  "3' polyA supported",
+                  "Supported Reference Transcript Model (SRTM)",
+                  "Intra-priming"]
 
-    # Write and validate results
-    assessment_dataset = create_assessment_dataset(experiment_id, community, challenge_id, participant_name, metric_id, metric_value, error)
-    with open(f'{output_path}', 'w') as f:
-        json.dump(assessment_dataset, f, indent=4, separators=(', ', ": "))
+    # Need to adjust, looking for different metrics for Spike-ins (Known transcripts) vs sqanti-calculated matches
+    metric_ids = metric_ids if "SIRV" not in match else ["Sensitivity","Precision","Non Redundant Precision","Positive Detection Rate","False Discovery Rate","False Detection Rate"]
+    for metric_id in metric_ids:
+        value_type = 'Value' if "SIRV" in match else 'Relative value (%)'
+        percentage = "" if "SIRV" in match else "_%"
+        try:
+            metric_value = float(fsm_results[f'{match}_only'][value_type].get(metric_id))
+        except TypeError or ValueError:
+            # When the value is None (Metric does not exist) or was not calculated (May be represented as NA)
+            metric_value = None
+        if not metric_value:
+            continue
+        error = 0
+        metric_id = f"{metric_to_filename(metric_id)}_{match}{percentage}"
+        # Write and validate results
+        assessment_dataset = create_assessment_dataset(experiment_id, community, challenge_id, participant_name, metric_id, metric_value, error)
+        if os.path.exists(output_path):
+            existing_assesment = json.load(open(output_path, 'r'))
+            existing_assesment.append(assessment_dataset)
+        else:
+            existing_assesment = [assessment_dataset]
+        with open(output_path, 'w') as f:
+            json.dump(existing_assesment, f, indent=4, separators=(', ', ": "))
 
 
 

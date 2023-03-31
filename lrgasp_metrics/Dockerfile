@@ -15,7 +15,7 @@ COPY . /app
 ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake-24.0.0/sequence/"
 ENV PYTHONPATH "${PYTHONPATH}:/app/cDNA_Cupcake-24.0.0/"
 
-RUN apt-get install libcurl4 libcurl4-openssl-dev -y
+RUN apt-get update && apt-get install libcurl4 libcurl4-openssl-dev --fix-broken
 
 
 # The code to run when container is started:

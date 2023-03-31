@@ -22,7 +22,9 @@ from collections.abc import Iterable
 from csv import DictWriter, DictReader
 from multiprocessing import Process
 
+# OEB
 import JSON_templates.write_dataset
+import json
 
 utilitiesPath = os.path.join(os.path.dirname(os.path.realpath(__file__)), "utilities")
 sys.path.insert(0, utilitiesPath)
@@ -2389,11 +2391,18 @@ def main():
             outputClassPath, outputJuncPath = get_class_junc_filenames(args)
             run_isoAnnotLite(corrGTF, outputClassPath, outputJuncPath, args.dir, args.output, args.gff3)
 
-    JSON_templates.write_dataset.main(experiment_path=args.experiment_json, entry_path=args.entry_json,
-                                      rdata_path=f"{args.dir}/{args.output}_Rdata/ES_cdna_pacbio_ls_FSM_only.RData",
-                                      output_path="assessment.json")
+    for match in ["FSM", "ISM", "NIC", "NNC", "SIRV"]:
+        experiment = json.load(open(args.experiment_json, 'r'))
+        experiment_id = experiment['experiment_id']
+
+        JSON_templates.write_dataset.main(experiment_path=args.experiment_json, entry_path=args.entry_json,
+                                          rdata_path=f"{args.dir}/{args.output}_Rdata/{experiment_id}_{match}_only.RData",
+                                          output_path="/app/output/assessment.json", match=match)
     sys.exit(0)
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        sys.exit(f"Error during SQANTI execution: {e}")

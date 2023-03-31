@@ -7,9 +7,8 @@ Validation that is performed:
 - Entry metadata is validated against schema
 
 #TODO
-- Schemas are valid JSON SCHEMAS
-- Experiment metadata is validated against schema
-- Bed file has proper formatting (Check with pybedtools)
+- More tests from lrgasp-tools applied
+- Requiring entry + experiment.json may be an overkill
 
 """
 
@@ -19,6 +18,11 @@ import json
 import argparse
 import hashlib
 from jsonschema import RefResolver, Draft7Validator
+
+# lrgasp-tools validation
+from lrgasp import model_data
+from lrgasp import read_model_map_data
+from lrgasp.entry_validate import validate_ref_model_and_read_mapping
 
 import JSON_templates
 
@@ -37,13 +41,14 @@ def is_file(path: str) -> str:
 
 
 def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
-    parser.add_argument("-c", "--cage-peak", help="CAGE-PEAK file path", required=True, type=is_file)
-    parser.add_argument("-p", "--polya-list", help="Poly-A motif list", required=True, type=is_file)
-    parser.add_argument("-e", "--entry", help="Entry JSON document", required=True, type=is_file)
-    parser.add_argument("-x", "--experiment", help="Experiment JSON document", required=True, type=is_file)
+    parser.add_argument("-i", "--input-path", help="Input path where all the files are stored", required=True)
+    parser.add_argument("-e", "--entry", help="Entry JSON document", required=True)
+    parser.add_argument("-x", "--experiment", help="Experiment JSON document", required=True)
     parser.add_argument("-s", "--schemas-path", help="Path to the JSON schemas", required=False,
                         default=f"{SCRIPT_PATH}/JSON_TEMPLATES", type=full_path_dir)
     parser.add_argument("-o", "--output-path", help="Output directory", required=True, type=str)
+    parser.add_argument("-g", "--gtf-filename", help="GTF filename", required=True, type=str)
+    parser.add_argument("-r", "--read-model-map-filename", help="Read model map data filename", required=True, type=str)
     args = parser.parse_args()
     return args
 
@@ -129,9 +134,14 @@ def check_static_checksums(static_folder):
 
 
 
-def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, schemas_path: str, output: str):
+def main(input_path:str, entry_name: str, experiment_name: str, schemas_path: str, output: str, gtf_filename:str,
+         read_model_map_filename:str):
 
-    base_path_static = os.path.dirname(cage_peak_path)
+    entry_path = os.path.join(input_path, entry_name)
+    experiment_path = os.path.join(input_path, experiment_name)
+    gtf_path = os.path.join(input_path, gtf_filename)
+    read_model_map_path = os.path.join(input_path, read_model_map_filename)
+
     # Validation step 1: Schemas
     # Validation step 1.1: Ensure all schemas are stored in the path provided
     if not schemas_are_in_path(schemas_path):
@@ -147,28 +157,32 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
     # Validation step 1.4: Validate metadata schema against instances provided
     validate_schemas(store, schemas_path, entry, experiment)
 
-    # Validation step 2: Ensure static files are ok
-    validate_bed_file(cage_peak_path)
-    # TODO: add static checksum back
-    #check_static_checksums(base_path_static)
-
     # TODO: Add option to programmatically download reference genome and transcriptome
     # Files are big and therefore they should be either: provided or downloaded (Can allow both)
 
 
-    # Validation step 3: Ensure contents are ok
-    # TODO: apply https://github.com/LRGASP/lrgasp-submissions/tree/master/tests
+    # Validation step 2: Ensure contents are ok
+
+    # Validate ref model experiment
+    try:
+        models = model_data.load(gtf_path)
+        read_model_map = read_model_map_data.load(read_model_map_path)
+        validate_ref_model_and_read_mapping(models, read_model_map)
+    except Exception as ex:
+        ERRORS.append(f"Error found during ref model experiment validation: {ex}")
+
+    # TODO: apply more tests from https://github.com/LRGASP/lrgasp-submissions/tree/master/tests
 
 
-    # Validation step 4: Generate participant dataset
+    # Validation step 3: Generate participant dataset
     # To generate the participant datasets, we will be using the example code from https://github.com/inab/TCGA_benchmarking_dockers
-    #  TODO: Check if we want to use other parameters for metadata in participant dataset
 
     data_id = f"LRGASP_{experiment['experiment_id']}_{entry['team_name']}"
     validated = False if ERRORS else True
-    output_json = JSON_templates.write_participant_dataset(data_id, "LRGASP", [entry['challenge_id']], entry['team_name'],
+    challenges = [f"iso_detect_ref_{e}" for e in entry['experiment_ids']]
+    output_json = JSON_templates.write_participant_dataset(data_id, "OEBC010", challenges, experiment['software'][0]['name'].lower(),
                                                            validated)
-    with open(output, 'w') as f:
+    with open(os.path.join(output, "participant.json"), 'w') as f:
         json.dump(output_json, f, sort_keys=True, indent=4, separators=(',', ': '))
 
 
@@ -180,8 +194,7 @@ def main(cage_peak_path, poly_a_path, entry_path: str, experiment_path: str, sch
         sys.exit(f"ERROR: Submitted data does not validate! The following errors were found: \n\t- {formatted_errors}")
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     args = parse_arguments(parser)
-    main(args.cage_peak, args.polya_list, args.entry, args.experiment, args.schemas_path, args.output_path)
+    main(args.input_path, args.entry, args.experiment, args.schemas_path, args.output_path, args.gtf_filename, args.read_model_map_filename)

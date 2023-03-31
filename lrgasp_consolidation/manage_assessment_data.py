@@ -8,9 +8,9 @@ import logging
 import sys
 from argparse import ArgumentParser
 import datetime
-from assessment_chart import assessment_chart
 
 # TODO change eventmarks
+# TODO ADD OEB IDENTIFIERS FOR DIFFERENT METRICS
 DEFAULT_eventMark = '2022-08-29'
 DEFAULT_OEB_API = "https://dev-openebench.bsc.es/api/scientific/graphql"
 DEFAULT_eventMark_id = "OEBE0010000000"
@@ -29,12 +29,95 @@ def main(args):
         os.makedirs(output_dir)
     # read participant metrics
     participant_data = read_participant_data(participant_path)
-    print(participant_data)
     if offline is None:
         response = query_OEB_DB(DEFAULT_eventMark_id)
         getOEBAggregations(response, data_dir)
     generate_manifest(data_dir, output_dir, participant_data)
-    print("checkpoint 2")
+
+    # Distinct metrics are divided by the match type, so we need to do this
+    WANTED_METRICS = [['5_reference_supported_(transcript)', '5_cage_supported'], ['3_reference_supported_(transcript)', '3_quantseq_supported']]
+    match_types = ["FSM", "ISM", "NIC", "NNC"]
+    ALL_COMBINATIONS = []
+    for metric_comb in WANTED_METRICS:
+        for sq_class in match_types:
+            ALL_COMBINATIONS.append([f"{metric}_{sq_class}_%" for metric in metric_comb])
+
+
+    for challenge_name in participant_data.keys():
+        for y_metric_name, x_metric_name in ALL_COMBINATIONS:
+            generate_manifest_2d_plots(data_dir, challenge_name, output_dir, y_metric_name, x_metric_name)
+    sys.exit(0)
+
+
+
+def generate_manifest_2d_plots(data_dir, challenge_name, output_dir, y_metric_name, x_metric_name):
+    """
+    This function takes advantage of the already existing JSON files to generate the 2d plots more easily.
+
+    :param data_dir:
+    :param output_dir:
+    :param y_metric_name:
+    :param x_metric_name:
+    :return:
+    """
+    x_metric_file = None
+    y_metric_file = None
+    for file in os.listdir(os.path.join(output_dir, challenge_name)):
+        if file == f"{challenge_name}_{x_metric_name}.json":
+            x_metric_file = file
+        if file == f"{challenge_name}_{y_metric_name}.json":
+            y_metric_file = file
+    else:
+        # Safeguarding against possible missing metrics
+        if not x_metric_file or not y_metric_file:
+            return
+
+    # Load metrics
+    metric_Y = json.load(open(os.path.join(output_dir, challenge_name, y_metric_file), 'r'))
+    metric_X = json.load(open(os.path.join(output_dir, challenge_name, x_metric_file), 'r'))
+
+
+
+    # Re-build aggregation for comparison metrics based on individual aggregation files
+    challenge_participants = []
+    for y_challenge_participants in metric_Y['datalink']['inline_data']['challenge_participants']:
+        for x_challenge_participants in metric_X['datalink']['inline_data']['challenge_participants']:
+            if y_challenge_participants['participant_id'] == x_challenge_participants['participant_id']:
+                challenge_participants.append({"metric_y": y_challenge_participants['metric_y'],
+                     "metric_x": x_challenge_participants['metric_y'],
+                     "participant_id": y_challenge_participants['participant_id']
+                })
+
+
+    # Reasoning behind not checking aggregation file is that this is being built on already aggregated data -
+    # There should be no instance of a comparison metric (x vs y) to exist without it existing individually in the x_metric and y_metric files
+    aggregation_file = {
+        "_id": "LRGASP:{}_{}_Aggregation".format(DEFAULT_eventMark, challenge_name),
+        "challenge_ids": [
+            challenge_name
+        ],
+        "datalink": {
+            "inline_data": {
+                "challenge_participants": challenge_participants,
+                "metrics": {
+                    "metric_x_id": x_metric_name,
+                    "metric_y_id": y_metric_name
+                },
+                "visualization": {
+                    "type": "2D-plot",
+                    "x_axis": x_metric_name,
+                    "y_axis": y_metric_name
+                }
+            }
+        },
+        "type": "aggregation"
+    }
+    summary_dir = os.path.join(output_dir, challenge_name, f"{challenge_name}_{y_metric_name}_{x_metric_name}.json")
+
+    with open(summary_dir, 'w') as f:
+        json.dump(aggregation_file, f, sort_keys=True, indent=4, separators=(',', ': '))
+
+
 
 ##get existing aggregation datasets for that challenges
 def query_OEB_DB(bench_event_id):
@@ -95,7 +178,7 @@ def getOEBAggregations(response, output_dir):
             elif metrics['metrics_id'] == challenge['datasets'][0]['datalink']["inline_data"]["visualization"]["y_axis"]:
                 challenge['datasets'][0]['datalink']["inline_data"]["visualization"]["y_axis"] = metrics['orig_id'].split(":")[-1]
         
-        #replace tool_id for participant_id (for the visualitzation)
+        # replace tool_id for participant_id (for the visualitzation)
         for i in challenge['datasets'][0]['datalink']['inline_data']['challenge_participants']:
             i["participant_id"] = i.pop("tool_id")
         
@@ -138,103 +221,63 @@ def generate_manifest(data_dir,output_dir, participant_data):
     if not, create it 
     """
     for challenge_id, metrics_file in participant_data.items():
-        challenge_dir = os.path.join(output_dir,challenge_id)
+        challenge_dir = os.path.join(output_dir, challenge_id)
         if not os.path.exists(challenge_dir):
             os.makedirs(challenge_dir)
         participants = []
 
 
-        lrgasp_oeb_data_dir = os.path.join(data_dir, challenge_id)
-        lrgasp_oeb_data = lrgasp_oeb_data_dir + ".json"
+        pre_aggregation_file = {}
+        for m in metrics_file:
+            metric_Y = m["metrics"]["metric_id"]
+            lrgasp_oeb_data_dir = os.path.join(os.path.join(data_dir, challenge_id), f"{challenge_id}_{metric_Y}")
+            lrgasp_oeb_data = lrgasp_oeb_data_dir + ".json"
+            if os.path.isfile(lrgasp_oeb_data):
+                # Transferring the public participants data
+                with open(lrgasp_oeb_data, 'r') as f:
+                    aggregation_file = json.loads(f.read())
+                pre_aggregation_file[metric_Y] = aggregation_file
 
-        if os.path.isfile(lrgasp_oeb_data):
-            # Transferring the public participants data
-            with open(lrgasp_oeb_data, 'r') as f:
-                aggregation_file = json.loads(f.read())
-           
-            # get default id for metric in y axis (barplot)
-            metric_Y = aggregation_file["datalink"]["inline_data"]["visualization"]["y_axis"]
-        else:
-            challenge_participants = []
-            
             # get default id for metric in y axis
-            metric_Y = None
-            for metrics_data in metrics_file:
-                if metric_Y is None:
-                    metric_Y = metrics_data["metrics"]["metric_id"]
-                else:
-                    break
-            
-            # Setting the defaults in case nothing was found
-            if metric_Y is None:
-                metric_Y = "Reference Match"
-            
-            aggregation_file = {
-                "_id": "LRGASP:{}_{}_Aggregation".format(DEFAULT_eventMark, challenge_id),
-                "challenge_ids": [
-                    challenge_id
-                ],
-                "datalink": {
-                    "inline_data": {
-                        "challenge_participants": challenge_participants,
-                        "metrics":{
-                        	"metric_y_id": "Reference Match"
-                        },
-                        "visualization": {
-                            "type": "bar-plot",
-                            "y_axis": metric_Y
+            challenge_participants = {"metric_y": m['metrics']['value'],
+                                      "participant_id": m['participant_id']}
+
+
+            if metric_Y not in pre_aggregation_file:
+                pre_aggregation_file[metric_Y] = {
+                    "_id": "LRGASP:{}_{}_Aggregation".format(DEFAULT_eventMark, challenge_id),
+                    "challenge_ids": [
+                        challenge_id
+                    ],
+                    "datalink": {
+                        "inline_data": {
+                            "challenge_participants": [],
+                            "metrics":{
+                                "metric_y_id": metric_Y
+                            },
+                            "visualization": {
+                                "type": "bar-plot",
+                                "y_axis": metric_Y
+                            }
                         }
-                    }
-                },
-                "type": "aggregation"
-            }
-            
-            # Get the info from the files in the directory
-            if os.path.isdir(challenge_dir):
-                print("Reading {}".format(challenge_dir))
-                for entry in os.scandir(challenge_dir):
-                    if entry.is_file() and entry.name.endswith(".json"):
-                        with open(entry.path, mode="r", encoding="utf-8") as ep:
-                            metrics_content = json.load(ep)
-                            if metrics_content.get("cancer_type") == challenge_id:
-                                challenge_participants.append({
-                                    "metric_x": metrics_content["x"],
-                                    "metric_y": metrics_content["y"],
-                                    "participant_id": metrics_content["toolname"]
-                                })
+                    },
+                    "type": "aggregation"
+                }
+            pre_aggregation_file[metric_Y]['datalink']['inline_data']['challenge_participants'].append(challenge_participants)
 
-        # add new participant data to aggregation file
-        new_participant_data = {}
-        participant_id = '(unknown)'
-
-        # Set value for metric_y based on value for each file
-        for metrics_data in metrics_file:
-            participant_id = metrics_data["participant_id"]
-            new_participant_data["metric_y"] = metrics_data["metrics"]["value"]
-        
-        new_participant_data["participant_id"] = participant_id
-        aggregation_file["datalink"]["inline_data"]["challenge_participants"].append(new_participant_data)
-        metrics = {"metric_y_id": "3' reference supported (transcript)"}
-            
-        aggregation_file["datalink"]["inline_data"]["metrics"] = metrics
-        
-        
-
-        # add the rest of participants to manifest
-        for name in aggregation_file["datalink"]["inline_data"]["challenge_participants"]:
-            participants.append(name["participant_id"])
 
         #copy the updated aggregation file to output directory
-        summary_dir = os.path.join(challenge_dir, challenge_id + ".json")
-        with open(summary_dir, 'w') as f:
-            json.dump(aggregation_file, f, sort_keys=True, indent=4, separators=(',', ': '))
-            
-        """
-        # Let's draw the assessment charts!
-        assessment_chart.print_chart(cancer_dir, summary_dir, cancer, "RAW")
-        assessment_chart.print_chart(cancer_dir, summary_dir, cancer, "SQR")
-        assessment_chart.print_chart(cancer_dir, summary_dir, cancer, "DIAG")
-        """
+        for metrics_name, aggregation_file in pre_aggregation_file.items():
+            summary_dir = os.path.join(challenge_dir, f"{challenge_id}_{metrics_name}.json")
+
+            with open(summary_dir, 'w') as f:
+                json.dump(aggregation_file, f, sort_keys=True, indent=4, separators=(',', ': '))
+
+
+                # add the rest of participants to manifest
+            for name in aggregation_file["datalink"]["inline_data"]["challenge_participants"]:
+                participants.append(name["participant_id"])
+                participants = list(set(participants))
 
         #generate manifest
         obj = {
@@ -247,7 +290,7 @@ def generate_manifest(data_dir,output_dir, participant_data):
 
     with open(os.path.join(output_dir, "Manifest.json"), mode='w', encoding="utf-8") as f:
         json.dump(info, f, sort_keys=True, indent=4, separators=(',', ': '))
-    sys.exit(0)
+
 
 if __name__ == '__main__':
 
