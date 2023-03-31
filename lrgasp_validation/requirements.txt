@@ -1,2 +1,0 @@
-jsonschema==4.4.0
-lrgasp-tools
