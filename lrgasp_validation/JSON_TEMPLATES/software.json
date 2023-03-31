@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "software.json",
+  "title": "software information for the pipeline",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "version",
+    "url",
+    "config"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the software package"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the software"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of the software package",
+      "pattern": "^[0-9]+(\\.[0-9]+){0,2}$"
+    },
+    "url": {
+      "type": "string",
+      "description": "URL to the software repository"
+    },
+    "config": {
+      "type": "string",
+      "description": "Command line and/or configuration options"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any note the submitter wants to input about the software or how it was used. Should not exceed 280 characters.",
+      "maxLength": 280
+    }
+  }
+}
