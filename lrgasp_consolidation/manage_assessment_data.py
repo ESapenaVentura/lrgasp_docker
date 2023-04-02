@@ -11,7 +11,7 @@ import datetime
 
 # TODO change eventmarks
 # TODO ADD OEB IDENTIFIERS FOR DIFFERENT METRICS
-DEFAULT_eventMark = '2022-08-29'
+DEFAULT_eventMark = datetime.date.today()
 DEFAULT_OEB_API = "https://dev-openebench.bsc.es/api/scientific/graphql"
 DEFAULT_eventMark_id = "OEBE0010000000"
 METRICS =  {"precision":"OEBM0010000001", "TPR": "OEBM0010000002"}
@@ -99,10 +99,6 @@ def generate_manifest_2d_plots(data_dir, challenge_name, output_dir, y_metric_na
         "datalink": {
             "inline_data": {
                 "challenge_participants": challenge_participants,
-                "metrics": {
-                    "metric_x_id": x_metric_name,
-                    "metric_y_id": y_metric_name
-                },
                 "visualization": {
                     "type": "2D-plot",
                     "x_axis": x_metric_name,
@@ -252,9 +248,6 @@ def generate_manifest(data_dir,output_dir, participant_data):
                     "datalink": {
                         "inline_data": {
                             "challenge_participants": [],
-                            "metrics":{
-                                "metric_y_id": metric_Y
-                            },
                             "visualization": {
                                 "type": "bar-plot",
                                 "y_axis": metric_Y

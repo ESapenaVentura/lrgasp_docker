@@ -1,5 +1,5 @@
 {
-    "_id": "LRGASP:2022-08-29_iso_detect_ref_ES_cdna_pacbio_ls_Aggregation",
+    "_id": "LRGASP:2023-04-02_iso_detect_ref_ES_cdna_pacbio_ls_Aggregation",
     "challenge_ids": [
         "iso_detect_ref_ES_cdna_pacbio_ls"
     ],
@@ -11,9 +11,6 @@
                     "participant_id": "klaak"
                 }
             ],
-            "metrics": {
-                "metric_y_id": "3_reference_supported_(transcript)_FSM_%"
-            },
             "visualization": {
                 "type": "bar-plot",
                 "y_axis": "3_reference_supported_(transcript)_FSM_%"
