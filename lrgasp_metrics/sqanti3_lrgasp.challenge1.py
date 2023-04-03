@@ -2397,7 +2397,7 @@ def main():
 
         JSON_templates.write_dataset.main(experiment_path=args.experiment_json, entry_path=args.entry_json,
                                           rdata_path=f"{args.dir}/{args.output}_Rdata/{experiment_id}_{match}_only.RData",
-                                          output_path="/app/output/assessment.json", match=match)
+                                          output_path=args.assesment_output, match=match)
     sys.exit(0)
 
 
