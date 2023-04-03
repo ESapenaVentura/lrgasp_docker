@@ -89,7 +89,7 @@ EOF
   echo $INPUTDIR
 	echo "=> Validating input" && \
 	docker run --rm -u $UID -v "${inputRealPath}":/app/input:ro -v "${RESDIRreal}":/app/output lrgasp_validation:"$TAG" \
-		 -e $entry_json -x $experiment_json -o /app/output -g $input_gtf -r $input_read_model_map -i /app/input/
+		 -e $entry_json -x $experiment_json -o /app/output/participant.json -g $input_gtf -r $input_read_model_map -i /app/input/
 
 	echo "=> Computing metrics" && \
 	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${inputRealPath}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \

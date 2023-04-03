@@ -182,7 +182,7 @@ def main(input_path:str, entry_name: str, experiment_name: str, schemas_path: st
     challenges = [f"iso_detect_ref_{e}" for e in entry['experiment_ids']]
     output_json = JSON_templates.write_participant_dataset(data_id, "OEBC010", challenges, experiment['software'][0]['name'].lower(),
                                                            validated)
-    with open(os.path.join(output, "participant.json"), 'w') as f:
+    with open(output, 'w') as f:
         json.dump(output_json, f, sort_keys=True, indent=4, separators=(',', ': '))
 
 
