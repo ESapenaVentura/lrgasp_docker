@@ -95,7 +95,7 @@ EOF
 	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${inputRealPath}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \
 	   /app/input/$input_gtf /app/input/$transcriptome_reference /app/input/$genome_reference --gtf --experiment_json /app/input/$experiment_json \
 	   --entry_json /app/input/$entry_json --cage_peak /app/input/$input_cage_peak --polyA_motif_list /app/input/$input_polyA \
-	   -c /app/input/$coverage_file -d /app/output/results/ -o results && \
+	   -c /app/input/$coverage_file -d /app/output/results/ -o results --assesment-output /app/output/assessment.json && \
 
 	echo "=> Assessing metrics" && \
 	docker run --rm -u $UID -v "${ASSESSDIR}":/app/assess:rw -v "${RESDIRreal}":/app/output:rw lrgasp_consolidation:"$TAG" \

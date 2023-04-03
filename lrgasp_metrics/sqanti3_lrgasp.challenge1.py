@@ -2261,7 +2261,7 @@ def main():
     parser.add_argument('--experiment_json' , help='\t\tExperiment JSON file that is requiered for uploading the submission. More info here: https://lrgasp.github.io/lrgasp-submissions/docs/metadata.html . In case it is not provided, a fake one will be used, but that will not affect to the results of the evaluation.', required=False)
     parser.add_argument('--entry_json' , help='\t\tEntry JSON file that is requiered for uploading the submission. More info here: https://lrgasp.github.io/lrgasp-submissions/docs/metadata.html . In case it is not provided, a fake one will be used, but that will not affect to the results of the evaluation.', required=False)
     parser.add_argument('--simulation' , help='\t\t File Prefix for simulation ground truth. There should be a *.counts.txt and a *.novel_isoforms.txt files',required=False)
-
+    parser.add_argument('--assesment-output', help='\t\tAssesment dataset output full path (Including filename), only OEB', required=False, default='assessment.json')
 
     args = parser.parse_args()
 
