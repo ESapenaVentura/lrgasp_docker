@@ -16,6 +16,7 @@ import bisect
 import argparse
 import math
 import numpy as np
+import tarfile
 from scipy import mean
 from collections import defaultdict, Counter, namedtuple
 from collections.abc import Iterable

@@ -21,7 +21,7 @@ LRGASP_DIR="${BASEDIR}"/lrgasp_data
 TAG=1.0.0
 
 if [ $# -gt 1 ] ; then
-  input_dir="$1"
+  input_file="$1"
 	input_gtf="$2"
   input_cage_peak="$3"
   input_polyA="$4"
@@ -39,7 +39,7 @@ if [ $# -gt 1 ] ; then
 	cat <<EOF
 * Using version $TAG
 * Running parameters
-  Input dir: $input_dir
+  Input file: $input_file
   GTF file: $input_gtf
   Read model map file: $input_read_model_map
   CAGE peak file: $input_cage_peak
@@ -54,9 +54,9 @@ EOF
 
 
 	echo "* Deriving input directory"
-	inputRealPath="$(realpath "$input_dir")"
+	inputRealPath="$(realpath "$input_file")"
 	echo $inputRealPath
-	inputBasename="$(basename "$input_dir")"
+	inputBasename="$(basename "$input_file")"
 	INPUTDIR="$(dirname "$inputRealPath")"
 	echo $INPUTDIR
 	case "$INPUTDIR" in
@@ -86,10 +86,9 @@ EOF
 	METRICS_DIR="${LRGASP_DIR}"/metrics_ref_datasets
 	PUBLIC_REF_DIR="${LRGASP_DIR}"/public_ref
 
-  echo $INPUTDIR
 	echo "=> Validating input" && \
-	docker run --rm -u $UID -v "${inputRealPath}":/app/input:ro -v "${RESDIRreal}":/app/output lrgasp_validation:"$TAG" \
-		 -e $entry_json -x $experiment_json -o /app/output/participant.json -g $input_gtf -r $input_read_model_map -i /app/input/
+	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:rw -v "${RESDIRreal}":/app/output:rw lrgasp_validation:"$TAG" \
+		 -e $entry_json -x $experiment_json -o /app/output/participant.json -g $input_gtf -r $input_read_model_map -i /app/input/$inputBasename
 
 	echo "=> Computing metrics" && \
 	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${inputRealPath}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \
@@ -103,6 +102,6 @@ EOF
 	echo "* Pipeline has finished properly"
 
 else
-	echo "Usage: $0 input_dir gtf_filename input_cage_peak input_polyA entry_json experiment_json genome_reference transcriptome_reference coverage_filename results_dir TAG"
-	echo "When running, please ensure all the needed files are in the input_dir, and give filenames for the rest of the files. The output dir must also be a full path"
+	echo "Usage: $0 input_file gtf_filename input_cage_peak input_polyA entry_json experiment_json genome_reference transcriptome_reference coverage_filename results_dir TAG"
+	echo "When running, please ensure all the needed files are in the input_file, and give filenames for the rest of the files. The output dir must also be a full path"
 fi

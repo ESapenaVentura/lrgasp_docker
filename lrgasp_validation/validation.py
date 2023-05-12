@@ -18,6 +18,8 @@ import json
 import argparse
 import hashlib
 from jsonschema import RefResolver, Draft7Validator
+import tarfile
+
 
 # lrgasp-tools validation
 from lrgasp import model_data
@@ -41,7 +43,8 @@ def is_file(path: str) -> str:
 
 
 def parse_arguments(parser: argparse.ArgumentParser) -> argparse.Namespace:
-    parser.add_argument("-i", "--input-path", help="Input path where all the files are stored", required=True)
+    parser.add_argument("-i", "--input-path", help="Input file path to the user generated files, in tar.gz format",
+                        required=True)
     parser.add_argument("-e", "--entry", help="Entry JSON document", required=True)
     parser.add_argument("-x", "--experiment", help="Experiment JSON document", required=True)
     parser.add_argument("-s", "--schemas-path", help="Path to the JSON schemas", required=False,
@@ -131,11 +134,20 @@ def check_static_checksums(static_folder):
             ERRORS.append(f"MD5 checksum failed for file {file}.")
 
 
+def extract_files_tar_gz(input_file_path: str, output_path: str) -> None:
+    tar = tarfile.open(input_file_path, 'r:gz')
+    tar.extractall(output_path)
+    tar.close()
 
 
-
-def main(input_path:str, entry_name: str, experiment_name: str, schemas_path: str, output: str, gtf_filename:str,
+def main(input_file_path: str, entry_name: str, experiment_name: str, schemas_path: str, output: str, gtf_filename:str,
          read_model_map_filename:str):
+
+    input_path = os.path.dirname(input_file_path)
+    try:
+        extract_files_tar_gz(input_file_path, input_path)
+    except:
+        sys.exit(f"Input tar.gz file was not found: {input_file_path}")
 
     entry_path = os.path.join(input_path, entry_name)
     experiment_path = os.path.join(input_path, experiment_name)

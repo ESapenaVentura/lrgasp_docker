@@ -90,6 +90,18 @@ If after allocating more memory it keeps dying, please feel free to open a ticke
 
 
 ## Addendum
+
+### How to contribute
+
+If you want to contribute by improving the code, feel free to open PRs! Just remember to please update indirectly affected files - That accounts for:
+- This README file: Anything that changes inputs or outputs on runtime should be taken into account here
+- The example_data folder README file: Again, there is a comprehensive list of inputs and outputs there - Please update if modified.
+- The requirements.txt: To modify them, we use `pip-compile`, which takes into account the dependencies of your project dependencies to create a perfectly reproducible requirements file. To use, run this in the root of the repo:
+   ```bash
+  pip3 install pip-tools==6.13.0
+   ```
+  within your console or a set-up virtual environment. This will install pip-compile, which is used to transform requirements.in ("Raw" requirements files) into requirements.txt ("Dependency-thorough" requirement files). To use, just update the `requirements.in` file and, in the same folder, run `python3 -m piptools compile`
+
 ### Changes to sqanti3
 - all `sys.exit(-1)` replaced with `sys.exit(1)`.
 
