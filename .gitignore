@@ -140,3 +140,4 @@ dmypy.json
 Example
 Example/*
 example_data/iso_detect_ref_output_example/results/
+example_data/iso_detect_ref_input_example/public_ref/
