@@ -27,7 +27,7 @@ The specifics of this repository are described in the following subsections
 - pipeline.bash: When run and given the proper tag id's, will execute the whole pipeline.
 
 ### data
-Contains the full data for LRGASP challenge 1.
+Contains the full data for LRGASP challenge 1, for WTC11.
 
 ### example_data
 This folder contains all the necessary files to run the `pipeline.bash` script. They belong to a real example. The IDs have been anonymised. To know how to used this data, please refer to the `How to run` section
@@ -51,30 +51,30 @@ This folder contains the scripts necessary for the consolidation step of the ben
 - Download the missing files: The reference transcriptome and genome following the instructions [here](https://lrgasp.github.io/lrgasp-submissions/docs/reference-genomes.html)
 - Run:
     ```
-    sh build.sh 0.5.1
+    sh build.sh 2.0.0
     ```
   (If other versions are specified, please change it for the execution of pipeline.bash)
-  This will build the docker images needed to run the three steps, with the 0.5.1 tag 
+  This will build the docker images needed to run the three steps, with the 2.0.0 tag 
     ```
     sh pipeline.bash
     ```
   Since we have not set up any parameters yet, it will print a usage statement:
     ```
-    Usage: pipeline.bash input_dir gtf_filename input_cage_peak input_polyA entry_json experiment_json coverage_filename results_dir
-    When running, please ensure all the needed files are in the input_dir, and give filenames for the rest of the files. The output dir must also be a full path
+    Usage: pipeline.bash input_file TAG results_dir challenges
+    When running, please ensure all the needed files are in the input_file, included the manifest with the filenames. The output dir must also be a full path
     ```
 - Re-run now, but adding the parameters specified in the previous bullet point. This will execute the whole pipeline, and all the results will be output to the results_dir. An example run with the example data:
    ```bash
-   sh pipeline.bash example_data/iso_detect_ref_input_example models.gtf mouse.refTSS_v3.1.mm39.bed polyA_list.txt entry.json experiment.json lrgasp_grcm39_sirvs.fasta lrgasp_gencode_vM28_sirvs.mouse.gtf SJ.out.tab example_data/iso_detect_ref_output_example 1.0.0 read_model_map.tsv
+   sh pipeline.bash example_data/iso_detect_ref_input_example/input_user_files.tar.gz 2.0.0 Example/testresults "cdna_pacbio_ls_FSM cdna_pacbio_ls_SIRV cdna_pacbio_ls_NIC cdna_pacbio_ls_NNC cdna_pacbio_ls_ISM"
    ```
 
 ### Testing steps individually
 
 If you are interested in contributing to the repo, you can test changes to each of the steps individually by building a docker image for any of the steps (folders). An example with the validation step, after making the desired changes:
 ```bash
-docker build -t "lrgasp_validation":"0.5.1" "lrgasp_validation"
-docker run --rm -u $UID -v "example_data":/app/input:ro -v "example_output":/app/output lrgasp_validation:"0.5.1" \
-	   -e /app/input/entry.json -x /app/input/experiment.json
+docker build -t "lrgasp_validation":"2.0.0" "lrgasp_validation"
+docker run --rm -u $UID -v "example_data/iso_detect_ref_input_example":/app/input:rw -v "example_output":/app/output:rw lrgasp_validation:"2.0.0" \
+		 -i /app/input/input_user_files.tar.gz -o /app/output/participant.json --challenges "$challenges" -m 
 ```
 
 Please note:
