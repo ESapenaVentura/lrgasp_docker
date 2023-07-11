@@ -6,7 +6,7 @@ import json
 import jsonschema
 
 
-def read_rdata(path = '/Users/enrique/HumanCellAtlas/lrgasp_docker/Example/ES_cdna_pacbio_ls/SQANTI_output/models_Rdata/ES_cdna_pacbio_ls_FSM_results.RData'):
+def read_rdata(path):
     return pyreadr.read_r(path)
 
 
@@ -51,30 +51,30 @@ def create_assessment_dataset(ID, community, challenge, participant_name, metric
                 ve) + "\n")
 
 def metric_to_filename(metric):
-    metric = metric.replace("'","").replace(' ', "_").lower()
+    metric = metric.replace("'", "").replace(' ', "_").lower()
     return metric
 
-def main(experiment_path, entry_path, rdata_path, output_path, match):
+def main(experiment_path, rdata_path, output_path, challenge):
+    match = challenge.split("_")[-1].upper()
     # Set the values to pass to write_assessment_dataset contained in experiment metadata
     experiment = json.load(open(experiment_path, 'r'))
     experiment_id = experiment['experiment_id']
     community = "OEBC010"
-    challenge_id = f"iso_detect_ref_{experiment['experiment_id']}"
+    challenge_id = challenge
 
     # Set the value for the participant id (from experiment.json). Each participant ID is the name of the tool they used to analyse the data
-    participant_name = experiment['software'][0]['name'].lower()
+    participant_name = experiment['software']['name'].lower()
 
     # Set the metric values obtained from sqanti
     fsm_results = read_rdata(rdata_path)
     metric_ids = ["Reference Match", "5' reference supported (transcript)",
-                  "3' reference supported (transcript)", "5' reference supported (gene)",
-                  "3' reference supported (gene)", "5' CAGE supported",
+                  "3' reference supported (transcript)", "5' CAGE supported",
                   "3' polyA supported",
                   "Supported Reference Transcript Model (SRTM)",
                   "Intra-priming"]
 
     # Need to adjust, looking for different metrics for Spike-ins (Known transcripts) vs sqanti-calculated matches
-    metric_ids = metric_ids if "SIRV" not in match else ["Sensitivity","Precision","Non Redundant Precision","Positive Detection Rate","False Discovery Rate","False Detection Rate"]
+    metric_ids = metric_ids if "SIRV" not in match else ["Sensitivity", "Precision", "Non Redundant Precision", "Positive Detection Rate", "False Discovery Rate", "False Detection Rate"]
     for metric_id in metric_ids:
         value_type = 'Value' if "SIRV" in match else 'Relative value (%)'
         percentage = "" if "SIRV" in match else "_%"
@@ -86,7 +86,7 @@ def main(experiment_path, entry_path, rdata_path, output_path, match):
         if not metric_value:
             continue
         error = 0
-        metric_id = f"{metric_to_filename(metric_id)}_{match}{percentage}"
+        metric_id = f"{metric_to_filename(metric_id)}{percentage}"
         # Write and validate results
         assessment_dataset = create_assessment_dataset(experiment_id, community, challenge_id, participant_name, metric_id, metric_value, error)
         if os.path.exists(output_path):
