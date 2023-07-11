@@ -22,12 +22,7 @@
     },
     "challenge_id": {
       "type": "string",
-      "enum":
-      [
-        "iso_detect_ref",
-        "iso_quant",
-        "iso_detect_de_novo"
-      ],
+      "const": "iso_detect_ref",
       "description": "Challenge to which this entry is being submitted. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#challenge-identifiers"
     },
     "description": {
@@ -46,78 +41,153 @@
       ]
     },
     "samples": {
-      "type": "array",
       "description": "Identifier of the type of samples used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#sample-identifiers",
-      "items": {
-        "type": "string",
-        "enum": [
-          "WTC11",
-          "H1_mix",
-          "ES",
-          "blood",
-          "mouse_simulation",
-          "human_simulation"
-        ]
-      }
+      "type": "string",
+      "enum": [
+        "WTC11",
+        "ES"
+      ]
     },
     "species": {
       "type": "string",
       "description": "Species on which the experiment was run. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#species-identifiers",
       "enum": [
         "human",
-        "mouse",
-        "manatee",
-        "simulated"
+        "mouse"
       ]
     },
     "library_preps": {
-      "type": "array",
       "description": "Identifier of the type of library preparation(s) used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#library-prep",
-      "items": {
-        "type": "string",
-        "enum": [
-          "CapTrap",
-          "dRNA",
-          "R2C2",
-          "cDNA"
-        ]
-      }
+      "type": "string",
+      "enum": [
+        "CapTrap",
+        "dRNA",
+        "R2C2",
+        "cDNA"
+      ]
     },
     "platforms": {
-      "type": "array",
       "description": "Identifier of the sequencing platform used by the entry. Must be a value specified in https://lrgasp.github.io/lrgasp-submissions/docs/metadata-identifiers.html#sequencing-platform",
-      "items": {
-        "type": "string",
-        "enum": [
-          "Illumina",
-          "PacBio",
-          "ONT"
-        ]
-      }
+      "type": "string",
+      "enum": [
+        "Illumina",
+        "PacBio",
+        "ONT"
+      ]
     },
     "libraries": {
-      "type": "array",
-      "description": "List of LRGASP RNA-Seq file accessions used in the experiment, as found in https://lrgasp.github.io/lrgasp-submissions/docs/rnaseq-data-matrix.html",
-      "items": {
-        "type": "string",
-        "pattern": "^(ENC[A-Z]{2}[0-9]{3}[A-Z]{3}|syn256833[87][810])$"
-      }
-    },
-    "extra_libraries": {
-      "type": "array",
-      "description": "List of non-LRGASP libraries accessions that were used.",
-      "items": {
-        "type": "object",
-        "$ref": "extra_libraries.json"
-      }
+      "type": "string",
+      "description": "ONe of the LRGASP RNA-Seq file accessions used in the experiment, as found in https://lrgasp.github.io/lrgasp-submissions/docs/rnaseq-data-matrix.html. Please indicate only one; the rest will be assumed from the replica number.",
+      "enum": [
+        "ENCFF105WIJ",
+        "ENCFF028FCL",
+        "ENCFF212HLP",
+        "ENCFF950ANU",
+        "ENCFF003QZT",
+        "ENCFF508XUP",
+        "ENCFF654SNK",
+        "ENCFF970AUV",
+        "ENCFF934KDM",
+        "ENCFF902FSA",
+        "ENCFF104BNW",
+        "ENCFF053QEQ",
+        "ENCFF155CFF",
+        "ENCFF146MTW",
+        "ENCFF771DIX",
+        "ENCFF389XGB",
+        "ENCFF600LIU",
+        "ENCFF591QYR",
+        "ENCFF153SIE",
+        "ENCFF178BYM",
+        "ENCFF377IEH",
+        "ENCFF063ASB",
+        "ENCFF489PQQ",
+        "ENCFF408XXR",
+        "ENCFF089IVT",
+        "ENCFF542VPN",
+        "ENCFF548RZB",
+        "ENCFF679LUJ",
+        "ENCFF997UNC",
+        "ENCFF357UQD",
+        "ENCFF766OAK",
+        "ENCFF198RQU",
+        "ENCFF247XJT",
+        "ENCFF563QZR",
+        "ENCFF112MRR",
+        "ENCFF338WQL",
+        "ENCFF992WSK",
+        "ENCFF370NFS",
+        "ENCFF122GKS",
+        "ENCFF455RXJ",
+        "ENCFF875XMU",
+        "ENCFF245IPA",
+        "ENCFF434SWA",
+        "ENCFF620NFT",
+        "ENCFF962OWJ",
+        "ENCFF263YFG",
+        "ENCFF585AMS",
+        "ENCFF023EXJ",
+        "ENCFF737GVV",
+        "ENCFF961HLO",
+        "ENCFF510ABH",
+        "ENCFF535DQA",
+        "ENCFF710FCJ",
+        "ENCFF310IPO",
+        "ENCFF062QXB",
+        "ENCFF654JHQ",
+        "ENCFF110VBJ",
+        "ENCFF356OJC",
+        "ENCFF670UEC",
+        "ENCFF275RMO",
+        "ENCFF942RPL",
+        "ENCFF056EOI",
+        "ENCFF861WOA",
+        "ENCFF765AEC",
+        "ENCFF914OBQ",
+        "ENCFF349BIN",
+        "ENCFF793LSF",
+        "ENCFF412NKJ",
+        "ENCFF464USM",
+        "ENCFF824JVI",
+        "ENCFF055REA",
+        "ENCFF104DMI",
+        "ENCFF598YQO",
+        "ENCFF412UHU",
+        "ENCFF335WMC",
+        "ENCFF513AEK",
+        "ENCFF797PJV",
+        "ENCFF850MIB",
+        "ENCFF742GCO",
+        "ENCFF595TIH",
+        "ENCFF717LLT",
+        "ENCFF521IDK",
+        "ENCFF089PFT",
+        "ENCFF696TCH",
+        "ENCFF874VSI",
+        "ENCFF005VJA",
+        "ENCFF564NGV",
+        "ENCFF714ZJR",
+        "ENCFF667VXS",
+        "ENCFF493CBP",
+        "ENCFF783PVA",
+        "ENCFF993JVA",
+        "ENCFF313VYZ",
+        "ENCFF078IYM",
+        "ENCFF094NZA",
+        "ENCFF280DWZ",
+        "ENCFF683TBO",
+        "ENCFF429FDN",
+        "ENCFF232YSU",
+        "ENCFF209ZZU",
+        "ENCFF288PBL",
+        "ENCFF931ICQ",
+        "ENCFF973PES"
+      ]
     },
     "software": {
-      "type": "array",
+      "type": "object",
       "description": "List of software used by the pipeline",
-      "items": {
-        "type": "object",
-        "$ref": "software.json"
-      }
+      "$ref": "software.json"
     },
     "notes": {
       "type": "string",
