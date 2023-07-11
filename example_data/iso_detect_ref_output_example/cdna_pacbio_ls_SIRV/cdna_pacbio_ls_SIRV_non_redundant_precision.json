@@ -1,7 +1,7 @@
 {
-    "_id": "LRGASP:2023-05-12_iso_detect_ref_ES_cdna_pacbio_ls_Aggregation",
+    "_id": "LRGASP:2023-07-10_cdna_pacbio_ls_SIRV_Aggregation",
     "challenge_ids": [
-        "iso_detect_ref_ES_cdna_pacbio_ls"
+        "cdna_pacbio_ls_SIRV"
     ],
     "datalink": {
         "inline_data": {
@@ -13,7 +13,7 @@
             ],
             "visualization": {
                 "type": "bar-plot",
-                "y_axis": "non_redundant_precision_SIRV"
+                "y_axis": "non_redundant_precision"
             }
         }
     },

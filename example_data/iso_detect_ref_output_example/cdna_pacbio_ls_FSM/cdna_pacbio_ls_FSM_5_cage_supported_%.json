@@ -1,19 +1,19 @@
 {
-    "_id": "LRGASP:2023-05-12_iso_detect_ref_ES_cdna_pacbio_ls_Aggregation",
+    "_id": "LRGASP:2023-07-10_cdna_pacbio_ls_FSM_Aggregation",
     "challenge_ids": [
-        "iso_detect_ref_ES_cdna_pacbio_ls"
+        "cdna_pacbio_ls_FSM"
     ],
     "datalink": {
         "inline_data": {
             "challenge_participants": [
                 {
-                    "metric_y": 89.41,
+                    "metric_y": 58.19,
                     "participant_id": "klaak"
                 }
             ],
             "visualization": {
                 "type": "bar-plot",
-                "y_axis": "5_reference_supported_(gene)_NIC_%"
+                "y_axis": "5_cage_supported_%"
             }
         }
     },

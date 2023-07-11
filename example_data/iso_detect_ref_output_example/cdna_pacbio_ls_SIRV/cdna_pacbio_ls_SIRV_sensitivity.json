@@ -1,19 +1,19 @@
 {
-    "_id": "LRGASP:2023-05-12_iso_detect_ref_ES_cdna_pacbio_ls_Aggregation",
+    "_id": "LRGASP:2023-07-10_cdna_pacbio_ls_SIRV_Aggregation",
     "challenge_ids": [
-        "iso_detect_ref_ES_cdna_pacbio_ls"
+        "cdna_pacbio_ls_SIRV"
     ],
     "datalink": {
         "inline_data": {
             "challenge_participants": [
                 {
-                    "metric_y": 45.2,
+                    "metric_y": 1.0,
                     "participant_id": "klaak"
                 }
             ],
             "visualization": {
                 "type": "bar-plot",
-                "y_axis": "3_reference_supported_(transcript)_ISM_%"
+                "y_axis": "sensitivity"
             }
         }
     },

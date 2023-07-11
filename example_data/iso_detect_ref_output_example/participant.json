@@ -1,7 +1,11 @@
 {
-    "_id": "LRGASP_ES_cdna_pacbio_ls_Fake Lab",
+    "_id": "LRGASP_ES_cdna_pacbio_ls_klaak",
     "challenge_id": [
-        "iso_detect_ref_ES_cdna_pacbio_ls"
+        "cdna_pacbio_ls_FSM",
+        "cdna_pacbio_ls_SIRV",
+        "cdna_pacbio_ls_NIC",
+        "cdna_pacbio_ls_NNC",
+        "cdna_pacbio_ls_ISM"
     ],
     "community_id": "OEBC010",
     "datalink": {
@@ -9,7 +13,7 @@
             "archive"
         ],
         "status": "ok",
-        "validation_date": "2023-05-12T13:46:50+00:00"
+        "validation_date": "2023-07-10T20:26:38+00:00"
     },
     "participant_id": "klaak",
     "type": "participant"

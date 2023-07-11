@@ -2,10 +2,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "reference_match_FSM_%", 
+            "metric_id": "reference_match_%", 
             "value": 81.26, 
             "stderr": 0
         }, 
@@ -14,10 +14,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "5_reference_supported_(transcript)_FSM_%", 
+            "metric_id": "5_reference_supported_(transcript)_%", 
             "value": 91.85, 
             "stderr": 0
         }, 
@@ -26,10 +26,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "3_reference_supported_(transcript)_FSM_%", 
+            "metric_id": "3_reference_supported_(transcript)_%", 
             "value": 82.75, 
             "stderr": 0
         }, 
@@ -38,34 +38,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "5_reference_supported_(gene)_FSM_%", 
-            "value": 96.61, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "3_reference_supported_(gene)_FSM_%", 
-            "value": 90.52, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "5_cage_supported_FSM_%", 
+            "metric_id": "5_cage_supported_%", 
             "value": 58.19, 
             "stderr": 0
         }, 
@@ -74,10 +50,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "3_polya_supported_FSM_%", 
+            "metric_id": "3_polya_supported_%", 
             "value": 77.8, 
             "stderr": 0
         }, 
@@ -86,10 +62,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "supported_reference_transcript_model_(srtm)_FSM_%", 
+            "metric_id": "supported_reference_transcript_model_(srtm)_%", 
             "value": 97.34, 
             "stderr": 0
         }, 
@@ -98,10 +74,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_FSM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "intra-priming_FSM_%", 
+            "metric_id": "intra-priming_%", 
             "value": 4.52, 
             "stderr": 0
         }, 
@@ -110,11 +86,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_SIRV", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "5_reference_supported_(transcript)_ISM_%", 
-            "value": 17.2, 
+            "metric_id": "sensitivity", 
+            "value": 1.0, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -122,11 +98,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_SIRV", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "3_reference_supported_(transcript)_ISM_%", 
-            "value": 45.2, 
+            "metric_id": "precision", 
+            "value": 1.0, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -134,11 +110,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_SIRV", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "5_reference_supported_(gene)_ISM_%", 
-            "value": 35.2, 
+            "metric_id": "non_redundant_precision", 
+            "value": 1.0, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -146,11 +122,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_SIRV", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "3_reference_supported_(gene)_ISM_%", 
-            "value": 66.2, 
+            "metric_id": "positive_detection_rate", 
+            "value": 1.0, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -158,82 +134,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_NIC", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "5_cage_supported_ISM_%", 
-            "value": 45.8, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "3_polya_supported_ISM_%", 
-            "value": 73.6, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "supported_reference_transcript_model_(srtm)_ISM_%", 
-            "value": 48.4, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "intra-priming_ISM_%", 
-            "value": 5.2, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "5_reference_supported_(gene)_NIC_%", 
-            "value": 89.41, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "3_reference_supported_(gene)_NIC_%", 
-            "value": 81.45, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "5_cage_supported_NIC_%", 
+            "metric_id": "5_cage_supported_%", 
             "value": 80.43, 
             "stderr": 0
         }, 
@@ -242,10 +146,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_NIC", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "3_polya_supported_NIC_%", 
+            "metric_id": "3_polya_supported_%", 
             "value": 89.95, 
             "stderr": 0
         }, 
@@ -254,10 +158,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_NIC", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "intra-priming_NIC_%", 
+            "metric_id": "intra-priming_%", 
             "value": 2.15, 
             "stderr": 0
         }, 
@@ -266,34 +170,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_NNC", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "5_reference_supported_(gene)_NNC_%", 
-            "value": 71.46, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "3_reference_supported_(gene)_NNC_%", 
-            "value": 75.45, 
-            "stderr": 0
-        }, 
-        "participant_id": "klaak"
-    }, 
-    {
-        "_id": "ES_cdna_pacbio_ls", 
-        "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
-        "type": "assessment", 
-        "metrics": {
-            "metric_id": "5_cage_supported_NNC_%", 
+            "metric_id": "5_cage_supported_%", 
             "value": 71.77, 
             "stderr": 0
         }, 
@@ -302,10 +182,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_NNC", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "3_polya_supported_NNC_%", 
+            "metric_id": "3_polya_supported_%", 
             "value": 88.95, 
             "stderr": 0
         }, 
@@ -314,10 +194,10 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_NNC", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "intra-priming_NNC_%", 
+            "metric_id": "intra-priming_%", 
             "value": 1.55, 
             "stderr": 0
         }, 
@@ -326,11 +206,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_ISM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "sensitivity_SIRV", 
-            "value": 1.0, 
+            "metric_id": "5_reference_supported_(transcript)_%", 
+            "value": 17.2, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -338,11 +218,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_ISM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "precision_SIRV", 
-            "value": 1.0, 
+            "metric_id": "3_reference_supported_(transcript)_%", 
+            "value": 45.2, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -350,11 +230,11 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_ISM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "non_redundant_precision_SIRV", 
-            "value": 1.0, 
+            "metric_id": "5_cage_supported_%", 
+            "value": 45.8, 
             "stderr": 0
         }, 
         "participant_id": "klaak"
@@ -362,11 +242,35 @@
     {
         "_id": "ES_cdna_pacbio_ls", 
         "community_id": "OEBC010", 
-        "challenge_id": "iso_detect_ref_ES_cdna_pacbio_ls", 
+        "challenge_id": "cdna_pacbio_ls_ISM", 
         "type": "assessment", 
         "metrics": {
-            "metric_id": "positive_detection_rate_SIRV", 
-            "value": 1.0, 
+            "metric_id": "3_polya_supported_%", 
+            "value": 73.6, 
+            "stderr": 0
+        }, 
+        "participant_id": "klaak"
+    }, 
+    {
+        "_id": "ES_cdna_pacbio_ls", 
+        "community_id": "OEBC010", 
+        "challenge_id": "cdna_pacbio_ls_ISM", 
+        "type": "assessment", 
+        "metrics": {
+            "metric_id": "supported_reference_transcript_model_(srtm)_%", 
+            "value": 48.4, 
+            "stderr": 0
+        }, 
+        "participant_id": "klaak"
+    }, 
+    {
+        "_id": "ES_cdna_pacbio_ls", 
+        "community_id": "OEBC010", 
+        "challenge_id": "cdna_pacbio_ls_ISM", 
+        "type": "assessment", 
+        "metrics": {
+            "metric_id": "intra-priming_%", 
+            "value": 5.2, 
             "stderr": 0
         }, 
         "participant_id": "klaak"

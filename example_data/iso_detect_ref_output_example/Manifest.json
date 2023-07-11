@@ -1,9 +1,37 @@
 [
     {
-        "id": "iso_detect_ref_ES_cdna_pacbio_ls",
+        "id": "cdna_pacbio_ls_FSM",
         "participants": [
             "klaak"
         ],
-        "timestamp": "2023-05-12T13:47:03+00:00"
+        "timestamp": "2023-07-10T20:40:21+00:00"
+    },
+    {
+        "id": "cdna_pacbio_ls_SIRV",
+        "participants": [
+            "klaak"
+        ],
+        "timestamp": "2023-07-10T20:40:21+00:00"
+    },
+    {
+        "id": "cdna_pacbio_ls_NIC",
+        "participants": [
+            "klaak"
+        ],
+        "timestamp": "2023-07-10T20:40:21+00:00"
+    },
+    {
+        "id": "cdna_pacbio_ls_NNC",
+        "participants": [
+            "klaak"
+        ],
+        "timestamp": "2023-07-10T20:40:21+00:00"
+    },
+    {
+        "id": "cdna_pacbio_ls_ISM",
+        "participants": [
+            "klaak"
+        ],
+        "timestamp": "2023-07-10T20:40:21+00:00"
     }
 ]
