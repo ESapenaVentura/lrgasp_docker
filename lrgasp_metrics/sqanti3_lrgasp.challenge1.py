@@ -3,9 +3,29 @@
 # Authors: Lorena de la Fuente, Hector del Risco, Cecile Pereira and Manuel Tardaguila
 # Modified by Liz (etseng@pacb.com) as SQANTI2/3 versions
 # Modified by Fran (francisco.pardo.palacios@gmail.com) currently as SQANTI3 LRGASP challenge 1 version (07/21/2021)
+# Modified by Enrique (enrique@ebi.ac.uk) as part of the effort to implement LRGASP challenge 1 into OpenEBench.
 
 __author__  = "francisco.pardo.palacios@gmail.com"
 __version__ = 'LRGASP_v1.2'  # Python 3.7
+
+# MAPS FOR OPENEBENCH, SAMPLE TO FILE AND LIBRARY NAME TO SJ.OUT FILE
+
+sample_file_map = {
+    "genome_reference": {
+        "WTC11": "lrgasp_grch38_sirvs.fasta.gz",
+        "ES": "lrgasp_grcm39_sirvs.fasta.gz"
+    },
+    "transcriptome_reference": {
+        "WTC11": "lrgasp_gencode_v39_annotation_sirvs.human.gtf",
+        "ES": "lrgasp_gencode_vM28_sirvs.mouse.gtf"
+    },
+    "cage_peak":{
+        "WTC11": "human.refTSS_v3.1.hg38.bed",
+        "ES": "mouse.refTSS_v3.1.mm39.bed"
+    },
+}
+
+library_to_sj = {"ENCFF105WIJ": "wtc11_rep1SJ.out.tab","ENCFF028FCL": "wtc11_rep1SJ.out.tab","ENCFF212HLP": "wtc11_rep2SJ.out.tab","ENCFF950ANU": "wtc11_rep2SJ.out.tab","ENCFF003QZT": "wtc11_rep3SJ.out.tab","ENCFF508XUP": "wtc11_rep3SJ.out.tab","ENCFF654SNK": "wtc11_rep1SJ.out.tab","ENCFF970AUV": "wtc11_rep1SJ.out.tab","ENCFF934KDM": "wtc11_rep2SJ.out.tab","ENCFF902FSA": "wtc11_rep2SJ.out.tab","ENCFF104BNW": "wtc11_rep3SJ.out.tab","ENCFF053QEQ": "wtc11_rep3SJ.out.tab","ENCFF155CFF": "wtc11_rep1SJ.out.tab","ENCFF146MTW": "wtc11_rep1SJ.out.tab","ENCFF771DIX": "wtc11_rep2SJ.out.tab","ENCFF389XGB": "wtc11_rep2SJ.out.tab","ENCFF600LIU": "wtc11_rep3SJ.out.tab","ENCFF591QYR": "wtc11_rep3SJ.out.tab","ENCFF153SIE": "wtc11_rep1SJ.out.tab","ENCFF178BYM": "wtc11_rep1SJ.out.tab","ENCFF377IEH": "wtc11_rep2SJ.out.tab","ENCFF063ASB": "wtc11_rep2SJ.out.tab","ENCFF489PQQ": "wtc11_rep3SJ.out.tab","ENCFF408XXR": "wtc11_rep3SJ.out.tab","ENCFF089IVT": "wtc11_rep1SJ.out.tab","ENCFF542VPN": "wtc11_rep1SJ.out.tab","ENCFF548RZB": "wtc11_rep2SJ.out.tab","ENCFF679LUJ": "wtc11_rep2SJ.out.tab","ENCFF997UNC": "wtc11_rep3SJ.out.tab","ENCFF357UQD": "wtc11_rep3SJ.out.tab","ENCFF766OAK": "wtc11_rep1SJ.out.tab","ENCFF198RQU": "wtc11_rep2SJ.out.tab","ENCFF247XJT": "wtc11_rep3SJ.out.tab","ENCFF563QZR": "wtc11_rep1SJ.out.tab","ENCFF112MRR": "wtc11_rep1SJ.out.tab","ENCFF338WQL": "wtc11_rep1SJ.out.tab","ENCFF992WSK": "wtc11_rep1SJ.out.tab","ENCFF370NFS": "wtc11_rep2SJ.out.tab","ENCFF122GKS": "wtc11_rep2SJ.out.tab","ENCFF455RXJ": "wtc11_rep2SJ.out.tab","ENCFF875XMU": "wtc11_rep2SJ.out.tab","ENCFF245IPA": "wtc11_rep3SJ.out.tab","ENCFF434SWA": "wtc11_rep3SJ.out.tab","ENCFF620NFT": "wtc11_rep3SJ.out.tab","ENCFF962OWJ": "wtc11_rep3SJ.out.tab","ENCFF263YFG": "wtc11_rep1SJ.out.tab","ENCFF585AMS": "wtc11_rep1SJ.out.tab","ENCFF023EXJ": "wtc11_rep2SJ.out.tab","ENCFF737GVV": "wtc11_rep2SJ.out.tab","ENCFF961HLO": "wtc11_rep3SJ.out.tab","ENCFF510ABH": "wtc11_rep3SJ.out.tab","ENCFF535DQA": "es_rep1SJ.out.tab","ENCFF710FCJ": "es_rep1SJ.out.tab","ENCFF310IPO": "es_rep2SJ.out.tab","ENCFF062QXB": "es_rep2SJ.out.tab","ENCFF654JHQ": "es_rep3SJ.out.tab","ENCFF110VBJ": "es_rep3SJ.out.tab","ENCFF356OJC": "es_rep1SJ.out.tab","ENCFF670UEC": "es_rep1SJ.out.tab","ENCFF275RMO": "es_rep2SJ.out.tab","ENCFF942RPL": "es_rep2SJ.out.tab","ENCFF056EOI": "es_rep3SJ.out.tab","ENCFF861WOA": "es_rep3SJ.out.tab","ENCFF765AEC": "es_rep1SJ.out.tab","ENCFF914OBQ": "es_rep1SJ.out.tab","ENCFF349BIN": "es_rep2SJ.out.tab","ENCFF793LSF": "es_rep2SJ.out.tab","ENCFF412NKJ": "es_rep3SJ.out.tab","ENCFF464USM": "es_rep3SJ.out.tab","ENCFF824JVI": "es_rep1SJ.out.tab","ENCFF055REA": "es_rep1SJ.out.tab","ENCFF104DMI": "es_rep2SJ.out.tab","ENCFF598YQO": "es_rep2SJ.out.tab","ENCFF412UHU": "es_rep3SJ.out.tab","ENCFF335WMC": "es_rep3SJ.out.tab","ENCFF513AEK": "es_rep1SJ.out.tab","ENCFF797PJV": "es_rep1SJ.out.tab","ENCFF850MIB": "es_rep2SJ.out.tab","ENCFF742GCO": "es_rep2SJ.out.tab","ENCFF595TIH": "es_rep3SJ.out.tab","ENCFF717LLT": "es_rep3SJ.out.tab","ENCFF521IDK": "es_rep1SJ.out.tab","ENCFF089PFT": "es_rep2SJ.out.tab","ENCFF696TCH": "es_rep3SJ.out.tab","ENCFF874VSI": "es_rep1SJ.out.tab","ENCFF005VJA": "es_rep1SJ.out.tab","ENCFF564NGV": "es_rep1SJ.out.tab","ENCFF714ZJR": "es_rep1SJ.out.tab","ENCFF667VXS": "es_rep2SJ.out.tab","ENCFF493CBP": "es_rep2SJ.out.tab","ENCFF783PVA": "es_rep2SJ.out.tab","ENCFF993JVA": "es_rep2SJ.out.tab","ENCFF313VYZ": "es_rep3SJ.out.tab","ENCFF078IYM": "es_rep3SJ.out.tab","ENCFF094NZA": "es_rep3SJ.out.tab","ENCFF280DWZ": "es_rep3SJ.out.tab","ENCFF683TBO": "es_rep1SJ.out.tab","ENCFF429FDN": "es_rep1SJ.out.tab","ENCFF232YSU": "es_rep2SJ.out.tab","ENCFF209ZZU": "es_rep2SJ.out.tab","ENCFF288PBL": "es_rep3SJ.out.tab","ENCFF931ICQ": "es_rep3SJ.out.tab","ENCFF973PES": "blood_rep1SJ.out.tab"}
 
 import pdb
 import os, re, sys, subprocess, timeit, glob, copy
@@ -1529,7 +1549,7 @@ def isoformClassification(args, isoforms_by_chr, refs_1exon_by_chr, refs_exons_b
 
     isoforms_info = {}
     novel_gene_index = 1
-    r_experiment_id, r_entry_id, r_platform = json_parser(args.experiment_json, args.entry_json)
+    r_experiment_id, r_entry_id, r_platform = json_parser(args.experiment_json)
     for chrom,records in isoforms_by_chr.items():
         for rec in records:
             # Find best reference hit
@@ -1970,7 +1990,7 @@ def run(args):
     if not args.skip_report:
         print("**** Generating SQANTI3 report....", file=sys.stderr)
         rdata_out = os.path.join(os.path.abspath(args.dir), args.output+"_Rdata")
-        experiment_id, entry_id, platform = json_parser(args.experiment_json, args.entry_json)
+        experiment_id, entry_id, platform = json_parser(args.experiment_json)
         if os.path.exists(rdata_out):
              print("WARNING: {0} directory already exists!".format(rdata_out), file=sys.stderr)
              rerun=False
@@ -2224,14 +2244,54 @@ def combine_split_runs(args, split_dirs):
             print("ERROR running command: {0}".format(cmd), file=sys.stderr)
             sys.exit(1)
 
+def get_arguments_from_manifest(files_path):
+    with open(os.path.join(files_path, 'manifest.json'), 'r') as f:
+        manifest = json.load(f)
+    return manifest['gtf_input'], manifest['experiment_json']
+
+def get_sample_specific_files(experiment_json_path):
+    """
+    This function is essential for OEB implementation.
+
+    Due to constraints in the parameter inputs, and the ability to provide files in VRE, most of the
+    non-user generated file paths are obtained from here
+
+    :param experiment_json_path:
+    :return:
+    """
+
+    with open(experiment_json_path, 'r') as f:
+        experiment_json = json.load(f)
+
+    # TODO expand samples
+    if "ES" in experiment_json['samples']:
+        sample = "ES"
+    elif "WTC11" in experiment_json['samples']:
+        sample = "WTC11"
+    else:
+        sys.exit("Non-recognised sample in experiment.json. Values are: ES or WTC11")
+
+    genome_reference = sample_file_map['genome_reference'][sample]
+    transcriptome_reference = sample_file_map['transcriptome_reference'][sample]
+    cage_peak = sample_file_map['cage_peak'][sample]
+
+    sj_file = library_to_sj[experiment_json['libraries']]
+
+    return genome_reference, transcriptome_reference, cage_peak, sj_file
+
+
+def string_to_list(challenges):
+    return challenges.split(" ")
+
+
 def main():
     global utilitiesPath
 
     #arguments
     parser = argparse.ArgumentParser(description="Structural and Quality Annotation of Novel Transcript Isoforms")
-    parser.add_argument('isoforms', help='\tIsoforms (FASTA/FASTQ) or GTF format. Recommend provide GTF format with the --gtf option.')
-    parser.add_argument('annotation', help='\t\tReference annotation file (GTF format)')
-    parser.add_argument('genome', help='\t\tReference genome (Fasta format)')
+    parser.add_argument('--isoforms', help='\tIsoforms (FASTA/FASTQ) or GTF format. Recommend provide GTF format with the --gtf option.', required=False, default="")
+    parser.add_argument('--annotation', help='\t\tReference annotation file (GTF format)', required=False, default="")
+    parser.add_argument('--genome', help='\t\tReference genome (Fasta format)', required=False, default="")
     parser.add_argument("--min_ref_len", type=int, default=0, help="\t\tMinimum reference transcript length (default: 0 bp)")
     parser.add_argument("--force_id_ignore", action="store_true", default=True, help="\t\t Allow the usage of transcript IDs non related with PacBio's nomenclature (PB.X.Y)")
     parser.add_argument("--aligner_choice", choices=['minimap2', 'deSALT', 'gmap'], default='minimap2')
@@ -2263,16 +2323,31 @@ def main():
     parser.add_argument('--entry_json' , help='\t\tEntry JSON file that is requiered for uploading the submission. More info here: https://lrgasp.github.io/lrgasp-submissions/docs/metadata.html . In case it is not provided, a fake one will be used, but that will not affect to the results of the evaluation.', required=False)
     parser.add_argument('--simulation' , help='\t\t File Prefix for simulation ground truth. There should be a *.counts.txt and a *.novel_isoforms.txt files',required=False)
     parser.add_argument('--assesment-output', help='\t\tAssesment dataset output full path (Including filename), only OEB', required=False, default='assessment.json')
+    parser.add_argument('--input-gz-file', help="\t\tPath to the input file, in tar.gz form.")
+    parser.add_argument('--manifest', help='\t\tFlag for manifest.json usage. Required for OEB', action="store_true")
+    parser.add_argument('--ref-directory', help='\t\tPath to reference files directory. Required for OEB')
+    parser.add_argument('--challenges', help='\t\tChallenges being tested in this run. Required for OEB', type=string_to_list)
 
     args = parser.parse_args()
+
+    files_path = os.path.dirname(args.input_gz_file)
+    # OPENEBENCH SPECIFIC FOLDERS SETUP
+    if args.manifest:
+        args.isoforms, args.experiment_json = get_arguments_from_manifest(files_path)
+        args.isoforms = os.path.join(files_path, args.isoforms)
+
+        args.experiment_json = os.path.join(files_path, args.experiment_json)
+        # Non-user generated files specific to the sample are obtained and set up here
+        genome_reference, transcriptome_reference, cage_peak, sj_file = get_sample_specific_files(args.experiment_json)
+        args.cage_peak = os.path.join(args.ref_directory, cage_peak)
+        args.coverage = os.path.join(args.ref_directory, sj_file)
+        args.genome = os.path.join(args.ref_directory, genome_reference)
+        args.annotation = os.path.join(args.ref_directory, transcriptome_reference)
+        args.polyA_motif_list = os.path.join(args.ref_directory, 'polyA.list.txt')
 
     if args.experiment_json is None:
         args.experiment_json = os.path.join(utilitiesPath,"experiment_dummy.json")
         print("WARNING: Experiment JSON wasn't provided. A fake one will be used (you can find it in utilities/experiment_dummy.json. This won't have an effect on the evaluation, but you will find the made-up attributes in your report titles.")
-
-    if args.entry_json is None:
-        args.entry_json = os.path.join(utilitiesPath,"entry_dummy.json")
-        print("WARNING: Entry JSON wasn't provided. A fake one will be used (you can find it in utilities/entry_dummy.json. This won't have an effect on the evaluation, but you will find the made-up attributes in your report titles.")
 
     if args.is_fusion:
         if args.orf_input is None:
@@ -2312,6 +2387,9 @@ def main():
             os.makedirs(args.dir)
 
     args.genome = os.path.abspath(args.genome)
+    if args.genome.endswith('.gz'):
+        subprocess.call(['gunzip', args.genome])
+        args.genome = args.genome[:-3]
     if not os.path.isfile(args.genome):
         print("ERROR: genome fasta {0} doesn't exist. Abort!".format(args.genome), file=sys.stderr)
         sys.exit()
@@ -2392,13 +2470,12 @@ def main():
             outputClassPath, outputJuncPath = get_class_junc_filenames(args)
             run_isoAnnotLite(corrGTF, outputClassPath, outputJuncPath, args.dir, args.output, args.gff3)
 
-    for match in ["FSM", "ISM", "NIC", "NNC", "SIRV"]:
-        experiment = json.load(open(args.experiment_json, 'r'))
-        experiment_id = experiment['experiment_id']
-
-        JSON_templates.write_dataset.main(experiment_path=args.experiment_json, entry_path=args.entry_json,
-                                          rdata_path=f"{args.dir}/{args.output}_Rdata/{experiment_id}_{match}_only.RData",
-                                          output_path=args.assesment_output, match=match)
+    experiment = json.load(open(args.experiment_json, 'r'))
+    experiment_id = experiment['experiment_id']
+    for challenge in args.challenges:
+        JSON_templates.write_dataset.main(experiment_path=args.experiment_json,
+                                          rdata_path=f"{args.dir}/{args.output}_Rdata/{experiment_id}_{challenge.split('_')[-1].upper()}_only.RData",
+                                          output_path=args.assesment_output, challenge=challenge)
     sys.exit(0)
 
 
