@@ -40,7 +40,7 @@ def main(args):
     ALL_COMBINATIONS = []
     for metric_comb in WANTED_METRICS:
         for sq_class in match_types:
-            ALL_COMBINATIONS.append([f"{metric}_{sq_class}_%" for metric in metric_comb])
+            ALL_COMBINATIONS.append([f"{metric}_%" for metric in metric_comb])
 
 
     for challenge_name in participant_data.keys():
