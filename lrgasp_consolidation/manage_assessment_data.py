@@ -35,7 +35,7 @@ def main(args):
     generate_manifest(data_dir, output_dir, participant_data)
 
     # Distinct metrics are divided by the match type, so we need to do this
-    WANTED_METRICS = [['5_reference_supported_(transcript)', '5_cage_supported'], ['3_reference_supported_(transcript)', '3_quantseq_supported']]
+    WANTED_METRICS = [['5_reference_supported_(transcript)', '5_cage_supported'], ['3_reference_supported_(transcript)', '3_quantseq_supported'], ['3_quantseq_supported', '5_cage_supported']]
     match_types = ["FSM", "ISM", "NIC", "NNC"]
     ALL_COMBINATIONS = []
     for metric_comb in WANTED_METRICS:
