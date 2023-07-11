@@ -20,19 +20,19 @@ esac
 LRGASP_DIR="${BASEDIR}"/lrgasp_data
 TAG=1.0.0
 
-
 if [ $# -gt 1 ] ; then
   input_file="$1"
-	RESDIR="$3"
-	TAG="$2"
-	challenges="$4"
-	if [ $# -gt 4 ] ; then
-	  for i in $(seq 5 $#); do
-	    eval "arg=\${$i}"
-	    challenges+=" $arg"
-	  done
-	fi
-
+	input_gtf="$2"
+  input_cage_peak="$3"
+  input_polyA="$4"
+  entry_json="$5"
+  experiment_json="$6"
+  genome_reference="$7"
+  transcriptome_reference="$8"
+  coverage_file="$9"
+	RESDIR="${10}"
+	TAG="${11}"
+	input_read_model_map="${12}"
 
 
 
@@ -40,9 +40,16 @@ if [ $# -gt 1 ] ; then
 * Using version $TAG
 * Running parameters
   Input file: $input_file
+  GTF file: $input_gtf
+  Read model map file: $input_read_model_map
+  CAGE peak file: $input_cage_peak
+  polyA file: $input_polyA
+  Json files: $entry_json / $experiment_json
+  genome_reference: $genome_reference
+  transcriptome_reference: $transcriptome_reference
+  Coverage file: $coverage_file
   Results: $RESDIR
   Tag: $TAG
-  Challenges: $challenges
 EOF
 
 
@@ -81,11 +88,13 @@ EOF
 
 	echo "=> Validating input" && \
 	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:rw -v "${RESDIRreal}":/app/output:rw lrgasp_validation:"$TAG" \
-		 -i /app/input/$inputBasename -o /app/output/participant.json --challenges "$challenges" -m && \
+		 -e $entry_json -x $experiment_json -o /app/output/participant.json -g $input_gtf -r $input_read_model_map -i /app/input/$inputBasename
 
 	echo "=> Computing metrics" && \
-	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${INPUTDIR}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \
-	   --input-gz-file /app/input/$inputBasename --manifest --ref-directory /app/input/public_ref --gtf -d /app/output/results/ -o results --assesment-output /app/output/assessment.json --challenges "$challenges" && \
+	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${inputRealPath}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \
+	   /app/input/$input_gtf /app/input/$transcriptome_reference /app/input/$genome_reference --gtf --experiment_json /app/input/$experiment_json \
+	   --entry_json /app/input/$entry_json --cage_peak /app/input/$input_cage_peak --polyA_motif_list /app/input/$input_polyA \
+	   -c /app/input/$coverage_file -d /app/output/results/ -o results --assesment-output /app/output/assessment.json && \
 
 	echo "=> Assessing metrics" && \
 	docker run --rm -u $UID -v "${ASSESSDIR}":/app/assess:rw -v "${RESDIRreal}":/app/output:rw lrgasp_consolidation:"$TAG" \
@@ -93,6 +102,6 @@ EOF
 	echo "* Pipeline has finished properly"
 
 else
-	echo "Usage: $0 input_file TAG results_dir challenges"
-	echo "When running, please ensure all the needed files are in the input_file, included the manifest with the filenames. The output dir must also be a full path"
+	echo "Usage: $0 input_file gtf_filename input_cage_peak input_polyA entry_json experiment_json genome_reference transcriptome_reference coverage_filename results_dir TAG"
+	echo "When running, please ensure all the needed files are in the input_file, and give filenames for the rest of the files. The output dir must also be a full path"
 fi
