@@ -1,0 +1,28 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "cdna_pacbio_ls_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 51.11, 
+                    "metric_x": 23.76, 
+                    "participant_id": "flair"
+                }, 
+                {
+                    "metric_y": 21.2, 
+                    "metric_x": 6.93, 
+                    "participant_id": "talon_lapa"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,53 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "cdna_pacbio_lo_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.0, 
+                    "participant_id": "lyric"
+                }, 
+                {
+                    "metric_y": 6.14, 
+                    "participant_id": "isotools"
+                }, 
+                {
+                    "metric_y": 7.61, 
+                    "participant_id": "mandalorion"
+                }, 
+                {
+                    "metric_y": 6.33, 
+                    "participant_id": "ib"
+                }, 
+                {
+                    "metric_y": 3.47, 
+                    "participant_id": "isoquant"
+                }, 
+                {
+                    "metric_y": 3.91, 
+                    "participant_id": "spectra"
+                }, 
+                {
+                    "metric_y": 1.26, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 0.47, 
+                    "participant_id": "talon_lapa"
+                }, 
+                {
+                    "metric_y": 1.53, 
+                    "participant_id": "flair"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intra-priming_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

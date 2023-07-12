@@ -1,0 +1,29 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "drna_ont_ls_NIC"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 12.63, 
+                    "participant_id": "flair"
+                }, 
+                {
+                    "metric_y": 32.5, 
+                    "participant_id": "talon_lapa"
+                }, 
+                {
+                    "metric_y": 19.74, 
+                    "participant_id": "stringtie2"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intron_retention_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

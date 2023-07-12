@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "drna_ont_ls_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 43.95, 
+                    "participant_id": "rnaspades"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

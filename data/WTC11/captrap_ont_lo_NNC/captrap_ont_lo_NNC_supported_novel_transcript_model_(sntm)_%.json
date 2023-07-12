@@ -1,0 +1,37 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "captrap_ont_lo_NNC"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 44.28, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 28.15, 
+                    "participant_id": "lyric"
+                }, 
+                {
+                    "metric_y": 24.66, 
+                    "participant_id": "flames"
+                }, 
+                {
+                    "metric_y": 38.95, 
+                    "participant_id": "isoquant"
+                }, 
+                {
+                    "metric_y": 58.24, 
+                    "participant_id": "talon_lapa"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_novel_transcript_model_(sntm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

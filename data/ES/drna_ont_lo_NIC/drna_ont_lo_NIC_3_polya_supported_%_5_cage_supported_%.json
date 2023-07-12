@@ -1,0 +1,28 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "drna_ont_lo_NIC"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 95.58, 
+                    "metric_x": 58.31, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 93.79, 
+                    "metric_x": 41.4, 
+                    "participant_id": "stringtie2-isoquant"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,29 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "cdna_ont_lo_NNC"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 7.73, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 7.76, 
+                    "participant_id": "rna-bloom"
+                }, 
+                {
+                    "metric_y": 7.64, 
+                    "participant_id": "isoquant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "rt-switching_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

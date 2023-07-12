@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "cdna_ont_ls_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 33.94, 
+                    "participant_id": "talon_lapa"
+                }, 
+                {
+                    "metric_y": 24.64, 
+                    "participant_id": "flair"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_reference_transcript_model_(srtm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

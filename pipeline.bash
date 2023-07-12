@@ -84,12 +84,12 @@ EOF
 		 -i /app/input/$inputBasename -o /app/output/participant.json --challenges "$challenges" -m && \
 
 	echo "=> Computing metrics" && \
-	docker run --rm -u $UID -v /Users/enrique/HumanCellAtlas/lrgasp_docker/lrgasp_metrics/utilities:/app/utilities:rw -v "${INPUTDIR}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \
+	docker run --rm -u $UID -v lrgasp_metrics/utilities:/app/utilities:rw -v "${INPUTDIR}":/app/input:rw -v "${METRICS_DIR}":/app/metrics:rw -v "${RESDIRreal}":/app/output:rw lrgasp_metrics:"$TAG" \
 	   --input-gz-file /app/input/$inputBasename --manifest --ref-directory /app/input/public_ref --gtf -d /app/output/results/ -o results --assesment-output /app/output/assessment.json --challenges "$challenges" && \
 
 	echo "=> Assessing metrics" && \
-	docker run --rm -u $UID -v "${ASSESSDIR}":/app/assess:rw -v "${RESDIRreal}":/app/output:rw lrgasp_consolidation:"$TAG" \
-		-b /app/assess/ -p /app/output/assessment.json -o /app/output/ --offline OFFLINE && \
+	docker run --rm -u $UID -v "${INPUTDIR}":/app/input:rw -v "${ASSESSDIR}":/app/assess:rw -v "${RESDIRreal}":/app/output:rw lrgasp_consolidation:"$TAG" \
+		-b /app/assess/ -p /app/output/assessment.json -o /app/output/ -i /app/input/$inputBasename -m --offline OFFLINE && \
 	echo "* Pipeline has finished properly"
 
 else

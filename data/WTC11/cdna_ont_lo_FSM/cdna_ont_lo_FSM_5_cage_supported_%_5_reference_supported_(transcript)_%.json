@@ -1,0 +1,48 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "cdna_ont_lo_FSM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 75.48, 
+                    "metric_x": 76.64, 
+                    "participant_id": "lyric"
+                }, 
+                {
+                    "metric_y": 79.6, 
+                    "metric_x": 89.35, 
+                    "participant_id": "flames"
+                }, 
+                {
+                    "metric_y": 57.9, 
+                    "metric_x": 99.28, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 68.91, 
+                    "metric_x": 98.97, 
+                    "participant_id": "isoquant"
+                }, 
+                {
+                    "metric_y": 67.91, 
+                    "metric_x": 57.21, 
+                    "participant_id": "talon_lapa"
+                }, 
+                {
+                    "metric_y": 68.31, 
+                    "metric_x": 90.72, 
+                    "participant_id": "flair"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

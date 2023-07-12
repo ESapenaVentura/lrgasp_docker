@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "captrap_pacbio_lo_SIRV"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.94, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 0.62, 
+                    "participant_id": "stringtie2-isoquant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "non_redundant_precision"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

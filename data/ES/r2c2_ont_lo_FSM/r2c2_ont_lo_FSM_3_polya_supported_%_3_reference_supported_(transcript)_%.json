@@ -1,0 +1,28 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "r2c2_ont_lo_FSM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 86.39, 
+                    "metric_x": 55.97, 
+                    "participant_id": "stringtie2-isoquant"
+                }, 
+                {
+                    "metric_y": 90.94, 
+                    "metric_x": 59.72, 
+                    "participant_id": "bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

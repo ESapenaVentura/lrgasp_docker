@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "r2c2_ont_ls_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 59.03, 
+                    "participant_id": "talon_lapa"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_reference_transcript_model_(srtm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

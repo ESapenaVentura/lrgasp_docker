@@ -1,0 +1,28 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "captrap_pacbio_lo_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 28.37, 
+                    "metric_x": 19.7, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 29.29, 
+                    "metric_x": 29.97, 
+                    "participant_id": "stringtie2-isoquant"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

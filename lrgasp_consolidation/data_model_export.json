@@ -1,0 +1,298 @@
+[
+    {
+        "_id": "LRGASP_ES_cdna_pacbio_ls_klaak",
+        "challenge_id": [
+            "cdna_pacbio_lo_FSM",
+            "cdna_pacbio_lo_SIRV",
+            "cdna_pacbio_lo_NIC",
+            "cdna_pacbio_lo_NNC",
+            "cdna_pacbio_lo_ISM"
+        ],
+        "community_id": "OEBC010",
+        "datalink": {
+            "attrs": [
+                "archive"
+            ],
+            "status": "ok",
+            "validation_date": "2023-07-12T15:16:14+00:00"
+        },
+        "participant_id": "klaak",
+        "type": "participant"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_reference_match_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "reference_match_%",
+            "stderr": 0,
+            "value": 81.26
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_5_reference_supported_(transcript)_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "5_reference_supported_(transcript)_%",
+            "stderr": 0,
+            "value": 91.85
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_3_reference_supported_(transcript)_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "3_reference_supported_(transcript)_%",
+            "stderr": 0,
+            "value": 82.75
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_5_cage_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "5_cage_supported_%",
+            "stderr": 0,
+            "value": 58.19
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_3_polya_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "3_polya_supported_%",
+            "stderr": 0,
+            "value": 77.8
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_supported_reference_transcript_model_(srtm)_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "supported_reference_transcript_model_(srtm)_%",
+            "stderr": 0,
+            "value": 97.34
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_FSM_intra-priming_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_FSM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "intra-priming_%",
+            "stderr": 0,
+            "value": 4.52
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_SIRV_sensitivity_klaak",
+        "challenge_id": "cdna_pacbio_lo_SIRV",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "sensitivity",
+            "stderr": 0,
+            "value": 1.0
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_SIRV_precision_klaak",
+        "challenge_id": "cdna_pacbio_lo_SIRV",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "precision",
+            "stderr": 0,
+            "value": 1.0
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_SIRV_non_redundant_precision_klaak",
+        "challenge_id": "cdna_pacbio_lo_SIRV",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "non_redundant_precision",
+            "stderr": 0,
+            "value": 1.0
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_SIRV_positive_detection_rate_klaak",
+        "challenge_id": "cdna_pacbio_lo_SIRV",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "positive_detection_rate",
+            "stderr": 0,
+            "value": 1.0
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_NIC_5_cage_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_NIC",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "5_cage_supported_%",
+            "stderr": 0,
+            "value": 80.43
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_NIC_3_polya_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_NIC",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "3_polya_supported_%",
+            "stderr": 0,
+            "value": 89.95
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_NIC_intra-priming_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_NIC",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "intra-priming_%",
+            "stderr": 0,
+            "value": 2.15
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_NNC_5_cage_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_NNC",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "5_cage_supported_%",
+            "stderr": 0,
+            "value": 71.77
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_NNC_3_polya_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_NNC",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "3_polya_supported_%",
+            "stderr": 0,
+            "value": 88.95
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_NNC_intra-priming_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_NNC",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "intra-priming_%",
+            "stderr": 0,
+            "value": 1.55
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_ISM_5_reference_supported_(transcript)_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_ISM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "5_reference_supported_(transcript)_%",
+            "stderr": 0,
+            "value": 17.2
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_ISM_3_reference_supported_(transcript)_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_ISM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "3_reference_supported_(transcript)_%",
+            "stderr": 0,
+            "value": 45.2
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_ISM_5_cage_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_ISM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "5_cage_supported_%",
+            "stderr": 0,
+            "value": 45.8
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_ISM_3_polya_supported_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_ISM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "3_polya_supported_%",
+            "stderr": 0,
+            "value": 73.6
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_ISM_supported_reference_transcript_model_(srtm)_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_ISM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "supported_reference_transcript_model_(srtm)_%",
+            "stderr": 0,
+            "value": 48.4
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    },
+    {
+        "_id": "OEBC010:cdna_pacbio_lo_ISM_intra-priming_%_klaak",
+        "challenge_id": "cdna_pacbio_lo_ISM",
+        "community_id": "OEBC010",
+        "metrics": {
+            "metric_id": "intra-priming_%",
+            "stderr": 0,
+            "value": 5.2
+        },
+        "participant_id": "klaak",
+        "type": "assessment"
+    }
+]

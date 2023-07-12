@@ -58,7 +58,6 @@ def main(experiment_path, rdata_path, output_path, challenge):
     match = challenge.split("_")[-1].upper()
     # Set the values to pass to write_assessment_dataset contained in experiment metadata
     experiment = json.load(open(experiment_path, 'r'))
-    experiment_id = experiment['experiment_id']
     community = "OEBC010"
     challenge_id = challenge
 
@@ -87,6 +86,7 @@ def main(experiment_path, rdata_path, output_path, challenge):
             continue
         error = 0
         metric_id = f"{metric_to_filename(metric_id)}{percentage}"
+        experiment_id = f"{community}:{challenge_id}_{metric_id}_{participant_name}"
         # Write and validate results
         assessment_dataset = create_assessment_dataset(experiment_id, community, challenge_id, participant_name, metric_id, metric_value, error)
         if os.path.exists(output_path):

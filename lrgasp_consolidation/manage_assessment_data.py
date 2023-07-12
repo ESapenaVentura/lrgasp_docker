@@ -16,6 +16,11 @@ DEFAULT_OEB_API = "https://dev-openebench.bsc.es/api/scientific/graphql"
 DEFAULT_eventMark_id = "OEBE0010000000"
 METRICS =  {"precision":"OEBM0010000001", "TPR": "OEBM0010000002"}
 
+def define_parameters_from_manifest(manifest_path: str) -> tuple:
+    with open(manifest_path, 'r') as f:
+        manifest = json.load(f)
+    return manifest['experiment_json']
+
 def main(args):
 
     # input parameters
@@ -23,6 +28,13 @@ def main(args):
     participant_path = args.participant_data
     output_dir = args.output
     offline = args.offline
+    input_path = os.path.dirname(args.input_gz_file)
+    manifest_json_path = os.path.join(input_path, 'manifest.json')
+    experiment_json_filename = define_parameters_from_manifest(manifest_json_path)
+    with open(experiment_json_filename, 'r') as f:
+        experiment_json = json.load(f)
+
+    sample = experiment_json['samples']
     
     # Assuring the output directory does exist
     if not os.path.exists(output_dir):
@@ -32,10 +44,10 @@ def main(args):
     if offline is None:
         response = query_OEB_DB(DEFAULT_eventMark_id)
         getOEBAggregations(response, data_dir)
-    generate_manifest(data_dir, output_dir, participant_data)
+    generate_manifest(data_dir, output_dir, participant_data, sample)
 
     # Distinct metrics are divided by the match type, so we need to do this
-    WANTED_METRICS = [['5_reference_supported_(transcript)', '5_cage_supported'], ['3_reference_supported_(transcript)', '3_quantseq_supported'], ['3_quantseq_supported', '5_cage_supported']]
+    WANTED_METRICS = [['5_reference_supported_(transcript)', '5_cage_supported'], ['3_reference_supported_(transcript)', '3_polya_supported'], ['3_polya_supported', '5_cage_supported']]
     match_types = ["FSM", "ISM", "NIC", "NNC"]
     ALL_COMBINATIONS = []
     for metric_comb in WANTED_METRICS:
@@ -207,7 +219,7 @@ def read_participant_data(participant_path):
     return participant_data
 
 
-def generate_manifest(data_dir,output_dir, participant_data):
+def generate_manifest(data_dir,output_dir, participant_data, sample):
 
     info = []
     """
@@ -217,7 +229,7 @@ def generate_manifest(data_dir,output_dir, participant_data):
     if not, create it 
     """
     for challenge_id, metrics_file in participant_data.items():
-        challenge_dir = os.path.join(output_dir, challenge_id)
+        challenge_dir = os.path.join(output_dir, sample, challenge_id)
         if not os.path.exists(challenge_dir):
             os.makedirs(challenge_dir)
         participants = []
@@ -226,7 +238,7 @@ def generate_manifest(data_dir,output_dir, participant_data):
         pre_aggregation_file = {}
         for m in metrics_file:
             metric_Y = m["metrics"]["metric_id"]
-            lrgasp_oeb_data_dir = os.path.join(os.path.join(data_dir, challenge_id), f"{challenge_id}_{metric_Y}")
+            lrgasp_oeb_data_dir = os.path.join(os.path.join(data_dir, sample, challenge_id), f"{challenge_id}_{metric_Y}")
             lrgasp_oeb_data = lrgasp_oeb_data_dir + ".json"
             if os.path.isfile(lrgasp_oeb_data):
                 # Transferring the public participants data
@@ -292,6 +304,9 @@ if __name__ == '__main__':
     parser.add_argument("-b", "--benchmark_data", help="dir where the data for the benchmark will be or is stored", required=True)
     parser.add_argument("-o", "--output", help="output directory where the manifest and output JSON files will be written", required=True)
     parser.add_argument("--offline", help="offline mode; existing benchmarking datasets will be read from the benchmark_data", required=False, type= bool)
+    parser.add_argument("-m", "--manifest", help="use this parameter if manifest is provided", action='store_true')
+    parser.add_argument("-i", "--input-gz-file", help="Input file path to the user generated files, in tar.gz format",
+                        required=True)
     args = parser.parse_args()
 
     main(args)

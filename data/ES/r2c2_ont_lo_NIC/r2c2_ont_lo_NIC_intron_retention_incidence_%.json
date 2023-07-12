@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "r2c2_ont_lo_NIC"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 35.81, 
+                    "participant_id": "stringtie2-isoquant"
+                }, 
+                {
+                    "metric_y": 29.31, 
+                    "participant_id": "bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intron_retention_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,29 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "cdna_ont_lo_FSM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 58.88, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 55.47, 
+                    "participant_id": "rna-bloom"
+                }, 
+                {
+                    "metric_y": 56.49, 
+                    "participant_id": "isoquant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

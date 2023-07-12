@@ -1,0 +1,43 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "r2c2_ont_lo_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 88.2, 
+                    "metric_x": 24.78, 
+                    "participant_id": "lyric"
+                }, 
+                {
+                    "metric_y": 71.64, 
+                    "metric_x": 28.01, 
+                    "participant_id": "mandalorion"
+                }, 
+                {
+                    "metric_y": 80.41, 
+                    "metric_x": 5.54, 
+                    "participant_id": "isoquant"
+                }, 
+                {
+                    "metric_y": 89.82, 
+                    "metric_x": 45.69, 
+                    "participant_id": "talon_lapa"
+                }, 
+                {
+                    "metric_y": 88.05, 
+                    "metric_x": 31.2, 
+                    "participant_id": "bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

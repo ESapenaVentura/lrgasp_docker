@@ -1,0 +1,37 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "captrap_pacbio_lo_NIC"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 78.25, 
+                    "participant_id": "lyric"
+                }, 
+                {
+                    "metric_y": 88.65, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 91.99, 
+                    "participant_id": "flames"
+                }, 
+                {
+                    "metric_y": 75.11, 
+                    "participant_id": "isoquant"
+                }, 
+                {
+                    "metric_y": 85.65, 
+                    "participant_id": "talon_lapa"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

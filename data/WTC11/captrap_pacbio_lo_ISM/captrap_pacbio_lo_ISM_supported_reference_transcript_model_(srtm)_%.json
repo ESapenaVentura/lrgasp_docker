@@ -1,0 +1,37 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "captrap_pacbio_lo_ISM"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 22.47, 
+                    "participant_id": "lyric"
+                }, 
+                {
+                    "metric_y": 59.42, 
+                    "participant_id": "bambu"
+                }, 
+                {
+                    "metric_y": 77.1, 
+                    "participant_id": "flames"
+                }, 
+                {
+                    "metric_y": 70.36, 
+                    "participant_id": "isoquant"
+                }, 
+                {
+                    "metric_y": 50.28, 
+                    "participant_id": "talon_lapa"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_reference_transcript_model_(srtm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}
