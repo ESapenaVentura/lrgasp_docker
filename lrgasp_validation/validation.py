@@ -184,8 +184,8 @@ def main(challenges: str, input_file_path: str, experiment_name: str, schemas_pa
 
     try:
         extract_files_tar_gz(input_file_path, input_path)
-    except:
-        sys.exit(f"Input tar.gz file was not found or couldn't be opened: {input_file_path}")
+    except Exception as e:
+        sys.exit(f"Input tar.gz file was not found or couldn't be opened: {input_file_path}: Error {e}")
 
     if not manifest and not all([experiment_name, gtf_filename, read_model_map_filename]):
         sys.exit("Either the manifest or the filename for all files must be provided.")
