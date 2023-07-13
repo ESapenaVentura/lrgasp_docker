@@ -2474,7 +2474,7 @@ def main():
     experiment_id = experiment['experiment_id']
     for challenge in args.challenges:
         JSON_templates.write_dataset.main(experiment_path=args.experiment_json,
-                                          rdata_path=f"{args.dir}/{args.output}_Rdata/{experiment_id}_{challenge.split('_')[-1].upper()}_only.RData",
+                                          rdata_path=f"{args.dir}/{args.output}_Rdata/{experiment_id}_{challenge.split('_')[0]}_only.RData",
                                           output_path=args.assesment_output, challenge=challenge)
     sys.exit(0)
 
