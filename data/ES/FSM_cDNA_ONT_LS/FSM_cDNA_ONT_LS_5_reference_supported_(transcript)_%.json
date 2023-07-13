@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_cDNA_ONT_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 54.08, 
+                    "participant_id": "RNA-Bloom"
+                }, 
+                {
+                    "metric_y": 43.39, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

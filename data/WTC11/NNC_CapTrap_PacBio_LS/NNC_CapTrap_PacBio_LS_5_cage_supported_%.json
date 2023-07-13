@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_CapTrap_PacBio_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 79.61, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

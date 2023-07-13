@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_cDNA_ONT_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 62.81, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 89.43, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "full_illumina_sj_support_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

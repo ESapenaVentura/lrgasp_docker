@@ -1,0 +1,23 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_Freestyle_Freestyle_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 96.41, 
+                    "metric_x": 55.26, 
+                    "participant_id": "Mandalorion"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

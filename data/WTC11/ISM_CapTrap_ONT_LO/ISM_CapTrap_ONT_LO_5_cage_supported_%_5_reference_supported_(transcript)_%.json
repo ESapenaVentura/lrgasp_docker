@@ -1,0 +1,43 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "ISM_CapTrap_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 54.36, 
+                    "metric_x": 26.47, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 16.88, 
+                    "metric_x": 11.12, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 66.48, 
+                    "metric_x": 46.46, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 59.87, 
+                    "metric_x": 46.39, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 36.15, 
+                    "metric_x": 15.44, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

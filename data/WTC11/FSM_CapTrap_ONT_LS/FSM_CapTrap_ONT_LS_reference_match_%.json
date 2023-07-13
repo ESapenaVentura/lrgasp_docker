@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_CapTrap_ONT_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 30.49, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "reference_match_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "ISM_CapTrap_PacBio_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 10.37, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 26.41, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 44.95, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 53.97, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 18.6, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

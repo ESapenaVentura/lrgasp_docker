@@ -1,0 +1,41 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_cDNA_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.14, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 1.22, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 3.08, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 2.43, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 0.65, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 2.02, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intra-priming_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

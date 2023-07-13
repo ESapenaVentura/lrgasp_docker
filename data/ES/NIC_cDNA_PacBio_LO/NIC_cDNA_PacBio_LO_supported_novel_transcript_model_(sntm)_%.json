@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NIC_cDNA_PacBio_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 77.87, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 55.72, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_novel_transcript_model_(sntm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

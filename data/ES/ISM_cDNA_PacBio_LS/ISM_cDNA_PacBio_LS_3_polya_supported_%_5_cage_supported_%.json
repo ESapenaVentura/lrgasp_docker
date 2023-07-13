@@ -1,0 +1,23 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "ISM_cDNA_PacBio_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 38.18, 
+                    "metric_x": 12.48, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

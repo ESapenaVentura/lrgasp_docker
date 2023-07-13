@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "SIRV_cDNA_PacBio_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.15, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 0.37, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "positive_detection_rate"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

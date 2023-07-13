@@ -1,0 +1,37 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NIC_CapTrap_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 99.4, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 99.71, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 58.27, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 97.23, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 97.73, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

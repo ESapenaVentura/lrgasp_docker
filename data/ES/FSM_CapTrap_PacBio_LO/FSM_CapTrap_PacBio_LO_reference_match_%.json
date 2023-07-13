@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_CapTrap_PacBio_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 40.37, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 34.64, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "reference_match_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

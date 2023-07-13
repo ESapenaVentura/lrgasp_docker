@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "SIRV_cDNA_ONT_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.63, 
+                    "participant_id": "RNA-Bloom"
+                }, 
+                {
+                    "metric_y": 0.53, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "false_discovery_rate"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

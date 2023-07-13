@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_dRNA_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 4.49, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 12.04, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "non-canonical_sj_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

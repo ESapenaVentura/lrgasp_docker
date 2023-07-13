@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_dRNA_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 96.64, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 92.21, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

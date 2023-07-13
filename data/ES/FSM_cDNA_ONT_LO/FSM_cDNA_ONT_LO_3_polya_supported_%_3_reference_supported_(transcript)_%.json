@@ -1,0 +1,33 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_cDNA_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 92.59, 
+                    "metric_x": 58.88, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 85.11, 
+                    "metric_x": 55.47, 
+                    "participant_id": "RNA-Bloom"
+                }, 
+                {
+                    "metric_y": 88.66, 
+                    "metric_x": 56.49, 
+                    "participant_id": "IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NIC_R2C2_ONT_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.66, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intra-priming_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

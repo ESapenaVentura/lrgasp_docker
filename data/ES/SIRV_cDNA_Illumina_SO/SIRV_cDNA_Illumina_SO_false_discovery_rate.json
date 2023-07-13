@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "SIRV_cDNA_Illumina_SO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.52, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "false_discovery_rate"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

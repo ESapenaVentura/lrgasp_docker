@@ -1,0 +1,29 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NIC_cDNA_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 69.96, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 64.92, 
+                    "participant_id": "RNA-Bloom"
+                }, 
+                {
+                    "metric_y": 38.03, 
+                    "participant_id": "IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

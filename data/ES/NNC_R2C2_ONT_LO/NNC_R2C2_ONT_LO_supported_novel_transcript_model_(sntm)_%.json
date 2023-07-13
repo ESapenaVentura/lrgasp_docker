@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_R2C2_ONT_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 20.73, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }, 
+                {
+                    "metric_y": 35.54, 
+                    "participant_id": "Bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_novel_transcript_model_(sntm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

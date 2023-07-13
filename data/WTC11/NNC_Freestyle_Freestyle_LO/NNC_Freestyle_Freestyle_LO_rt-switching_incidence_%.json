@@ -1,0 +1,21 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_Freestyle_Freestyle_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 6.77, 
+                    "participant_id": "Mandalorion"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "rt-switching_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

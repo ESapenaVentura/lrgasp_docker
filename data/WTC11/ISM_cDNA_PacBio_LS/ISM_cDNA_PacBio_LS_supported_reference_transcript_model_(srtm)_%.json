@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "ISM_cDNA_PacBio_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 55.04, 
+                    "participant_id": "FLAIR"
+                }, 
+                {
+                    "metric_y": 31.77, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_reference_transcript_model_(srtm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

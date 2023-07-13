@@ -1,0 +1,25 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_CapTrap_PacBio_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 7.61, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 7.97, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "rt-switching_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

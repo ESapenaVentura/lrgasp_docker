@@ -1,0 +1,53 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "NNC_cDNA_PacBio_LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 81.96, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 61.94, 
+                    "participant_id": "IsoTools"
+                }, 
+                {
+                    "metric_y": 77.14, 
+                    "participant_id": "Mandalorion"
+                }, 
+                {
+                    "metric_y": 24.93, 
+                    "participant_id": "Iso_IB"
+                }, 
+                {
+                    "metric_y": 56.29, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 32.72, 
+                    "participant_id": "Spectra"
+                }, 
+                {
+                    "metric_y": 67.13, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 73.85, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 2.21, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_novel_transcript_model_(sntm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

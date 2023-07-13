@@ -1,0 +1,23 @@
+{
+    "_id": "placeholder_id", 
+    "challenge_ids": [
+        "FSM_CapTrap_PacBio_LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 95.01, 
+                    "metric_x": 76.23, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}
