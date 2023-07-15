@@ -57,12 +57,12 @@ def main(args):
 
     for challenge_name in participant_data.keys():
         for y_metric_name, x_metric_name in ALL_COMBINATIONS:
-            generate_manifest_2d_plots(data_dir, challenge_name, output_dir, y_metric_name, x_metric_name)
+            generate_manifest_2d_plots(challenge_name, output_dir, y_metric_name, x_metric_name, sample)
     sys.exit(0)
 
 
 
-def generate_manifest_2d_plots(data_dir, challenge_name, output_dir, y_metric_name, x_metric_name):
+def generate_manifest_2d_plots(challenge_name, output_dir, y_metric_name, x_metric_name, sample):
     """
     This function takes advantage of the already existing JSON files to generate the 2d plots more easily.
 
@@ -74,7 +74,7 @@ def generate_manifest_2d_plots(data_dir, challenge_name, output_dir, y_metric_na
     """
     x_metric_file = None
     y_metric_file = None
-    for file in os.listdir(os.path.join(output_dir, challenge_name)):
+    for file in os.listdir(os.path.join(output_dir, sample, challenge_name)):
         if file == f"{challenge_name}_{x_metric_name}.json":
             x_metric_file = file
         if file == f"{challenge_name}_{y_metric_name}.json":
