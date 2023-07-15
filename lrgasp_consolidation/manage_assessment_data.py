@@ -85,8 +85,8 @@ def generate_manifest_2d_plots(challenge_name, output_dir, y_metric_name, x_metr
             return
 
     # Load metrics
-    metric_Y = json.load(open(os.path.join(output_dir, challenge_name, y_metric_file), 'r'))
-    metric_X = json.load(open(os.path.join(output_dir, challenge_name, x_metric_file), 'r'))
+    metric_Y = json.load(open(os.path.join(output_dir, sample, challenge_name, y_metric_file), 'r'))
+    metric_X = json.load(open(os.path.join(output_dir, sample, challenge_name, x_metric_file), 'r'))
 
 
 
@@ -120,7 +120,7 @@ def generate_manifest_2d_plots(challenge_name, output_dir, y_metric_name, x_metr
         },
         "type": "aggregation"
     }
-    summary_dir = os.path.join(output_dir, challenge_name, f"{challenge_name}_{y_metric_name}_{x_metric_name}.json")
+    summary_dir = os.path.join(output_dir, sample, challenge_name, f"{challenge_name}_{y_metric_name}_{x_metric_name}.json")
 
     with open(summary_dir, 'w') as f:
         json.dump(aggregation_file, f, sort_keys=True, indent=4, separators=(',', ': '))
