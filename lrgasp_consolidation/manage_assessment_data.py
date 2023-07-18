@@ -19,7 +19,7 @@ METRICS =  {"precision":"OEBM0010000001", "TPR": "OEBM0010000002"}
 def define_parameters_from_manifest(manifest_path: str) -> tuple:
     with open(manifest_path, 'r') as f:
         manifest = json.load(f)
-    return manifest['experiment_json']
+    return os.path.join(os.path.dirname(manifest_path), manifest['experiment_json'])
 
 def main(args):
 
@@ -224,7 +224,7 @@ def generate_manifest(data_dir,output_dir, participant_data, sample):
     info = []
     """
     For each of the challenge_id defined:
-    - Create a path with `output_dir/challenge_id`
+    - Create a path with `output_dir/sample/challenge_id`
     If the path already contains data for that challenge, aggregate it
     if not, create it 
     """
