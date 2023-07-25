@@ -1,0 +1,25 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_sirvs_cDNA-ONT-LS", 
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.35, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 0.23, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "false_detection_rate"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_sirvs_cDNA-PacBio-LS", 
+    "challenge_ids": [
+        "mouse_sirvs_cDNA-PacBio-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.64, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "positive_detection_rate"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,25 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_FSM_CapTrap-PacBio-LO", 
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 59.02, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 58.0, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,25 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_NNC_R2C2-ONT-LO", 
+    "challenge_ids": [
+        "mouse_NNC_R2C2-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 26.04, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }, 
+                {
+                    "metric_y": 63.09, 
+                    "participant_id": "Bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

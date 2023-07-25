@@ -1,0 +1,21 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_sirvs_dRNA-ONT-LS", 
+    "challenge_ids": [
+        "mouse_sirvs_dRNA-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 0.12, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "precision"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

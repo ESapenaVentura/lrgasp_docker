@@ -1,0 +1,25 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_NNC_CapTrap-PacBio-LO", 
+    "challenge_ids": [
+        "mouse_NNC_CapTrap-PacBio-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 74.57, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 61.29, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "full_illumina_sj_support_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

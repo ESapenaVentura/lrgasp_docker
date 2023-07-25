@@ -1,0 +1,53 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_ISM_cDNA-PacBio-LO", 
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 52.36, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 16.34, 
+                    "participant_id": "IsoTools"
+                }, 
+                {
+                    "metric_y": 65.22, 
+                    "participant_id": "Mandalorion"
+                }, 
+                {
+                    "metric_y": 42.82, 
+                    "participant_id": "Iso_IB"
+                }, 
+                {
+                    "metric_y": 62.02, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 28.27, 
+                    "participant_id": "Spectra"
+                }, 
+                {
+                    "metric_y": 50.34, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 21.23, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 48.19, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

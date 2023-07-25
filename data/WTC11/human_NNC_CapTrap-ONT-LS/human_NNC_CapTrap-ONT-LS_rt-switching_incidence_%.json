@@ -1,0 +1,21 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_NNC_CapTrap-ONT-LS", 
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 4.78, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "rt-switching_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

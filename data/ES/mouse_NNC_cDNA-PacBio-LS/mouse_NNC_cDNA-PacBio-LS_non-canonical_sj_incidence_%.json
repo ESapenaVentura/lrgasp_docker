@@ -1,0 +1,21 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_NNC_cDNA-PacBio-LS", 
+    "challenge_ids": [
+        "mouse_NNC_cDNA-PacBio-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 67.53, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "non-canonical_sj_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

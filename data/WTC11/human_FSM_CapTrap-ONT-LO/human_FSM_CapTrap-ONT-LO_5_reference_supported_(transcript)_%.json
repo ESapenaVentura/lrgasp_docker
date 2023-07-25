@@ -1,0 +1,37 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_FSM_CapTrap-ONT-LO", 
+    "challenge_ids": [
+        "human_FSM_CapTrap-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 99.2, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 73.35, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 92.19, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 98.76, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 63.11, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

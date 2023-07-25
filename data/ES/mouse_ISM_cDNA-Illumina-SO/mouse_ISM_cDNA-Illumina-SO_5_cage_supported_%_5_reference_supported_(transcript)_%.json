@@ -1,0 +1,23 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_ISM_cDNA-Illumina-SO", 
+    "challenge_ids": [
+        "mouse_ISM_cDNA-Illumina-SO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 10.49, 
+                    "metric_x": 8.66, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

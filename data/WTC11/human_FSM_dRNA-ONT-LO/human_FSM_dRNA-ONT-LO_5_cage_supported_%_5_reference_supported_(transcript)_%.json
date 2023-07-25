@@ -1,0 +1,48 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_FSM_dRNA-ONT-LO", 
+    "challenge_ids": [
+        "human_FSM_dRNA-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 73.16, 
+                    "metric_x": 95.18, 
+                    "participant_id": "FLAIR"
+                }, 
+                {
+                    "metric_y": 87.06, 
+                    "metric_x": 82.87, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 83.79, 
+                    "metric_x": 89.89, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 77.97, 
+                    "metric_x": 99.11, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 61.45, 
+                    "metric_x": 55.37, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 65.69, 
+                    "metric_x": 99.16, 
+                    "participant_id": "Bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

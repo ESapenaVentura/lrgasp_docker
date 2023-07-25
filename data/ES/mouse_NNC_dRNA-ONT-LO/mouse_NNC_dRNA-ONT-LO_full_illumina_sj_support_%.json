@@ -1,0 +1,25 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_NNC_dRNA-ONT-LO", 
+    "challenge_ids": [
+        "mouse_NNC_dRNA-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 35.41, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 42.87, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "full_illumina_sj_support_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

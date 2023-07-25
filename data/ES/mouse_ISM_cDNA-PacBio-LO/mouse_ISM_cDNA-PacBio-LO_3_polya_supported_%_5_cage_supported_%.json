@@ -1,0 +1,28 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_ISM_cDNA-PacBio-LO", 
+    "challenge_ids": [
+        "mouse_ISM_cDNA-PacBio-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 90.32, 
+                    "metric_x": 27.35, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 83.27, 
+                    "metric_x": 28.26, 
+                    "participant_id": "StringTie2-IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_NIC_R2C2-ONT-LO", 
+    "challenge_ids": [
+        "human_NIC_R2C2-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 30.79, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 24.98, 
+                    "participant_id": "Mandalorion"
+                }, 
+                {
+                    "metric_y": 23.74, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 35.42, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 25.84, 
+                    "participant_id": "Bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intron_retention_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

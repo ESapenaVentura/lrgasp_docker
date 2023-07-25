@@ -1,0 +1,41 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_NNC_dRNA-ONT-LO", 
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 3.64, 
+                    "participant_id": "FLAIR"
+                }, 
+                {
+                    "metric_y": 0.0, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 0.0, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 1.15, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 0.5, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 0.83, 
+                    "participant_id": "Bambu"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intra-priming_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

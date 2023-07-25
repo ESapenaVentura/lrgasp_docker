@@ -1,0 +1,28 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_NNC_cDNA-PacBio-LS", 
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 98.68, 
+                    "metric_x": 85.23, 
+                    "participant_id": "FLAIR"
+                }, 
+                {
+                    "metric_y": 98.82, 
+                    "metric_x": 76.72, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_FSM_cDNA-PacBio-LS", 
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 45.46, 
+                    "metric_x": 42.55, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

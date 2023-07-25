@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_NIC_cDNA-ONT-LO", 
+    "challenge_ids": [
+        "mouse_NIC_cDNA-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 71.3, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 64.34, 
+                    "participant_id": "RNA-Bloom"
+                }, 
+                {
+                    "metric_y": 56.11, 
+                    "participant_id": "IsoQuant"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "supported_novel_transcript_model_(sntm)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

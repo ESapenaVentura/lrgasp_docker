@@ -1,0 +1,41 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_ISM_cDNA-ONT-LO", 
+    "challenge_ids": [
+        "human_ISM_cDNA-ONT-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 52.45, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 29.95, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 44.23, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 21.23, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 45.77, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 47.69, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

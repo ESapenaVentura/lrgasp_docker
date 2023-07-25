@@ -1,0 +1,28 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_mouse_ISM_cDNA-ONT-LS", 
+    "challenge_ids": [
+        "mouse_ISM_cDNA-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 69.17, 
+                    "metric_x": 24.27, 
+                    "participant_id": "RNA-Bloom"
+                }, 
+                {
+                    "metric_y": 39.58, 
+                    "metric_x": 14.24, 
+                    "participant_id": "rnaSPAdes"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

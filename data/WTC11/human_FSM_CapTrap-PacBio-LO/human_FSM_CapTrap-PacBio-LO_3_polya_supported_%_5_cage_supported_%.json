@@ -1,0 +1,43 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_FSM_CapTrap-PacBio-LO", 
+    "challenge_ids": [
+        "human_FSM_CapTrap-PacBio-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 98.89, 
+                    "metric_x": 86.23, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 81.89, 
+                    "metric_x": 69.29, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 97.31, 
+                    "metric_x": 86.24, 
+                    "participant_id": "FLAMES"
+                }, 
+                {
+                    "metric_y": 85.23, 
+                    "metric_x": 76.64, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 95.03, 
+                    "metric_x": 76.2, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

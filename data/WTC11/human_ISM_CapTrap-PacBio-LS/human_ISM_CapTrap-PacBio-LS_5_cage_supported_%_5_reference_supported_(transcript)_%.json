@@ -1,0 +1,23 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_ISM_CapTrap-PacBio-LS", 
+    "challenge_ids": [
+        "human_ISM_CapTrap-PacBio-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 39.34, 
+                    "metric_x": 18.64, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "5_cage_supported_%", 
+                "x_axis": "5_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

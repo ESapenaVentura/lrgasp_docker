@@ -1,0 +1,28 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_ISM_cDNA-ONT-LS", 
+    "challenge_ids": [
+        "human_ISM_cDNA-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 85.03, 
+                    "metric_x": 33.96, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 92.66, 
+                    "metric_x": 23.02, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "5_cage_supported_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

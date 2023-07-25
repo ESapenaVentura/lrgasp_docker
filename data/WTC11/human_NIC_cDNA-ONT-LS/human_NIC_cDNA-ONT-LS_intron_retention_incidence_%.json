@@ -1,0 +1,25 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_NIC_cDNA-ONT-LS", 
+    "challenge_ids": [
+        "human_NIC_cDNA-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 29.42, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 12.68, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "intron_retention_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

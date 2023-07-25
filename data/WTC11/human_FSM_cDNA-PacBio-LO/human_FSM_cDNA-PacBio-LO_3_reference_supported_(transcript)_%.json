@@ -1,0 +1,53 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_FSM_cDNA-PacBio-LO", 
+    "challenge_ids": [
+        "human_FSM_cDNA-PacBio-LO"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 71.49, 
+                    "participant_id": "LyRic"
+                }, 
+                {
+                    "metric_y": 55.8, 
+                    "participant_id": "IsoTools"
+                }, 
+                {
+                    "metric_y": 55.9, 
+                    "participant_id": "Mandalorion"
+                }, 
+                {
+                    "metric_y": 32.19, 
+                    "participant_id": "Iso_IB"
+                }, 
+                {
+                    "metric_y": 99.03, 
+                    "participant_id": "IsoQuant"
+                }, 
+                {
+                    "metric_y": 50.97, 
+                    "participant_id": "Spectra"
+                }, 
+                {
+                    "metric_y": 99.25, 
+                    "participant_id": "Bambu"
+                }, 
+                {
+                    "metric_y": 50.74, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 80.31, 
+                    "participant_id": "FLAIR"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

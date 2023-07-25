@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_NNC_dRNA-ONT-LS", 
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 16.78, 
+                    "participant_id": "FLAIR"
+                }, 
+                {
+                    "metric_y": 2.51, 
+                    "participant_id": "TALON_LAPA"
+                }, 
+                {
+                    "metric_y": 8.94, 
+                    "participant_id": "StringTie2"
+                }
+            ], 
+            "visualization": {
+                "type": "bar-plot", 
+                "y_axis": "rt-switching_incidence_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "LRGASP:LRGASP_challenge-1_human_ISM_CapTrap-ONT-LS", 
+    "challenge_ids": [
+        "human_ISM_CapTrap-ONT-LS"
+    ], 
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_y": 93.17, 
+                    "metric_x": 53.65, 
+                    "participant_id": "TALON_LAPA"
+                }
+            ], 
+            "visualization": {
+                "type": "2D-plot", 
+                "y_axis": "3_polya_supported_%", 
+                "x_axis": "3_reference_supported_(transcript)_%"
+            }
+        }
+    }, 
+    "type": "aggregation"
+}
