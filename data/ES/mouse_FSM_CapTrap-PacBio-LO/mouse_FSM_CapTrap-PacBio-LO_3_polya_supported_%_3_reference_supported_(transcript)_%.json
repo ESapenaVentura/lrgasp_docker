@@ -10,11 +10,6 @@
                     "metric_y": 93.88, 
                     "metric_x": 59.02, 
                     "participant_id": "Bambu"
-                }, 
-                {
-                    "metric_y": 91.33, 
-                    "metric_x": 58.0, 
-                    "participant_id": "StringTie2-IsoQuant"
                 }
             ], 
             "visualization": {
