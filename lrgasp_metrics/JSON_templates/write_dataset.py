@@ -55,7 +55,7 @@ def metric_to_filename(metric):
     return metric
 
 def main(experiment_path, rdata_path, output_path, challenge):
-    match = challenge.split("_")[0].upper()
+    match = challenge.split("_")[1].replace('sirvs', 'SIRV')
     # Set the values to pass to write_assessment_dataset contained in experiment metadata
     experiment = json.load(open(experiment_path, 'r'))
     community = "OEBC010"

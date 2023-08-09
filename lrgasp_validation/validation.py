@@ -167,12 +167,13 @@ def validate_library_to_metadata(experiment_json):
 
 def challenges_are_valid(challenges, experiment_json):
     for challenge in challenges:
-        split_challenge = challenge.split("_")
-        if experiment_json['library_preps'] not in split_challenge[2]:
+        split_challenge = challenge.split('_')[:2]
+        split_challenge.extend(challenge.split('_')[2].split('-'))
+        if experiment_json.get('library_preps', '') not in split_challenge[2]:
             ERRORS.append(f'Library preparation in challenge {challenge} and metadata provided in experiment.json is not consistent; please ensure you selected the proper library preparation.')
-        if experiment_json['platforms'] not in split_challenge[3]:
+        if experiment_json.get('platforms', '') not in split_challenge[3]:
             ERRORS.append(f'Sequencing platform in challenge {challenge} and metadata provided in experiment.json is not consistent; please ensure you selected the proper sequencing platform.')
-        length = experiment_json['data_category'].split("_")
+        length = experiment_json.get('data_category', 'N_N').split("_")
         length = f"{length[0][0]}{length[1][0]}".upper()
         if length not in split_challenge[4]:
             ERRORS.append(f'Read length in challenge {challenge} and metadata provided in experiment.json is not consistent; please ensure you selected the proper read length.')
