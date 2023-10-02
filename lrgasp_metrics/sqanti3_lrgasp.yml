@@ -47,3 +47,4 @@ dependencies:
   - libcurl
   - pyreadr
   - jsonschema
+  - ucsc-gtftogenepred

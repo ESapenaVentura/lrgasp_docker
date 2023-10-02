@@ -109,12 +109,9 @@ DESALT_CMD = "deSALT aln {dir} {i} -t {cpus} -x ccs -o {o}"
 GMSP_PROG = os.path.join(utilitiesPath, "gmst", "gmst.pl")
 GMST_CMD = "perl " + GMSP_PROG + " -faa --strand direct --fnn --output {o} {i}"
 
-GTF2GENEPRED_PROG = os.path.join(utilitiesPath,"gtfToGenePred")
+GTF2GENEPRED_PROG = "gtfToGenePred" # Modified to use the package directly from Conda installation
 GFFREAD_PROG = "gffread"
 
-if distutils.spawn.find_executable(GTF2GENEPRED_PROG) is None:
-    print("Cannot find executable {0}. Abort!".format(GTF2GENEPRED_PROG), file=sys.stderr)
-    sys.exit(1)
 if distutils.spawn.find_executable(GFFREAD_PROG) is None:
     print("Cannot find executable {0}. Abort!".format(GFFREAD_PROG), file=sys.stderr)
     sys.exit(1)
