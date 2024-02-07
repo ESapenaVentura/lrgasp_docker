@@ -1,0 +1,222 @@
+[
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "mouse_sirvs_CapTrap-ONT-LO_precision_Bambu_A",
+    "challenge_id": "mouse_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.57
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_sirvs_CapTrap-ONT-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "mouse_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.35
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_sirvs_CapTrap-ONT-LO_sensitivity_Bambu_A",
+    "challenge_id": "mouse_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.37
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_sirvs_CapTrap-ONT-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "mouse_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.57
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_sirvs_CapTrap-ONT-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "mouse_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.4
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_sirvs_CapTrap-ONT-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "mouse_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.41
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_agg_precision",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.57,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.35,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_agg_sensitivity",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.37,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.57,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.4,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.41,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:mouse_sirvs_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+}
+]

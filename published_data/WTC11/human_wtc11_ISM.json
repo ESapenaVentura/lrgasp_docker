@@ -1,0 +1,416 @@
+[
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_FLAIR_P",
+    "challenge_id": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_3_reference_supported_(transcript)_%_FLAIR_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 40.51
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_3_reference_supported_(transcript)_%_TALON_LAPA_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 61.92
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 2.39
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.47
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 88.72
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.69
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_5_reference_supported_(transcript)_%_FLAIR_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 23.76
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_5_reference_supported_(transcript)_%_TALON_LAPA_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 6.93
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 51.11
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 21.2
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_supported_reference_transcript_model_(srtm)_%_FLAIR_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 55.04
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_ISM_cDNA-PacBio-LS_supported_reference_transcript_model_(srtm)_%_TALON_LAPA_A",
+    "challenge_id": "human_ISM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 31.77
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 40.51,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 61.92,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 2.39,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.47,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 40.51,
+                    "metric_y": 88.72,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 61.92,
+                    "metric_y": 98.69,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 88.72,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 98.69,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 23.76,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 6.93,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 51.11,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 21.2,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 23.76,
+                    "metric_y": 51.11,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 6.93,
+                    "metric_y": 21.2,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 55.04,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 31.77,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_ISM_cDNA-PacBio-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_ISM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 51.11,
+                    "metric_y": 88.72,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 21.2,
+                    "metric_y": 98.69,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:human_ISM_cDNA-PacBio-LS",
+    "participants": [
+        "FLAIR",
+        "TALON_LAPA"
+    ]
+}
+]

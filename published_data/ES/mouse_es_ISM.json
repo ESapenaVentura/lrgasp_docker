@@ -1,0 +1,406 @@
+[
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 19.7
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 28.37
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 46.24
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_3_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 37.38
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 26.5
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_supported_reference_transcript_model_(srtm)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 35.93
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 86.6
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_5_cage_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 29.29
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_3_polya_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 78.81
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 3.9
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_intra-priming_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 5.88
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_ISM_CapTrap-PacBio-LO_5_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_ISM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 29.97
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 19.7,
+                    "metric_y": 28.37,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 46.24,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 37.38,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 26.5,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 35.93,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 28.37,
+                    "metric_y": 86.6,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 29.29,
+                    "metric_y": 78.81,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 86.6,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 78.81,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 3.9,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 5.88,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 46.24,
+                    "metric_y": 86.6,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 19.7,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 29.97,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_ISM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 28.37,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 29.29,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:mouse_ISM_CapTrap-PacBio-LO",
+    "participants": [
+        "Bambu",
+        "StringTie2--IsoQuant"
+    ]
+}
+]

@@ -1,0 +1,407 @@
+[
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_FLAIR_P",
+    "challenge_id": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_StringTie2_P",
+    "challenge_id": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "StringTie2",
+    "type": "participant"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 83.74
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.4
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 45.83
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.35
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_5_cage_supported_%_StringTie2_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 70.61
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_3_polya_supported_%_StringTie2_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 93.79
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_FLAIR_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 76.63
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 50.91
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_StringTie2_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 74.29
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.44
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.36
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_intra-priming_%_StringTie2_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.17
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_intron_retention_incidence_%_FLAIR_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intron_retention_incidence_%",
+        "value": 12.63
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_intron_retention_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intron_retention_incidence_%",
+        "value": 32.5
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NIC_dRNA-ONT-LS_intron_retention_incidence_%_StringTie2_A",
+    "challenge_id": "human_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intron_retention_incidence_%",
+        "value": 19.74
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 83.74,
+                    "metric_y": 98.4,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 45.83,
+                    "metric_y": 98.35,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_x": 70.61,
+                    "metric_y": 93.79,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 76.63,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 50.91,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 74.29,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 83.74,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 45.83,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 70.61,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 98.4,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 98.35,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 93.79,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.44,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.36,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.17,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NIC_dRNA-ONT-LS_agg_intron_retention_incidence_%",
+    "challenge_ids": [
+        "human_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 12.63,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 32.5,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 19.74,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "intron_retention_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:human_NIC_dRNA-ONT-LS",
+    "participants": [
+        "FLAIR",
+        "TALON_LAPA",
+        "StringTie2"
+    ]
+}
+]

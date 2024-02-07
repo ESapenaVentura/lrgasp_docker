@@ -1,0 +1,327 @@
+[
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_supported_reference_transcript_model_(srtm)_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 82.86
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_5_reference_supported_(transcript)_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 62.08
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 75.94
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 94.14
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_reference_match_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 30.45
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_FSM_R2C2-ONT-LS_3_reference_supported_(transcript)_%_TALON_LAPA_A",
+    "challenge_id": "human_FSM_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 47.18
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 82.86,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.37,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 62.08,
+                    "metric_y": 75.94,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 62.08,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 94.14,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 75.94,
+                    "metric_y": 94.14,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_reference_match_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 30.45,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 47.18,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 75.94,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_FSM_R2C2-ONT-LS_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_FSM_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 47.18,
+                    "metric_y": 94.14,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:human_FSM_R2C2-ONT-LS",
+    "participants": [
+        "TALON_LAPA"
+    ]
+}
+]
