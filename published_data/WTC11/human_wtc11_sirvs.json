@@ -1,5 +1,389 @@
 [
 {
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_LyRic_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_LyRic_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_Mandalorion_P",
+    "challenge_id": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Mandalorion",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_Mandalorion_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Mandalorion",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
     "_id": "LRGASP:human_sirvs_cDNA-ONT-LS_TALON_LAPA_P",
     "challenge_id": [
         "human_sirvs_cDNA-ONT-LS"
@@ -13,6 +397,246 @@
         "validation_date": "2023-10-05T14:54:17.350000+02:00"
     },
     "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_Bambu_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_Bambu_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_IsoTools_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "IsoTools",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_Iso_IB_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Iso_IB",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_Spectra_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "Spectra",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_FLAIR_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_FLAIR_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_FLAIR_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_FLAIR_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_FLAIR_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAIR",
     "type": "participant"
 },
 {
@@ -30,6 +654,2924 @@
     },
     "participant_id": "FLAIR",
     "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_FLAMES_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAMES",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_FLAMES_P",
+    "challenge_id": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAMES",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_FLAMES_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAMES",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_FLAMES_P",
+    "challenge_id": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "FLAMES",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_StringTie2_P",
+    "challenge_id": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.350000+02:00"
+    },
+    "participant_id": "StringTie2",
+    "type": "participant"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_sensitivity_LyRic_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.54
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_sensitivity_Mandalorion_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.83
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_sensitivity_IsoQuant_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.93
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.21
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_sensitivity_Bambu_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.8
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_non_redundant_precision_LyRic_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.55
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_non_redundant_precision_Mandalorion_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.74
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_non_redundant_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.95
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.51
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.93
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_discovery_rate_LyRic_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.45
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_discovery_rate_Mandalorion_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.09
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_discovery_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.02
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.07
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.35
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_detection_rate_Mandalorion_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.02
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.03
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.07
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_positive_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.63
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_positive_detection_rate_Mandalorion_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.94
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_positive_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.93
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.36
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.8
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_precision_LyRic_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.55
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_precision_Mandalorion_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.74
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.95
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.51
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LO_precision_Bambu_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.93
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.9
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_IsoTools_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.88
+    },
+    "participant_id": "IsoTools",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_Mandalorion_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.98
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_Iso_IB_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.96
+    },
+    "participant_id": "Iso_IB",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.96
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_Spectra_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.96
+    },
+    "participant_id": "Spectra",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.96
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.93
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_positive_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.12
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_IsoTools_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.08
+    },
+    "participant_id": "IsoTools",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_Mandalorion_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.04
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_Iso_IB_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.4
+    },
+    "participant_id": "Iso_IB",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_Spectra_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.57
+    },
+    "participant_id": "Spectra",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.24
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_discovery_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.88
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_IsoTools_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.86
+    },
+    "participant_id": "IsoTools",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_Mandalorion_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.95
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_Iso_IB_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.24
+    },
+    "participant_id": "Iso_IB",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 1.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_Spectra_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.29
+    },
+    "participant_id": "Spectra",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 1.0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.27
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.1
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_IsoTools_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "IsoTools",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_Mandalorion_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.02
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_Iso_IB_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.39
+    },
+    "participant_id": "Iso_IB",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_Spectra_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.57
+    },
+    "participant_id": "Spectra",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.1
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_false_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.88
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_IsoTools_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.81
+    },
+    "participant_id": "IsoTools",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_Mandalorion_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.96
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_Iso_IB_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.94
+    },
+    "participant_id": "Iso_IB",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.96
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_Spectra_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.95
+    },
+    "participant_id": "Spectra",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.96
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.62
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_sensitivity_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.88
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_IsoTools_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.86
+    },
+    "participant_id": "IsoTools",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_Mandalorion_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.95
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_Iso_IB_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.24
+    },
+    "participant_id": "Iso_IB",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 1.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_Spectra_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.29
+    },
+    "participant_id": "Spectra",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 1.0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.27
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LO_non_redundant_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_sensitivity_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.62
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_non_redundant_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.27
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_positive_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.93
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 1.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.27
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_false_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.1
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_false_discovery_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.0
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-PacBio-LS_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.24
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LS_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.26
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LS_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.26
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LS_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.44
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LS_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.45
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LS_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LS_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.97
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_precision_LyRic_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.55
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.93
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.97
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.28
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_precision_Bambu_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.99
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_positive_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.89
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_positive_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.4
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_positive_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.79
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_positive_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.89
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.89
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.93
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_sensitivity_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.89
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_sensitivity_LyRic_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.38
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_sensitivity_FLAMES_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.79
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_sensitivity_IsoQuant_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.89
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.55
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_sensitivity_Bambu_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.93
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_discovery_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.03
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_discovery_rate_LyRic_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.43
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_discovery_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.07
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_discovery_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.03
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.03
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.4
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.07
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.03
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.12
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_non_redundant_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.97
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_non_redundant_precision_LyRic_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.55
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_non_redundant_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.93
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_non_redundant_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.97
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.28
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.99
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_discovery_rate_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.94
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_discovery_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.36
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_discovery_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.02
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.51
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_discovery_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.27
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_non_redundant_precision_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.06
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_non_redundant_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.62
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.99
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_non_redundant_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.98
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.24
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_non_redundant_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.72
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_precision_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.06
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.62
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_precision_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.99
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.98
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.24
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.72
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_sensitivity_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.24
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_sensitivity_FLAMES_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.76
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_sensitivity_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.94
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_sensitivity_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.95
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.26
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_sensitivity_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.9
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.93
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.36
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.02
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.35
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_false_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.23
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_positive_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.26
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_positive_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.76
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.94
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_positive_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.95
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.43
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_cDNA-ONT-LO_positive_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.95
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.95
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_non_redundant_precision_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.09
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_non_redundant_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.52
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_non_redundant_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.96
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.26
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_sensitivity_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.82
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_sensitivity_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.31
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_sensitivity_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.74
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_sensitivity_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.89
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.04
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.88
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.46
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.04
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.04
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_discovery_rate_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.9
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_discovery_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.46
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_discovery_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.04
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.44
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_precision_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.95
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_precision_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.09
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.52
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.96
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.26
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.82
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_positive_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.38
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_positive_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.74
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_positive_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.89
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-ONT-LO_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.45
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_positive_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.63
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_positive_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.98
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_positive_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.74
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_positive_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.83
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.65
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_sensitivity_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.56
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_sensitivity_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.96
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_sensitivity_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.74
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_sensitivity_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.83
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.38
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_detection_rate_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.27
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_detection_rate_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_detection_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.02
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_detection_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.13
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_precision_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.64
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_precision_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.99
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.98
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 1.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.33
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_discovery_rate_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.36
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_discovery_rate_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_discovery_rate_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.02
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_discovery_rate_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_non_redundant_precision_LyRic_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.64
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_non_redundant_precision_Bambu_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.99
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_non_redundant_precision_FLAMES_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.98
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_non_redundant_precision_IsoQuant_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 1.0
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LO_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.33
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_non_redundant_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.97
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.28
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_non_redundant_precision_StringTie2_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.83
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_false_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.03
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.12
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_false_detection_rate_StringTie2_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.16
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_false_discovery_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.03
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_false_discovery_rate_StringTie2_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.17
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_precision_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.97
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.28
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_precision_StringTie2_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.83
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_sensitivity_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.89
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.55
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_sensitivity_StringTie2_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.87
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_positive_detection_rate_FLAIR_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.89
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.89
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_dRNA-ONT-LS_positive_detection_rate_StringTie2_A",
+    "challenge_id": "human_sirvs_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.88
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LS_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.33
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LS_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.33
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LS_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.38
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LS_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.65
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LS_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_CapTrap-PacBio-LS_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.13
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
 },
 {
     "_id": "human_sirvs_cDNA-ONT-LS_sensitivity_TALON_LAPA_A",
@@ -162,6 +3704,2184 @@
     },
     "participant_id": "FLAIR",
     "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LS_false_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_detection_rate",
+        "value": 0.04
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LS_false_discovery_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "false_discovery_rate",
+        "value": 0.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LS_positive_detection_rate_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "positive_detection_rate",
+        "value": 0.45
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LS_sensitivity_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "sensitivity",
+        "value": 0.3
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LS_non_redundant_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non_redundant_precision",
+        "value": 0.49
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_sirvs_R2C2-ONT-LS_precision_TALON_LAPA_A",
+    "challenge_id": "human_sirvs_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "precision",
+        "value": 0.49
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.54,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.83,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.21,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.8,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.55,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.74,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.51,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.45,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.09,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.37,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.07,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.35,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.07,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.63,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.94,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.36,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.8,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LO_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.55,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.74,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.51,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.9,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.88,
+                    "participant_id": "IsoTools"
+                },
+                {
+                    "metric_value": 0.98,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "Iso_IB"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "Spectra"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.12,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.08,
+                    "participant_id": "IsoTools"
+                },
+                {
+                    "metric_value": 0.04,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.4,
+                    "participant_id": "Iso_IB"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.57,
+                    "participant_id": "Spectra"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.88,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.86,
+                    "participant_id": "IsoTools"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "Iso_IB"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "Spectra"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.27,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.1,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "IsoTools"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.39,
+                    "participant_id": "Iso_IB"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.57,
+                    "participant_id": "Spectra"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.1,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.88,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.81,
+                    "participant_id": "IsoTools"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.94,
+                    "participant_id": "Iso_IB"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "Spectra"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.62,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.88,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.86,
+                    "participant_id": "IsoTools"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "Iso_IB"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "Spectra"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.27,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.62,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.27,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.27,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.1,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-PacBio-LS_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.26,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.26,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.44,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.45,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LS_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.97,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.55,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.97,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.28,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.4,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.79,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.38,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.79,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.55,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.43,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.07,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.01,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.4,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.07,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.12,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.01,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.97,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.55,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.97,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.28,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.94,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.36,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.01,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.51,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.27,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.06,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.62,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.98,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.72,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.06,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.62,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.98,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.72,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.24,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.76,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.94,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.26,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.9,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.93,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.36,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.01,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.35,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.23,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_cDNA-ONT-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.26,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.76,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.94,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.43,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.09,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.52,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.26,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.82,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.31,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.74,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.04,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.88,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.46,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.04,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.04,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.9,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.46,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.04,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.44,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.95,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.09,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.52,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.26,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-ONT-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.82,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.38,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.74,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.45,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.63,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.98,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.74,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.83,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.65,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.56,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.74,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.83,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.38,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.27,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.13,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.64,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.98,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.33,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.36,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.01,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.02,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.37,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LO_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.64,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.98,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 1.0,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.33,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.97,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.28,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.83,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.12,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.16,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.03,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.17,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.97,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.28,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.83,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.55,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.87,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_dRNA-ONT-LS_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.89,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.88,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.33,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.33,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.38,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.65,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.37,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_CapTrap-PacBio-LS_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.13,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
 },
 {
     "_id": "LRGASP:human_sirvs_cDNA-ONT-LS_agg_sensitivity",
@@ -320,10 +6040,241 @@
     "type": "aggregation"
 },
 {
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_agg_false_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.04,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_agg_false_discovery_rate",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "false_discovery_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_agg_positive_detection_rate",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.45,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "positive_detection_rate",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_agg_sensitivity",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.3,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "sensitivity",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_agg_non_redundant_precision",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.49,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non_redundant_precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_sirvs_R2C2-ONT-LS_agg_precision",
+    "challenge_ids": [
+        "human_sirvs_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.49,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "precision",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:human_sirvs_R2C2-ONT-LO",
+    "participants": [
+        "LyRic",
+        "Mandalorion",
+        "IsoQuant",
+        "TALON_LAPA",
+        "Bambu"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_cDNA-PacBio-LO",
+    "participants": [
+        "LyRic",
+        "IsoTools",
+        "Mandalorion",
+        "Iso_IB",
+        "IsoQuant",
+        "Spectra",
+        "Bambu",
+        "TALON_LAPA",
+        "FLAIR"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_cDNA-PacBio-LS",
+    "participants": [
+        "FLAIR",
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_CapTrap-ONT-LS",
+    "participants": [
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_dRNA-ONT-LO",
+    "participants": [
+        "FLAIR",
+        "LyRic",
+        "FLAMES",
+        "IsoQuant",
+        "TALON_LAPA",
+        "Bambu"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_cDNA-ONT-LO",
+    "participants": [
+        "LyRic",
+        "FLAMES",
+        "Bambu",
+        "IsoQuant",
+        "TALON_LAPA",
+        "FLAIR"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu",
+        "LyRic",
+        "FLAMES",
+        "IsoQuant",
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_CapTrap-PacBio-LO",
+    "participants": [
+        "LyRic",
+        "Bambu",
+        "FLAMES",
+        "IsoQuant",
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_dRNA-ONT-LS",
+    "participants": [
+        "FLAIR",
+        "TALON_LAPA",
+        "StringTie2"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_CapTrap-PacBio-LS",
+    "participants": [
+        "TALON_LAPA"
+    ]
+},
+{
     "id": "LRGASP:human_sirvs_cDNA-ONT-LS",
     "participants": [
         "TALON_LAPA",
         "FLAIR"
+    ]
+},
+{
+    "id": "LRGASP:human_sirvs_R2C2-ONT-LS",
+    "participants": [
+        "TALON_LAPA"
     ]
 }
 ]

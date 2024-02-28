@@ -1,5 +1,181 @@
 [
 {
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_FLAIR_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_FLAIR_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_FLAIR_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_FLAIR_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_FLAIR_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_FLAIR_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAIR",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_LyRic_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_LyRic_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "LyRic",
+    "type": "participant"
+},
+{
     "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_LyRic_P",
     "challenge_id": [
         "human_NNC_cDNA-PacBio-LO"
@@ -16,9 +192,9 @@
     "type": "participant"
 },
 {
-    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_IsoTools_P",
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_FLAMES_P",
     "challenge_id": [
-        "human_NNC_cDNA-PacBio-LO"
+        "human_NNC_dRNA-ONT-LO"
     ],
     "community_id": "LRGASP",
     "datalink": {
@@ -28,13 +204,13 @@
         "status": "ok",
         "validation_date": "2023-10-05T14:54:17.340000+02:00"
     },
-    "participant_id": "IsoTools",
+    "participant_id": "FLAMES",
     "type": "participant"
 },
 {
-    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Mandalorion_P",
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_FLAMES_P",
     "challenge_id": [
-        "human_NNC_cDNA-PacBio-LO"
+        "human_NNC_CapTrap-PacBio-LO"
     ],
     "community_id": "LRGASP",
     "datalink": {
@@ -44,13 +220,13 @@
         "status": "ok",
         "validation_date": "2023-10-05T14:54:17.340000+02:00"
     },
-    "participant_id": "Mandalorion",
+    "participant_id": "FLAMES",
     "type": "participant"
 },
 {
-    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Iso_IB_P",
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_FLAMES_P",
     "challenge_id": [
-        "human_NNC_cDNA-PacBio-LO"
+        "human_NNC_CapTrap-ONT-LO"
     ],
     "community_id": "LRGASP",
     "datalink": {
@@ -60,7 +236,103 @@
         "status": "ok",
         "validation_date": "2023-10-05T14:54:17.340000+02:00"
     },
-    "participant_id": "Iso_IB",
+    "participant_id": "FLAMES",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_FLAMES_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "FLAMES",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "IsoQuant",
     "type": "participant"
 },
 {
@@ -80,9 +352,9 @@
     "type": "participant"
 },
 {
-    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Spectra_P",
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_TALON_LAPA_P",
     "challenge_id": [
-        "human_NNC_cDNA-PacBio-LO"
+        "human_NNC_dRNA-ONT-LO"
     ],
     "community_id": "LRGASP",
     "datalink": {
@@ -92,13 +364,13 @@
         "status": "ok",
         "validation_date": "2023-10-05T14:54:17.340000+02:00"
     },
-    "participant_id": "Spectra",
+    "participant_id": "TALON_LAPA",
     "type": "participant"
 },
 {
-    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Bambu_P",
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_TALON_LAPA_P",
     "challenge_id": [
-        "human_NNC_cDNA-PacBio-LO"
+        "human_NNC_cDNA-ONT-LS"
     ],
     "community_id": "LRGASP",
     "datalink": {
@@ -108,7 +380,151 @@
         "status": "ok",
         "validation_date": "2023-10-05T14:54:17.340000+02:00"
     },
-    "participant_id": "Bambu",
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_TALON_LAPA_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "TALON_LAPA",
     "type": "participant"
 },
 {
@@ -128,7 +544,87 @@
     "type": "participant"
 },
 {
-    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_FLAIR_P",
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_Bambu_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Bambu_P",
     "challenge_id": [
         "human_NNC_cDNA-PacBio-LO"
     ],
@@ -140,8 +636,2953 @@
         "status": "ok",
         "validation_date": "2023-10-05T14:54:17.340000+02:00"
     },
-    "participant_id": "FLAIR",
+    "participant_id": "Bambu",
     "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_Mandalorion_P",
+    "challenge_id": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Mandalorion",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Mandalorion_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Mandalorion",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_StringTie2_P",
+    "challenge_id": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "StringTie2",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_IsoTools_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "IsoTools",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Iso_IB_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Iso_IB",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_Spectra_P",
+    "challenge_id": [
+        "human_NNC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.340000+02:00"
+    },
+    "participant_id": "Spectra",
+    "type": "participant"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 56.36
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.18
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_5_cage_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 75.93
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_3_polya_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 100.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_5_cage_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 83.72
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_3_polya_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 99.61
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_5_cage_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 66.41
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_3_polya_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.09
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 59.8
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 97.77
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 75.62
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 99.17
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_full_illumina_sj_support_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 1.82
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_full_illumina_sj_support_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 29.63
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_full_illumina_sj_support_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 24.81
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_full_illumina_sj_support_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 78.24
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 86.85
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_full_illumina_sj_support_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 82.23
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 3.64
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_intra-priming_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_intra-priming_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.0
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_intra-priming_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.15
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.5
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.83
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_non-canonical_sj_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 96.36
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_non-canonical_sj_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_non-canonical_sj_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 27.52
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_non-canonical_sj_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 16.41
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 2.23
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_non-canonical_sj_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 4.96
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_rt-switching_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 74.55
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_rt-switching_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 11.11
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_rt-switching_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 9.11
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_rt-switching_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 10.69
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 3.23
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_rt-switching_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 8.26
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 1.82
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_LyRic_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 29.63
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_FLAMES_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 23.45
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_IsoQuant_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 58.4
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 59.06
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_Bambu_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 70.66
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.65
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_rt-switching_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.35
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 74.59
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 84.44
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 62.81
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_full_illumina_sj_support_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 89.43
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.22
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.42
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 1.41
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_non-canonical_sj_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 3.86
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 91.78
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 99.17
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 50.49
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 80.17
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.53
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.14
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 79.61
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 2.66
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 83.23
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.75
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 72.47
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_rt-switching_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 6.69
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 3.57
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_full_illumina_sj_support_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 87.14
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 86.87
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_non-canonical_sj_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 4.96
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.35
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 85.23
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.68
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 76.72
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.82
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_supported_novel_transcript_model_(sntm)_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 80.56
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 74.13
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.85
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-PacBio-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.44
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_3_polya_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 100.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 97.13
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_3_polya_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.92
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_3_polya_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 97.12
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.12
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_full_illumina_sj_support_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 82.06
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_full_illumina_sj_support_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 85.06
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_full_illumina_sj_support_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 69.34
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_full_illumina_sj_support_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 72.65
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 83.2
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_5_cage_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 89.71
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 77.87
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_5_cage_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 85.75
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_5_cage_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 65.81
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 79.32
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_supported_novel_transcript_model_(sntm)_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 77.84
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_supported_novel_transcript_model_(sntm)_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 68.68
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_supported_novel_transcript_model_(sntm)_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 65.87
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_supported_novel_transcript_model_(sntm)_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 54.22
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 72.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_rt-switching_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.54
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_rt-switching_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.17
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_rt-switching_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 6.47
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_rt-switching_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.93
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 2.64
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_intra-priming_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.86
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_intra-priming_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.96
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_intra-priming_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 2.67
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.75
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_non-canonical_sj_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_non-canonical_sj_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 5.46
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_non-canonical_sj_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 14.97
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_non-canonical_sj_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 14.9
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-PacBio-LO_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.86
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 81.33
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 95.78
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_5_cage_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 89.26
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_3_polya_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 99.03
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_5_cage_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 81.23
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_3_polya_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 91.71
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_5_cage_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 51.87
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_3_polya_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 95.46
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 67.49
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 90.29
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_non-canonical_sj_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 5.12
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_non-canonical_sj_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_non-canonical_sj_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 18.69
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_non-canonical_sj_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 7.53
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 6.01
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_full_illumina_sj_support_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 54.52
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_full_illumina_sj_support_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 31.4
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_full_illumina_sj_support_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 28.05
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_full_illumina_sj_support_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 64.61
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 69.18
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.9
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_intra-priming_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.11
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_intra-priming_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.34
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_intra-priming_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 3.56
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.31
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_supported_novel_transcript_model_(sntm)_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 44.28
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_supported_novel_transcript_model_(sntm)_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 28.15
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_supported_novel_transcript_model_(sntm)_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 24.66
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_supported_novel_transcript_model_(sntm)_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 38.95
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 58.24
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_rt-switching_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 6.02
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_rt-switching_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.47
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_rt-switching_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 3.32
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_rt-switching_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.67
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LO_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.62
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 4.78
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 67.88
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 66.97
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.23
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 89.07
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 57.63
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_CapTrap-ONT-LS_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_CapTrap-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.78
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 96.74
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.98
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.72
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 69.77
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 79.91
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 78.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.36
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_rt-switching_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 10.42
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_rt-switching_incidence_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 7.75
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_rt-switching_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 9.29
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.04
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_rt-switching_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 11.62
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_3_polya_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 97.59
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_3_polya_supported_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 92.1
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_3_polya_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 95.24
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 97.26
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 96.7
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_5_cage_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 89.07
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_5_cage_supported_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 84.5
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_5_cage_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 63.07
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 77.93
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 81.44
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_non-canonical_sj_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_non-canonical_sj_incidence_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 14.65
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_non-canonical_sj_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 20.2
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 1.28
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_non-canonical_sj_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 3.64
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_full_illumina_sj_support_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 38.12
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_full_illumina_sj_support_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 75.75
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_full_illumina_sj_support_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 66.37
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 79.85
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_full_illumina_sj_support_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 42.48
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_intra-priming_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.64
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_intra-priming_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 12.6
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_intra-priming_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 3.58
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.96
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.37
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_supported_novel_transcript_model_(sntm)_%_LyRic_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 34.56
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_supported_novel_transcript_model_(sntm)_%_Mandalorion_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 63.45
+    },
+    "participant_id": "Mandalorion",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_supported_novel_transcript_model_(sntm)_%_IsoQuant_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 48.52
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 70.03
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_R2C2-ONT-LO_supported_novel_transcript_model_(sntm)_%_Bambu_A",
+    "challenge_id": "human_NNC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 34.05
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 99.34
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 97.74
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_3_polya_supported_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 74.53
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 74.67
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 60.05
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_supported_novel_transcript_model_(sntm)_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 39.6
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 76.97
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 59.8
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_5_cage_supported_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 65.05
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.99
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.5
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_intra-priming_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 4.05
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_non-canonical_sj_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 17.11
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.25
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_non-canonical_sj_incidence_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 37.28
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_full_illumina_sj_support_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 80.92
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 88.19
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_full_illumina_sj_support_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 58.35
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_rt-switching_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 16.78
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 2.51
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_dRNA-ONT-LS_rt-switching_incidence_%_StringTie2_A",
+    "challenge_id": "human_NNC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 8.94
+    },
+    "participant_id": "StringTie2",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_5_cage_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 88.3
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_5_cage_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 73.83
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 76.77
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_5_cage_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 56.21
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_5_cage_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 72.69
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_5_cage_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 63.85
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_rt-switching_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 3.95
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_rt-switching_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.39
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_rt-switching_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 3.87
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_rt-switching_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 5.6
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_rt-switching_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 4.21
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_rt-switching_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "rt-switching_incidence_%",
+        "value": 51.54
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 23.55
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 25.8
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 64.84
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 37.71
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 48.37
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_supported_novel_transcript_model_(sntm)_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_novel_transcript_model_(sntm)_%",
+        "value": 1.54
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_intra-priming_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_intra-priming_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.38
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.32
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_intra-priming_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.42
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_intra-priming_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.14
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_intra-priming_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 2.31
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_non-canonical_sj_incidence_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 0.0
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_non-canonical_sj_incidence_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 37.29
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_non-canonical_sj_incidence_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 7.74
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_non-canonical_sj_incidence_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 20.92
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_non-canonical_sj_incidence_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 2.99
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_non-canonical_sj_incidence_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "non-canonical_sj_incidence_%",
+        "value": 93.85
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_full_illumina_sj_support_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 26.25
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_full_illumina_sj_support_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 28.25
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_full_illumina_sj_support_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 81.29
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_full_illumina_sj_support_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 55.61
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_full_illumina_sj_support_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 61.96
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_full_illumina_sj_support_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "full_illumina_sj_support_%",
+        "value": 1.54
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_3_polya_supported_%_LyRic_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.16
+    },
+    "participant_id": "LyRic",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_3_polya_supported_%_FLAMES_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 83.93
+    },
+    "participant_id": "FLAMES",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 94.84
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_3_polya_supported_%_IsoQuant_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 98.71
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_3_polya_supported_%_TALON_LAPA_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 90.9
+    },
+    "participant_id": "TALON_LAPA",
+    "type": "assessment"
+},
+{
+    "_id": "human_NNC_cDNA-ONT-LO_3_polya_supported_%_FLAIR_A",
+    "challenge_id": "human_NNC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 93.85
+    },
+    "participant_id": "FLAIR",
+    "type": "assessment"
 },
 {
     "_id": "human_NNC_cDNA-PacBio-LO_3_polya_supported_%_LyRic_A",
@@ -837,6 +4278,2822 @@
     "type": "assessment"
 },
 {
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 56.36,
+                    "metric_y": 98.18,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 75.93,
+                    "metric_y": 100.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_x": 83.72,
+                    "metric_y": 99.61,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_x": 66.41,
+                    "metric_y": 98.09,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_x": 59.8,
+                    "metric_y": 97.77,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_x": 75.62,
+                    "metric_y": 99.17,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.82,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 29.63,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 24.81,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 78.24,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 86.85,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 82.23,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 3.64,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 1.15,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.5,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.83,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 98.18,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 100.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 99.61,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 98.09,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 97.77,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 99.17,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 96.36,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 27.52,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 16.41,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 2.23,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 4.96,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 56.36,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 75.93,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 83.72,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 66.41,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 59.8,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 75.62,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 74.55,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 11.11,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 9.11,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 10.69,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 3.23,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 8.26,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LO_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.82,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 29.63,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 23.45,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 58.4,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 59.06,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 70.66,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.65,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 5.35,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 74.59,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 84.44,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 62.81,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 89.43,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.22,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 0.42,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.41,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 3.86,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 91.78,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 99.17,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 50.49,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 80.17,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 74.59,
+                    "metric_y": 91.78,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_x": 84.44,
+                    "metric_y": 99.17,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.53,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 98.14,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 79.61,
+                    "metric_y": 98.14,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 2.66,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 79.61,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 83.23,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.75,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 72.47,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 6.69,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 3.57,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 87.14,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 86.87,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.96,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.35,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 85.23,
+                    "metric_y": 98.68,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 76.72,
+                    "metric_y": 98.82,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 80.56,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 74.13,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 98.68,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 98.82,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 85.23,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 76.72,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-PacBio-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.85,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.44,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 100.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 97.13,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 98.92,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 97.12,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 98.12,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 82.06,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 85.06,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 69.34,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 72.65,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 83.2,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 89.71,
+                    "metric_y": 100.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_x": 77.87,
+                    "metric_y": 97.13,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 85.75,
+                    "metric_y": 98.92,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_x": 65.81,
+                    "metric_y": 97.12,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_x": 79.32,
+                    "metric_y": 98.12,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 77.84,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 68.68,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 65.87,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 54.22,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 72.37,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 5.54,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 5.17,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 6.47,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 5.93,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 2.64,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 89.71,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 77.87,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 85.75,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 65.81,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 79.32,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.86,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 2.67,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.75,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-PacBio-LO_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 5.46,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 14.97,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 14.9,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.86,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 81.33,
+                    "metric_y": 95.78,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 89.26,
+                    "metric_y": 99.03,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_x": 81.23,
+                    "metric_y": 91.71,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_x": 51.87,
+                    "metric_y": 95.46,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_x": 67.49,
+                    "metric_y": 90.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 5.12,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 18.69,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 7.53,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 6.01,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 54.52,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 31.4,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 28.05,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 64.61,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 69.18,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 81.33,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 89.26,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 81.23,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 51.87,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 67.49,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 95.78,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 99.03,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 91.71,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 95.46,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 90.29,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.9,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.11,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 1.34,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 3.56,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.31,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 44.28,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 28.15,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 24.66,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 38.95,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 58.24,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LO_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 6.02,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 4.47,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 3.32,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 4.67,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 4.62,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.78,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 67.88,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 66.97,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.23,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 66.97,
+                    "metric_y": 89.07,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 57.63,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 89.07,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_CapTrap-ONT-LS_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_CapTrap-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.78,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 96.74,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.98,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.72,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 69.77,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 79.91,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 78.37,
+                    "metric_y": 96.74,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 78.37,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.36,
+                    "participant_id": "TALON_LAPA"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 10.42,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 7.75,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 9.29,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 5.04,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 11.62,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 97.59,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 92.1,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 95.24,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 97.26,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 96.7,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 89.07,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 84.5,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 63.07,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 77.93,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 81.44,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 14.65,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 20.2,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 1.28,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 3.64,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 38.12,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 75.75,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 66.37,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 79.85,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 42.48,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.64,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 12.6,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 3.58,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.96,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.37,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 89.07,
+                    "metric_y": 97.59,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_x": 84.5,
+                    "metric_y": 92.1,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_x": 63.07,
+                    "metric_y": 95.24,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_x": 77.93,
+                    "metric_y": 97.26,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_x": 81.44,
+                    "metric_y": 96.7,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_R2C2-ONT-LO_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 34.56,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 63.45,
+                    "participant_id": "Mandalorion"
+                },
+                {
+                    "metric_value": 48.52,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 70.03,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 34.05,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 99.34,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 97.74,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 74.53,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 74.67,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 60.05,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 39.6,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 76.97,
+                    "metric_y": 99.34,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_x": 59.8,
+                    "metric_y": 97.74,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_x": 65.05,
+                    "metric_y": 74.53,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 76.97,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 59.8,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 65.05,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.99,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.5,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 4.05,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 17.11,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 0.25,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 37.28,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 80.92,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 88.19,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 58.35,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_dRNA-ONT-LS_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 16.78,
+                    "participant_id": "FLAIR"
+                },
+                {
+                    "metric_value": 2.51,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 8.94,
+                    "participant_id": "StringTie2"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 88.3,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 73.83,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 76.77,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 56.21,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 72.69,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 63.85,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_rt-switching_incidence_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 3.95,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 5.39,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 3.87,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 5.6,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 4.21,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 51.54,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "rt-switching_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_supported_novel_transcript_model_(sntm)_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 23.55,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 25.8,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 64.84,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 37.71,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 48.37,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.54,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_novel_transcript_model_(sntm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 0.38,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 0.32,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.42,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 0.14,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 2.31,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_non-canonical_sj_incidence_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.0,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 37.29,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 7.74,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 20.92,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 2.99,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 93.85,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "non-canonical_sj_incidence_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_full_illumina_sj_support_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 26.25,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 28.25,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 81.29,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 55.61,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 61.96,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 1.54,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "full_illumina_sj_support_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 98.16,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_value": 83.93,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_value": 94.84,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 98.71,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_value": 90.9,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_value": 93.85,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:human_NNC_cDNA-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "human_NNC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 88.3,
+                    "metric_y": 98.16,
+                    "participant_id": "LyRic"
+                },
+                {
+                    "metric_x": 73.83,
+                    "metric_y": 83.93,
+                    "participant_id": "FLAMES"
+                },
+                {
+                    "metric_x": 76.77,
+                    "metric_y": 94.84,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 56.21,
+                    "metric_y": 98.71,
+                    "participant_id": "IsoQuant"
+                },
+                {
+                    "metric_x": 72.69,
+                    "metric_y": 90.9,
+                    "participant_id": "TALON_LAPA"
+                },
+                {
+                    "metric_x": 63.85,
+                    "metric_y": 93.85,
+                    "participant_id": "FLAIR"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
     "_id": "LRGASP:human_NNC_cDNA-PacBio-LO_agg_3_polya_supported_%",
     "challenge_ids": [
         "human_NNC_cDNA-PacBio-LO"
@@ -1277,6 +7534,98 @@
         }
     },
     "type": "aggregation"
+},
+{
+    "id": "LRGASP:human_NNC_dRNA-ONT-LO",
+    "participants": [
+        "FLAIR",
+        "LyRic",
+        "FLAMES",
+        "IsoQuant",
+        "TALON_LAPA",
+        "Bambu"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_cDNA-ONT-LS",
+    "participants": [
+        "TALON_LAPA",
+        "FLAIR"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_CapTrap-PacBio-LS",
+    "participants": [
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_cDNA-PacBio-LS",
+    "participants": [
+        "FLAIR",
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_CapTrap-PacBio-LO",
+    "participants": [
+        "LyRic",
+        "Bambu",
+        "FLAMES",
+        "IsoQuant",
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu",
+        "LyRic",
+        "FLAMES",
+        "IsoQuant",
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_CapTrap-ONT-LS",
+    "participants": [
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_R2C2-ONT-LS",
+    "participants": [
+        "TALON_LAPA"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_R2C2-ONT-LO",
+    "participants": [
+        "LyRic",
+        "Mandalorion",
+        "IsoQuant",
+        "TALON_LAPA",
+        "Bambu"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_dRNA-ONT-LS",
+    "participants": [
+        "FLAIR",
+        "TALON_LAPA",
+        "StringTie2"
+    ]
+},
+{
+    "id": "LRGASP:human_NNC_cDNA-ONT-LO",
+    "participants": [
+        "LyRic",
+        "FLAMES",
+        "Bambu",
+        "IsoQuant",
+        "TALON_LAPA",
+        "FLAIR"
+    ]
 },
 {
     "id": "LRGASP:human_NNC_cDNA-PacBio-LO",
