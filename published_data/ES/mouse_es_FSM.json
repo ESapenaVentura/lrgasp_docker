@@ -1,0 +1,4201 @@
+[
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_Bambu_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_IsoQuant_P",
+    "challenge_id": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-10-05T14:54:17.330000+02:00"
+    },
+    "participant_id": "IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 86.57
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_supported_reference_transcript_model_(srtm)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 73.84
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 96.64
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_3_polya_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 92.21
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 63.32
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_5_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 59.74
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 69.42
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_5_cage_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 42.77
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 62.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_3_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 60.19
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_reference_match_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 40.63
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_reference_match_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 36.83
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.43
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LO_intra-priming_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.81
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 80.57
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_5_cage_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 42.19
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 68.51
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_5_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 58.75
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_reference_match_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 40.37
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_reference_match_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 34.64
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 59.02
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 93.88
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.12
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_intra-priming_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.03
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_3_polya_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 91.33
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_3_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 58.0
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 89.51
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-PacBio-LO_supported_reference_transcript_model_(srtm)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 76.12
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_intra-priming_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 4.05
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_reference_match_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 22.49
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_5_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 46.17
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_supported_reference_transcript_model_(srtm)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 49.26
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_5_cage_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 50.06
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_3_polya_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 67.31
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_dRNA-ONT-LS_3_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 45.02
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 77.04
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 92.59
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_5_cage_supported_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 62.38
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_3_polya_supported_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 85.11
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_5_cage_supported_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 41.81
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_3_polya_supported_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 88.66
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_reference_match_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 38.96
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_reference_match_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 31.64
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_reference_match_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 31.35
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 85.24
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_supported_reference_transcript_model_(srtm)_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 71.0
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_supported_reference_transcript_model_(srtm)_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 69.87
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.39
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_intra-priming_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 5.28
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_intra-priming_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.28
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 65.45
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_5_reference_supported_(transcript)_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 55.26
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_5_reference_supported_(transcript)_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 54.15
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 58.88
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_3_reference_supported_(transcript)_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 55.47
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LO_3_reference_supported_(transcript)_%_IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 56.49
+    },
+    "participant_id": "IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_intra-priming_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 4.21
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_3_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 41.22
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_3_polya_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 62.78
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_5_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 42.55
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_reference_match_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 20.3
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_5_cage_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 45.46
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LS_supported_reference_transcript_model_(srtm)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 44.89
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_intra-priming_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 4.09
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_supported_reference_transcript_model_(srtm)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 42.36
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_3_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 39.29
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_3_polya_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 60.16
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_5_cage_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 43.25
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_5_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 41.18
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-Illumina-SO_reference_match_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 19.17
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 66.5
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 55.78
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 90.92
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 75.82
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 84.47
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_reference_match_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 37.45
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_CapTrap-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_FSM_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 2.08
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_3_polya_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 86.39
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 90.94
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_5_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 50.59
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_5_cage_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 35.31
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 69.67
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 77.29
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_supported_reference_transcript_model_(srtm)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 64.72
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 87.97
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_reference_match_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 29.12
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_reference_match_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 41.87
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_intra-priming_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.73
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_3_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 55.97
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_R2C2-ONT-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 59.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_3_polya_supported_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 83.68
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_3_polya_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 62.89
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_5_reference_supported_(transcript)_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 54.08
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_5_cage_supported_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 61.23
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_5_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 43.39
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_5_cage_supported_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 45.99
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_supported_reference_transcript_model_(srtm)_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 68.77
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_supported_reference_transcript_model_(srtm)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 45.27
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_intra-priming_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 5.07
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_intra-priming_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 4.09
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_3_reference_supported_(transcript)_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 53.75
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_3_reference_supported_(transcript)_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 41.5
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_reference_match_%_RNA-Bloom_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 30.17
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-ONT-LS_reference_match_%_rnaSPAdes_A",
+    "challenge_id": "mouse_FSM_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 20.38
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_5_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 67.82
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_5_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_reference_supported_(transcript)_%",
+        "value": 47.73
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_5_cage_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 77.07
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_5_cage_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "5_cage_supported_%",
+        "value": 34.15
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_supported_reference_transcript_model_(srtm)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 89.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_supported_reference_transcript_model_(srtm)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "supported_reference_transcript_model_(srtm)_%",
+        "value": 64.2
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_3_reference_supported_(transcript)_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 64.48
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_3_reference_supported_(transcript)_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_reference_supported_(transcript)_%",
+        "value": 58.79
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_3_polya_supported_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 94.77
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_3_polya_supported_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "3_polya_supported_%",
+        "value": 90.6
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_reference_match_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 44.56
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_reference_match_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "reference_match_%",
+        "value": 28.9
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_intra-priming_%_Bambu_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 1.13
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "mouse_FSM_cDNA-PacBio-LO_intra-priming_%_StringTie2--IsoQuant_A",
+    "challenge_id": "mouse_FSM_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "intra-priming_%",
+        "value": 0.79
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 86.57,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 73.84,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 96.64,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 92.21,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 63.32,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 59.74,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 69.42,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 42.77,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 62.72,
+                    "metric_y": 96.64,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 60.19,
+                    "metric_y": 92.21,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 40.63,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 36.83,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.43,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 1.81,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 69.42,
+                    "metric_y": 96.64,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 42.77,
+                    "metric_y": 92.21,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 62.72,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 60.19,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 63.32,
+                    "metric_y": 69.42,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 59.74,
+                    "metric_y": 42.77,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 80.57,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 42.19,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 68.51,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 58.75,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 40.37,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 34.64,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 59.02,
+                    "metric_y": 93.88,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.12,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 1.03,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 93.88,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 91.33,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 80.57,
+                    "metric_y": 93.88,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 42.19,
+                    "metric_y": 91.33,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 68.51,
+                    "metric_y": 80.57,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 59.02,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 58.0,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 89.51,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 76.12,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.05,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 22.49,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 46.17,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 49.26,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 46.17,
+                    "metric_y": 50.06,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 50.06,
+                    "metric_y": 67.31,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 45.02,
+                    "metric_y": 67.31,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 50.06,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 67.31,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_dRNA-ONT-LS_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 45.02,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 77.04,
+                    "metric_y": 92.59,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 62.38,
+                    "metric_y": 85.11,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 41.81,
+                    "metric_y": 88.66,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 38.96,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 31.64,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 31.35,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 85.24,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 71.0,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 69.87,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.39,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 5.28,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 0.28,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 65.45,
+                    "metric_y": 77.04,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 55.26,
+                    "metric_y": 62.38,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 54.15,
+                    "metric_y": 41.81,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 92.59,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 85.11,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 88.66,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 58.88,
+                    "metric_y": 92.59,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 55.47,
+                    "metric_y": 85.11,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 56.49,
+                    "metric_y": 88.66,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 77.04,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 62.38,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 41.81,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 58.88,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 55.47,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 56.49,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 65.45,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 55.26,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 54.15,
+                    "participant_id": "IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.21,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 41.22,
+                    "metric_y": 62.78,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 42.55,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 62.78,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 41.22,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 20.3,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 42.55,
+                    "metric_y": 45.46,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 45.46,
+                    "metric_y": 62.78,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 45.46,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LS_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 44.89,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 4.09,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 42.36,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 39.29,
+                    "metric_y": 60.16,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 43.25,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 43.25,
+                    "metric_y": 60.16,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 41.18,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 41.18,
+                    "metric_y": 43.25,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 19.17,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 60.16,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-Illumina-SO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 39.29,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 66.5,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 55.78,
+                    "metric_y": 90.92,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 75.82,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 75.82,
+                    "metric_y": 90.92,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 66.5,
+                    "metric_y": 75.82,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 84.47,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 37.45,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 55.78,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 90.92,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_CapTrap-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 2.08,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 86.39,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 90.94,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 50.59,
+                    "metric_y": 35.31,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 69.67,
+                    "metric_y": 77.29,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 35.31,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 77.29,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 35.31,
+                    "metric_y": 86.39,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 77.29,
+                    "metric_y": 90.94,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 64.72,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 87.97,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 29.12,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 41.87,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 0.73,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 1.01,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 50.59,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 69.67,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 55.97,
+                    "metric_y": 86.39,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 59.72,
+                    "metric_y": 90.94,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_R2C2-ONT-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 55.97,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_value": 59.72,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 83.68,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 62.89,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 54.08,
+                    "metric_y": 61.23,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 43.39,
+                    "metric_y": 45.99,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 68.77,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 45.27,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 61.23,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 45.99,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 54.08,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 43.39,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 61.23,
+                    "metric_y": 83.68,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 45.99,
+                    "metric_y": 62.89,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 5.07,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 4.09,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 53.75,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 41.5,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 30.17,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_value": 20.38,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-ONT-LS_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 53.75,
+                    "metric_y": 83.68,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 41.5,
+                    "metric_y": 62.89,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_5_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 67.82,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 47.73,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_5_reference_supported_(transcript)_%+5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 67.82,
+                    "metric_y": 77.07,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 47.73,
+                    "metric_y": 34.15,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_reference_supported_(transcript)_%",
+                "y_axis": "5_cage_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_supported_reference_transcript_model_(srtm)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 89.72,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 64.2,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "supported_reference_transcript_model_(srtm)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_5_cage_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 77.07,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 34.15,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "5_cage_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_3_reference_supported_(transcript)_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 64.48,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 58.79,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_reference_supported_(transcript)_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 94.77,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 90.6,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "3_polya_supported_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_reference_match_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 44.56,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 28.9,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "reference_match_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_5_cage_supported_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 77.07,
+                    "metric_y": 94.77,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 34.15,
+                    "metric_y": 90.6,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "5_cage_supported_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_3_reference_supported_(transcript)_%+3_polya_supported_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 64.48,
+                    "metric_y": 94.77,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 58.79,
+                    "metric_y": 90.6,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "3_reference_supported_(transcript)_%",
+                "y_axis": "3_polya_supported_%"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_FSM_cDNA-PacBio-LO_agg_intra-priming_%",
+    "challenge_ids": [
+        "mouse_FSM_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_value": 1.13,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_value": 0.79,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "metric": "intra-priming_%",
+                "type": "bar-plot"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "LRGASP:mouse_FSM_dRNA-ONT-LO",
+    "participants": [
+        "Bambu",
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_CapTrap-PacBio-LO",
+    "participants": [
+        "Bambu",
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_dRNA-ONT-LS",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_cDNA-ONT-LO",
+    "participants": [
+        "Bambu",
+        "RNA-Bloom",
+        "IsoQuant"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_cDNA-PacBio-LS",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_R2C2-ONT-LO",
+    "participants": [
+        "StringTie2--IsoQuant",
+        "Bambu"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_cDNA-ONT-LS",
+    "participants": [
+        "RNA-Bloom",
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "LRGASP:mouse_FSM_cDNA-PacBio-LO",
+    "participants": [
+        "Bambu",
+        "StringTie2--IsoQuant"
+    ]
+}
+]
